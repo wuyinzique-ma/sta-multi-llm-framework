@@ -1,0 +1,5 @@
+﻿table_id,table_name,column_id,column_name,Class_1,Class_2,Property_1,Property_2,Property_3
+1.csv,School_building_data,0,Month,Property/Time,TemporalEntity/Interval,date observed,,
+1.csv,School_building_data,1,Usage [kWh],Property/Energy/Energy Consumption,,hasUnit,hasValue,
+1.csv,School_building_data,2,Cost (net in PLN),ObservationProperty/EnergyParameter/EnergyCost,,hasUnit,hasValue,
+1.csv,School_building_data,3,Cost (gross in PLN),ObservationProperty/EnergyParameter/EnergyCost,,hasUnit,hasValue,

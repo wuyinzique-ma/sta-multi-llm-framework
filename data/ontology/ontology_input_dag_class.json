@@ -1,0 +1,1267 @@
+{
+  "classes": [
+    {
+      "level1": "OccupantBehavior",
+      "level2": []
+    },
+    {
+      "level1": "PowerSystemResource",
+      "level2": [
+        "EquipmentContainer",
+        "PowerEquipment"
+      ]
+    },
+    {
+      "level1": "PowerDeliveryUnit",
+      "level2": []
+    },
+    {
+      "level1": "District",
+      "level2": []
+    },
+    {
+      "level1": "KeyPerformanceIndicator",
+      "level2": [
+        "StrategicKPI",
+        "TacticalKPI",
+        "OperationalKPI"
+      ]
+    },
+    {
+      "level1": "PerformanceGoal",
+      "level2": []
+    },
+    {
+      "level1": "KPICalculation",
+      "level2": []
+    },
+    {
+      "level1": "KPIEvaluatedObject",
+      "level2": []
+    },
+    {
+      "level1": "KPICalculationComponent",
+      "level2": [
+        "Assumption",
+        "Mathematical_model",
+        "UniversalConstant",
+        "Variable",
+        "Equation",
+        "DatumSource"
+      ]
+    },
+    {
+      "level1": "Stakeholder",
+      "level2": []
+    },
+    {
+      "level1": "Unit_of_measure",
+      "level2": [
+        "Compound_unit",
+        "Singular_unit"
+      ]
+    },
+    {
+      "level1": "KPIValue",
+      "level2": []
+    },
+    {
+      "level1": "ObservationValue",
+      "level2": []
+    },
+    {
+      "level1": "Observation",
+      "level2": []
+    },
+    {
+      "level1": "Schedule",
+      "level2": []
+    },
+    {
+      "level1": "FeatureOfInterest",
+      "level2": []
+    },
+    {
+      "level1": "ObservationProperty",
+      "level2": [
+        "EquipmentParameter",
+        "OccupancyParameter",
+        "EnergyParameter",
+        "EnvironmentalParameter",
+        "BuildingParameter"
+      ]
+    },
+    {
+      "level1": "Slot",
+      "level2": []
+    },
+    {
+      "level1": "Ordered List",
+      "level2": [
+        "Route"
+      ]
+    },
+    {
+      "level1": "Event",
+      "level2": []
+    },
+    {
+      "level1": "Location",
+      "level2": []
+    },
+    {
+      "level1": "GeographicalCoordinatesPoint",
+      "level2": []
+    },
+    {
+      "level1": "PhysicalObject",
+      "level2": [
+        "Building1",
+        "Occupant",
+        "Equipment",
+        "BuildingThing"
+      ]
+    },
+    {
+      "level1": "Certificate",
+      "level2": []
+    },
+    {
+      "level1": "Observation",
+      "level2": []
+    },
+    {
+      "level1": "Observable Property",
+      "level2": []
+    },
+    {
+      "level1": "AC Meausrement",
+      "level2": []
+    },
+    {
+      "level1": "Property",
+      "level2": [
+        "Energy",
+        "Power",
+        "Power",
+        "Flow",
+        "State of charge",
+        "CO2 level",
+        "Current1",
+        "Voltage1",
+        "Tap position",
+        "Volume",
+        "AC Frequency",
+        "Alarm2",
+        "Current2",
+        "Day Type",
+        "Water Consumption",
+        "Gas Consumption",
+        "Heat Consumption",
+        "Network Link Strength",
+        "Occupancy1",
+        "On Off",
+        "Power Consumption2",
+        "Power Supply",
+        "RSSI",
+        "Temperature Setpoint",
+        "VOC",
+        "Voltage2",
+        "Humidity1",
+        "Light",
+        "Motion",
+        "Occupancy2",
+        "Pressure",
+        "Price",
+        "Time",
+        "Smoke",
+        "Temperature1"
+      ]
+    },
+    {
+      "level1": "Property",
+      "level2": []
+    },
+    {
+      "level1": "Icon",
+      "level2": []
+    },
+    {
+      "level1": "Route Element",
+      "level2": [
+        "Route Point",
+        "Passage"
+      ]
+    },
+    {
+      "level1": "Space",
+      "level2": [
+        "Building1",
+        "Building space",
+        "Thoroughfare",
+        "Site Of Building"
+      ]
+    },
+    {
+      "level1": "Social Unit",
+      "level2": [
+        "Person",
+        "Group"
+      ]
+    },
+    {
+      "level1": "Role In Context",
+      "level2": []
+    },
+    {
+      "level1": "Activity",
+      "level2": [
+        "Navigation",
+        "Emergency Activity",
+        "Visit"
+      ]
+    },
+    {
+      "level1": "Event",
+      "level2": [
+        "Incident",
+        "Sensor Event"
+      ]
+    },
+    {
+      "level1": "Parameter",
+      "level2": [
+        "Travel Time",
+        "Person Ability",
+        "Activity Impact",
+        "Event Impact",
+        "Activity Severity",
+        "Event Severity",
+        "Person Accessibility",
+        "Space Saftey"
+      ]
+    },
+    {
+      "level1": "Ability",
+      "level2": [
+        "Mental Ability",
+        "Mobility Ability",
+        "Sensor Ability",
+        "Spatial Ability"
+      ]
+    },
+    {
+      "level1": "Activity Status",
+      "level2": []
+    },
+    {
+      "level1": "Availability Status",
+      "level2": []
+    },
+    {
+      "level1": "Device",
+      "level2": [
+        "Sensor1",
+        "Alerting Device",
+        "Display Screen",
+        "Handheld Device",
+        "Telephone",
+        "Incident Protection Device",
+        "Movable Device"
+      ]
+    },
+    {
+      "level1": "Description",
+      "level2": [
+        "Audio Description",
+        "Image Description",
+        "Textual Description"
+      ]
+    },
+    {
+      "level1": "Deviation State",
+      "level2": []
+    },
+    {
+      "level1": "Fitness Status",
+      "level2": []
+    },
+    {
+      "level1": "Impact",
+      "level2": []
+    },
+    {
+      "level1": "Intensity",
+      "level2": []
+    },
+    {
+      "level1": "Motion State",
+      "level2": []
+    },
+    {
+      "level1": "Navigational State",
+      "level2": []
+    },
+    {
+      "level1": "Quality",
+      "level2": []
+    },
+    {
+      "level1": "Severity",
+      "level2": []
+    },
+    {
+      "level1": "Role",
+      "level2": []
+    },
+    {
+      "level1": "Energy System",
+      "level2": []
+    },
+    {
+      "level1": "Energy Conversion System",
+      "level2": []
+    },
+    {
+      "level1": "Certifier",
+      "level2": []
+    },
+    {
+      "level1": "EV Charging Station",
+      "level2": []
+    },
+    {
+      "level1": "StoringUnit",
+      "level2": [
+        "Battery",
+        "ElectricVehicle"
+      ]
+    },
+    {
+      "level1": "EntityType",
+      "level2": [
+        "EnergyType",
+        "BuildingType",
+        "PhotovoltaicType",
+        "EquipmentType"
+      ]
+    },
+    {
+      "level1": "EnergyConsumerFacility",
+      "level2": [
+        "DHWSystem",
+        "HVACSystem",
+        "Appliance",
+        "LightingSystem"
+      ]
+    },
+    {
+      "level1": "EnergyConsumer",
+      "level2": []
+    },
+    {
+      "level1": "GeneratingUnit",
+      "level2": [
+        "Non-renewableGeneratingUnit",
+        "RenewableGeneratingUnit"
+      ]
+    },
+    {
+      "level1": "EnergyProducerFacility",
+      "level2": [
+        "PVSystem",
+        "WindPowerSystem"
+      ]
+    },
+    {
+      "level1": "FeatureOfInterest",
+      "level2": [
+        "Zone",
+        "Appliance"
+      ]
+    },
+    {
+      "level1": "TemporalEntity",
+      "level2": [
+        "Interval",
+        "Instant"
+      ]
+    },
+    {
+      "level1": "Vocabulary",
+      "level2": []
+    },
+    {
+      "level1": "Unit",
+      "level2": []
+    },
+    {
+      "level1": "PhysicalObject",
+      "level2": [
+        "Device",
+        "Building object"
+      ]
+    },
+    {
+      "level1": "Unit_of_measure",
+      "level2": []
+    },
+    {
+      "level1": "Actuator",
+      "level2": [
+        "Actuator"
+      ]
+    },
+    {
+      "level1": "Measurement",
+      "level2": [
+        "Measurement",
+        "Currency unit",
+        "Energy unit",
+        "Power unit",
+        "Pressure unit",
+        "Temperature unit"
+      ]
+    },
+    {
+      "level1": "Property",
+      "level2": []
+    },
+    {
+      "level1": "Sensor2",
+      "level2": [
+        "Sensor1"
+      ]
+    },
+    {
+      "level1": "Building1",
+      "level2": []
+    },
+    {
+      "level1": "Building space",
+      "level2": []
+    },
+    {
+      "level1": "Channel",
+      "level2": [
+        "Angle",
+        "Frequency",
+        "Maqnititute",
+        "Rocf",
+        "Timestamp"
+      ]
+    },
+    {
+      "level1": "State",
+      "level2": [
+        "On off state",
+        "Open close state",
+        "Multi level state",
+        "Start stop state"
+      ]
+    },
+    {
+      "level1": "Building2",
+      "level2": [
+        "Floor",
+        "Room1",
+        "Zone",
+        "Tenant"
+      ]
+    },
+    {
+      "level1": "Element",
+      "level2": [
+        "Device"
+      ]
+    },
+    {
+      "level1": "Space",
+      "level2": [
+        "Common Area",
+        "Dwelling"
+      ]
+    },
+    {
+      "level1": "Weather Forecasting Service",
+      "level2": []
+    },
+    {
+      "level1": "Function",
+      "level2": [
+        "Sensing function",
+        "Metering function",
+        "Actuating function",
+        "Event function"
+      ]
+    },
+    {
+      "level1": "Command",
+      "level2": [
+        "Close command",
+        "Open command",
+        "On command",
+        "Off command",
+        "Notify command",
+        "Get command",
+        "Step down command",
+        "Step up command",
+        "Toggle command",
+        "Pause command",
+        "Set level command",
+        "Start command",
+        "Stop command"
+      ]
+    },
+    {
+      "level1": "Commodity",
+      "level2": [
+        "Coal",
+        "Electricity",
+        "Gas",
+        "Water"
+      ]
+    },
+    {
+      "level1": "Task",
+      "level2": []
+    },
+    {
+      "level1": "Profile",
+      "level2": []
+    },
+    {
+      "level1": "Service",
+      "level2": [
+        "Switch on service"
+      ]
+    },
+    {
+      "level1": "Distance",
+      "level2": []
+    }
+  ],
+  "properties": [
+    "actsTo",
+    "attendeeOf",
+    "composes",
+    "containsAssumption",
+    "containsConstant",
+    "containsVariable",
+    "deliversEnergy",
+    "deliversEnergyType",
+    "energyDeliveredBy",
+    "energyStoredBy",
+    "energyTypeDeliveredBy",
+    "energyTypeStoredBy",
+    "eventOf",
+    "experiences",
+    "geoPointOf",
+    "hasAirConditionedVolume",
+    "hasArea",
+    "hasAssociatedKPI",
+    "hasAssociatedObject",
+    "hasBehavior",
+    "hasBuildingType",
+    "hasCalculation",
+    "hasCalculationComponent",
+    "hasCalculationModel",
+    "hasDeterminant",
+    "hasDisaggregation",
+    "Relation linking Equipment and its Equipment Parameter",
+    "hasEquipmentType",
+    "hasEvaluationTimeStep",
+    "hasExteriorWall",
+    "hasExteriorWindow",
+    "Relation linking Weather or Energy to its forecast",
+    "hasMathematicalModel",
+    "hasOccupantParameter",
+    "hasOccupant",
+    "hasPerformanceGoal",
+    "hasPhotovoltaicType",
+    "hasRoof",
+    "hasUnit",
+    "isActedBy",
+    "isAirConditionedVolumeOf",
+    "isAreaOf",
+    "isAssociatedKPIOf",
+    "isAssociatedObjectOf",
+    "isAssociatedZoneOf",
+    "isAssumptionOf",
+    "isBeginningOf",
+    "isBehaviorOf",
+    "isBuildingTypeOf",
+    "isCalculationComponentOf",
+    "isCalculationModelOf",
+    "isCalculationOf",
+    "isComposedBy",
+    "isConstantOf",
+    "isDeterminantOf",
+    "isDirectionOf",
+    "isDisaggregationOf",
+    "isEndOf",
+    "isEquationOf",
+    "isEquipmentTypeOf",
+    "isEvaluationTimeStepOf",
+    "isExperiencedBy",
+    "isExteriorWallOf",
+    "isExteriorWindowOf",
+    "isFeatureOfInterestOf",
+    "isForecastOf",
+    "isInputOf",
+    "isMathematicalModelOf",
+    "isObservationResultOf",
+    "isObservationSamplingTimeOf",
+    "isObservedPropertyOf",
+    "isOccupancyParameterOf",
+    "isOccupantOf",
+    "isOutputOf",
+    "isPerformanceGoalOf",
+    "isPhotovoltaicTypeOf",
+    "isProvidedBy",
+    "isRoofOf",
+    "isScheduleOf",
+    "isSpeedOf",
+    "isSuppliedBy",
+    "isU-valueOf",
+    "isUnitOf",
+    "isVariableOf",
+    "providesTo",
+    "storesEnergy",
+    "storesEnergyType",
+    "suppliesTo",
+    "featureOfInterest",
+    "hasInput",
+    "hasOutput",
+    "hasProperty",
+    "isPropertyOf",
+    "The result of an observation",
+    "observationSamplingTime",
+    "observedProperty",
+    "has item",
+    "has next",
+    "has ordered list",
+    "has previous",
+    "has slot",
+    "attendee",
+    "event",
+    "geo",
+    "hasLocation",
+    "isLocationOf",
+    "has energy conversion system",
+    "issued by",
+    "topObjectProperty",
+    "hasBeginning",
+    "hasEnd",
+    "made by sensor",
+    "observes",
+    "is measured in",
+    "relates to property",
+    "air flow rate range max",
+    "air flow rate range min",
+    "ambient design dry bulb temperature",
+    "ambient design wet bulb temperature",
+    "maximum apparent power",
+    "audio volume",
+    "basin reserve volume",
+    "blade thickness",
+    "body mass",
+    "capacity weight",
+    "close off rating",
+    "coil length",
+    "coil width",
+    "color temperature",
+    "compressor speed",
+    "connection size",
+    "contains",
+    "contributed luminous flux",
+    "cover length",
+    "cover width",
+    "effective capacity",
+    "electric generator efficiency",
+    "electric motor efficiency",
+    "external surface area",
+    "face area",
+    "final resistance",
+    "first curvature radius",
+    "flow coefficient",
+    "fouling factor",
+    "frame depth",
+    "frame thickness",
+    "has space",
+    "heat exchange area",
+    "heat transfer surface area",
+    "height",
+    "horizontal spacing",
+    "hydraulic diameter",
+    "ideal capacity",
+    "ideal shaft power",
+    "imaginary impedance ratio",
+    "impeller diameter",
+    "in line row spacing",
+    "initial resistance",
+    "inlet connection size",
+    "inside diameter",
+    "internal refrigerant volume",
+    "internal surface area",
+    "internal water volume",
+    "is contained in",
+    "isSpaceOf",
+    "isolator compressibility",
+    "isolator static deflection",
+    "lamp maintenance factor",
+    "leakage fully closed",
+    "length",
+    "lift elevation difference",
+    "light emitter nominal power",
+    "limiting terminal size",
+    "locked rotor current",
+    "net positive suction head",
+    "nominal air flow rate",
+    "nominal body depth",
+    "nominal body length",
+    "nominal body width",
+    "nominal capacity",
+    "nominal condensing temperature",
+    "nominal cooling capacity",
+    "nominal depth",
+    "nominal diameter",
+    "nominal energy consumption",
+    "nominal evaporating temmperature",
+    "nominal filter face velocity",
+    "nominal flow rate",
+    "nominal frequency",
+    "nominal heat rejection rate",
+    "nominal heat transfer area",
+    "nominal heat transfer coefficient",
+    "nominal heating capacity",
+    "nominal latent capacity",
+    "nominal length or diameter",
+    "nominal media surface velocity",
+    "nominal moisture gain",
+    "nominal part load ratio",
+    "nominal particle geometric mean diameter",
+    "nominal particle geometric standard deviation",
+    "nominal power consumption",
+    "nominal power rate",
+    "nominal pressure drop",
+    "nominal return water temperature cooling",
+    "nominal return water temperature heating",
+    "nominal rotation speed",
+    "nominal sensible capacity",
+    "nominal sorrounding humidity cooling",
+    "nominal sorrounding temperature cooling",
+    "nominal sorrounding temperature heating",
+    "nominal static pressure",
+    "nominal supply voltage",
+    "nominal supply water temperature cooling",
+    "nominal supply water temperature heating",
+    "nominal total pressure",
+    "nominal ua",
+    "nominal volumetric capacity",
+    "nominal water flow cooling",
+    "nominal water flow heating",
+    "nominal width or diameter",
+    "nomminal rotation speed",
+    "open pressure drop",
+    "operating weight",
+    "operational riterial",
+    "outlet connection size",
+    "output capacity",
+    "outside diameter",
+    "maximum part load ratio",
+    "minimum part load ratio",
+    "maximum power output",
+    "pressure rating",
+    "primary apparent power",
+    "primary frequency",
+    "real impedance ratio",
+    "second curvature radius",
+    "secondary apparent power",
+    "secondary frequency",
+    "short circuit voltage",
+    "size",
+    "solar reflectance",
+    "solar transmittance",
+    "maximum spectrum",
+    "minimum spectrum",
+    "staggered row spacing",
+    "start current factor",
+    "starting time",
+    "maximum supported weight",
+    "te time",
+    "temperature rating",
+    "test pressure",
+    "thermal conductivity",
+    "thermal efficiency",
+    "thermal mass heat capacity",
+    "thermal transmittance",
+    "ventilating pipe size",
+    "vertical spacing",
+    "vibration transmissibility",
+    "visible light reflectance",
+    "visible light transmittance",
+    "volumen",
+    "water requirement",
+    "water storage capacity",
+    "weight",
+    "working pressure",
+    "maximum working pressure",
+    "minimum working pressure",
+    "connected actuator",
+    "connected sensor",
+    "contain of",
+    "controlled property",
+    "has building",
+    "has channel",
+    "has room",
+    "has sensor",
+    "has sub zone",
+    "has tenant",
+    "has zone",
+    "in building",
+    "in floor",
+    "in room",
+    "is located at",
+    "live in",
+    "located at",
+    "located in",
+    "ref building",
+    "related sensor",
+    "sub category",
+    "contact point",
+    "active energy export",
+    "active energy import",
+    "apparent energy export",
+    "apparent energy import",
+    "current",
+    "displacement power factor",
+    "phase to phase voltage",
+    "phase voltage",
+    "power factor",
+    "reactive energy export",
+    "reactive energy import",
+    "thd current",
+    "thd voltage",
+    "connectsToInternetThrough",
+    "forecasts Property",
+    "has Data Sending Method",
+    "has Icon",
+    "provides Service To Location",
+    "accomplishes",
+    "acts upon",
+    "consists of",
+    "controls property",
+    "has command",
+    "has function",
+    "has meter reading",
+    "has meter reading type",
+    "has price",
+    "has profile",
+    "has sensing range",
+    "has sensor type",
+    "has state",
+    "has threshold measurement",
+    "has time",
+    "has typical consumption",
+    "is about",
+    "is accomplished by",
+    "is command of",
+    "is controlled by device",
+    "is measured by device",
+    "is offered by",
+    "is used for",
+    "makes measurement",
+    "measures property",
+    "offers",
+    "relates to measurement",
+    "represents",
+    "Accompanying",
+    "Acquaintance Of",
+    "Adjacent To",
+    "Assigned Route",
+    "Connected To",
+    "Context",
+    "Destination",
+    "Excluded For",
+    "Familiar With",
+    "For Person",
+    "For Space",
+    "Group Subscription",
+    "Has Ability",
+    "Has Activity Status",
+    "Has Availability Status",
+    "Has Description",
+    "Has Deviation State",
+    "Has Fitness Status",
+    "Has Impact",
+    "Has Intensity",
+    "Has Member",
+    "Has Motion State",
+    "Has Navigational State",
+    "Has Navigation Type",
+    "Has Quality",
+    "Has Severity",
+    "Installed In",
+    "Lead To",
+    "Lower",
+    "Means of Notification",
+    "Notification Preference",
+    "Of Activity",
+    "Of Event",
+    "Origin",
+    "Part Of",
+    "Performed by",
+    "Player",
+    "Responsible To",
+    "Role",
+    "Route Preference",
+    "Route Type",
+    "Upper",
+    "Uses",
+    "consumesEnergy",
+    "consumesEnergyType",
+    "energyConsumedBy",
+    "energyProducedBy",
+    "energyTypeConsumedBy",
+    "energyTypeProducedBy",
+    "hasAssociatedZone",
+    "hasFloor",
+    "isFloorOf",
+    "isIn",
+    "producesEnergy",
+    "producesEnergyType",
+    "hasInfluenceOn",
+    "isInfluencedBy",
+    "hasDirection",
+    "hasSpeed",
+    "containsEquation",
+    "containsU-value",
+    "hasSchedule",
+    "isEquipmentParameterOf",
+    "hasKPIDefinition",
+    "hasMathML",
+    "hasYearOfConstruction",
+    "identifier",
+    "title",
+    "has index",
+    "Length of Ordered List",
+    "symbol",
+    "duration",
+    "hasValue",
+    "e pnren",
+    "e pren",
+    "energy conversion system type",
+    "additional information",
+    "building info",
+    "certificate code",
+    "certificate object",
+    "certifier category",
+    "certifier code",
+    "climatic zone",
+    "contact details",
+    "current use thermal",
+    "date of expiration",
+    "date of inspection",
+    "date of issue",
+    "energy carrier type",
+    "energy consumption",
+    "energy conversion system code",
+    "energy performance",
+    "energy performance reference",
+    "energy system category",
+    "inspire id",
+    "nomial efficiency",
+    "nominal power",
+    "note",
+    "other conversion system type notes",
+    "professional registry",
+    "recommendations",
+    "scope",
+    "software reference",
+    "year of installation",
+    "citation",
+    "country",
+    "topDataProperty",
+    "altitude",
+    "latitude",
+    "longitude",
+    "inXSDDateTime",
+    "has simple result",
+    "Age",
+    "First Name",
+    "Gender",
+    "Last Name",
+    "has timestamp",
+    "access type",
+    "application",
+    "arrangement",
+    "blade action",
+    "blade edge",
+    "blade shape",
+    "capacity control",
+    "capacity control type",
+    "capacity people",
+    "circuit type",
+    "color appearance",
+    "color rendering index",
+    "control strategy",
+    "end shape type",
+    "energy source",
+    "evaporation coolant",
+    "evaporation medium type",
+    "fail position",
+    "finish color",
+    "fire exit",
+    "flow arrangement",
+    "frame size",
+    "frame type",
+    "has defrost",
+    "has exterior insulation",
+    "has hot gas bypass",
+    "has lock",
+    "has part winding",
+    "has turbulator",
+    "heat transfer dimension",
+    "heat transfer medium",
+    "heat transfer type enum",
+    "integrated lighting type",
+    "internal control",
+    "is external",
+    "is free hanging",
+    "is guarded",
+    "is illuminated",
+    "is neutral primary terminal available",
+    "is neutral secondary terminal available",
+    "is pluggable outlet",
+    "is water storage heater",
+    "lamp ballast type",
+    "lamp compensation type",
+    "legend",
+    "manual override",
+    "mechanical operated",
+    "media source",
+    "motor drive type",
+    "motor enclosure type",
+    "number of blades",
+    "number of cells",
+    "number of circuits",
+    "number of gangs",
+    "number of panels",
+    "number of rows",
+    "number of sections",
+    "number os sockets",
+    "operating mode",
+    "operation",
+    "orientation",
+    "pattern type",
+    "pipe connection enum",
+    "placement type",
+    "power source",
+    "read out type",
+    "refrigerant class",
+    "remote reading",
+    "roughness",
+    "secondary current type",
+    "shading device type",
+    "spray type",
+    "standard",
+    "storage type",
+    "switch function",
+    "temperature classification",
+    "transformer vector group",
+    "valve mechanism",
+    "valve operation",
+    "valve pattern",
+    "water flow control system type",
+    "accuracy",
+    "control asset",
+    "controll asset",
+    "controlled asset",
+    "created at",
+    "current level",
+    "data provider",
+    "floors above ground",
+    "floors below ground",
+    "has email",
+    "has mobile number",
+    "higher limit",
+    "ip address",
+    "kp",
+    "listening",
+    "logging interval",
+    "logical node",
+    "lower limit",
+    "max active power",
+    "max reactive power",
+    "modified at",
+    "operation sequence",
+    "readable name",
+    "reverse action",
+    "sample interval",
+    "sample rate",
+    "serial number",
+    "set value",
+    "supplier name",
+    "supported network",
+    "supported protocol",
+    "tap position",
+    "td",
+    "ti",
+    "time stamp",
+    "voltage level",
+    "writable",
+    "has_floor",
+    "address country",
+    "address locality",
+    "address region",
+    "alternate name",
+    "area served",
+    "availability restriction",
+    "available language",
+    "contact option",
+    "contact type",
+    "l1",
+    "l12",
+    "l2",
+    "l23",
+    "l3",
+    "l31",
+    "n",
+    "date energy metering started",
+    "date observed from",
+    "date observed to",
+    "phase type",
+    "ref device",
+    "ref target device",
+    "total active energy export",
+    "total active energy import",
+    "total active power",
+    "total apparent energy export",
+    "total apparent energy import",
+    "total apparent power",
+    "total displacement power factor",
+    "total power factor",
+    "total reactive energy export",
+    "total reactive energy import",
+    "total reactive power",
+    "type",
+    "accepted payment method",
+    "allowed vehicle type",
+    "amount collected",
+    "amperage",
+    "available capacity",
+    "capacity",
+    "charge type",
+    "charging unit id",
+    "data descriptor",
+    "end date time",
+    "network",
+    "observation date time",
+    "operator",
+    "power consumption",
+    "socket number",
+    "socket type",
+    "station name",
+    "status",
+    "tax amount collected",
+    "transaction id",
+    "transaction type",
+    "vehicle type",
+    "voltage",
+    "date created",
+    "date modified",
+    "date observed",
+    "district",
+    "email",
+    "fax number",
+    "frequency",
+    "opening hours",
+    "post office box number",
+    "postal code",
+    "product supported",
+    "see also",
+    "start date time",
+    "street address",
+    "street nr",
+    "telephone",
+    "hasDatabaseQuery",
+    "hasHouseholdMembersQuantity",
+    "hasInfluxDBQuery",
+    "hasNetPlannedArea",
+    "hasNetVolume",
+    "has description",
+    "has manufacturer",
+    "has model",
+    "has name",
+    "Accommodation Capacity",
+    "Area (in sq. meters)",
+    "At Time",
+    "Base (in meters)",
+    "Cost",
+    "Dynamic Description",
+    "Ended At Time",
+    "Has Congestion",
+    "Has Safety Value",
+    "Has X Time Deviated",
+    "Height  (in meters)",
+    "Length (in meters)",
+    "Has Number",
+    "Radius (in meters)",
+    "Has Relative Occupancy Ratio",
+    "Size",
+    "Speed",
+    "Speed Factor",
+    "Started At Time",
+    "Static Description",
+    "Width (in meters)",
+    "active power1",
+    "active power2",
+    "address1",
+    "address2",
+    "description1",
+    "description2",
+    "flow resistance range1",
+    "flow resistance range2",
+    "fluid flow rate range1",
+    "fluid flow rate range2",
+    "heating degree days2",
+    "heating degree days2",
+    "location1",
+    "location2",
+    "name1",
+    "name2",
+    "nominal efficiency1",
+    "nominal efficiency2",
+    "nominal supply voltage offset1",
+    "nominal supply voltage offset2",
+    "operation temperature range1",
+    "operation temperature range2",
+    "outlet temperature range1",
+    "outlet temperature range2",
+    "owner2",
+    "owner2",
+    "primary air flow rate range1",
+    "primary air flow rate range2",
+    "primary current1",
+    "primary current2",
+    "primary voltage1",
+    "primary voltage2",
+    "pump flow rate range1",
+    "pump flow rate range2",
+    "reactive power1",
+    "reactive power2",
+    "secondary air flow rate range1",
+    "secondary air flow rate range2",
+    "secondary current1",
+    "secondary current2",
+    "secondary voltage1",
+    "secondary voltage2",
+    "source1",
+    "source2",
+    "water inlet temperature range1",
+    "water inlet temperature range2",
+    "water pressure range1",
+    "water pressure range2"
+  ]
+}

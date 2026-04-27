@@ -1,0 +1,190 @@
+{
+  "uri_to_canonical": {
+    "http://www.w3.org/2003/01/geo/wgs84_pos#location": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation",
+    "http://www.w3.org/ns/sosa/Observation": "http://purl.oclc.org/NET/ssnx/ssn#Observation",
+    "http://www.w3.org/ns/sosa/observedProperty": "http://purl.oclc.org/NET/ssnx/ssn#observedProperty",
+    "https://saref.etsi.org/core/UnitOfMeasure": "http://www.wurvoc.org/vocabularies/om-1.8/Unit_of_measure",
+    "https://saref.etsi.org/core/hasValue": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasValue",
+    "https://saref.etsi.org/saref4bldg/Actuator": "https://saref.etsi.org/core/Actuator",
+    "https://saref.etsi.org/saref4bldg/Fan": "http://energy.linkeddata.es/em-kpi/ontology#Fan",
+    "https://saref.etsi.org/saref4bldg/PhysicalObject": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject",
+    "https://saref.etsi.org/saref4bldg/Pump": "http://energy.linkeddata.es/em-kpi/ontology#Pump",
+    "https://saref.etsi.org/saref4bldg/Sensor": "http://www.w3.org/ns/sosa/Sensor",
+    "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Air_to_air_heat_recovery": "https://saref.etsi.org/saref4bldg/AirToAirHeatRecovery",
+    "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Energy_conversion_device": "https://saref.etsi.org/saref4bldg/EnergyConversionDevice",
+    "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Fan": "http://energy.linkeddata.es/em-kpi/ontology#Fan",
+    "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Pump": "http://energy.linkeddata.es/em-kpi/ontology#Pump",
+    "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/address": "http://schema.org/address",
+    "https://smartdatamodels.org/dataModel.Energy/id": "http://purl.org/dc/terms/identifier",
+    "https://smartdatamodels.org/dataProvider": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/data_provider",
+    "https://smartdatamodels.org/owner": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/owner",
+    "https://w3id.org/bot#Zone": "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Zone",
+    "https://w3id.org/respond#Boiler": "https://saref.etsi.org/saref4bldg/Boiler",
+    "https://w3id.org/respond#Lamp": "https://saref.etsi.org/saref4bldg/Lamp",
+    "https://w3id.org/saref#Actuator": "https://saref.etsi.org/core/Actuator",
+    "https://w3id.org/saref#Device": "https://saref.etsi.org/core/Device",
+    "https://w3id.org/saref#Measurement": "https://saref.etsi.org/core/Measurement",
+    "https://w3id.org/saref#Power": "http://purl.org/iot/vocab/m3-lite#Power",
+    "https://w3id.org/saref#Property": "https://saref.etsi.org/core/Property",
+    "https://w3id.org/saref#WashingMachine": "https://w3id.org/respond#WashingMachine",
+    "https://w3id.org/saref#hasTimestamp": "https://saref.etsi.org/core/hasTimestamp",
+    "https://w3id.org/saref#hasValue": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasValue",
+    "https://w3id.org/saref#isMeasuredIn": "https://saref.etsi.org/core/isMeasuredIn",
+    "https://w3id.org/saref#relatesToProperty": "https://saref.etsi.org/core/relatesToProperty",
+    "https://w3id.org/sbeo#Device": "https://saref.etsi.org/core/Device",
+    "https://w3id.org/sbeo#Event": "http://schema.org/Event",
+    "https://w3id.org/sbeo#Space": "https://w3id.org/bot#Space",
+    "https://w3id.org/sbeo#hasValue": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasValue",
+    "https://w3id.org/sbeo#id": "http://purl.org/dc/terms/identifier",
+    "https://w3id.org/sbeo#locatedIn": "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/located_in",
+    "https://w3id.org/sbeo#timeDuration": "http://schema.org/duration",
+    "https://w3id.org/seas/Building": "https://saref.etsi.org/saref4bldg/Building",
+    "https://w3id.org/seas/BuildingSpace": "https://saref.etsi.org/saref4bldg/BuildingSpace",
+    "https://w3id.org/seas/FeatureOfInterest": "http://purl.oclc.org/NET/ssnx/ssn#FeatureOfInterest",
+    "https://w3id.org/seas/Property": "https://saref.etsi.org/core/Property",
+    "https://w3id.org/seas/isPropertyOf": "http://purl.oclc.org/NET/ssnx/ssn#isPropertyOf",
+    "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Appliance": "https://w3id.org/saref#Appliance",
+    "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Floor": "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Floor",
+    "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Room": "https://w3id.org/seas/Room",
+    "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#contains": "https://saref.etsi.org/saref4bldg/contains",
+    "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/gbBuildingOntology.owl#Building": "https://saref.etsi.org/saref4bldg/Building",
+    "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/gbBuildingOntology.owl#BuildingStorey": "https://w3id.org/seas/BuildingStorey",
+    "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/gbBuildingOntology.owl#Volume": "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Volume",
+    "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/gbBuildingOntology.owl#Zone": "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Zone"
+  },
+  "canonical_to_same_as": {
+    "http://energy.linkeddata.es/em-kpi/ontology#Fan": [
+      "https://saref.etsi.org/saref4bldg/Fan",
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Fan"
+    ],
+    "http://energy.linkeddata.es/em-kpi/ontology#Pump": [
+      "https://saref.etsi.org/saref4bldg/Pump",
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Pump"
+    ],
+    "http://purl.oclc.org/NET/ssnx/ssn#FeatureOfInterest": [
+      "https://w3id.org/seas/FeatureOfInterest"
+    ],
+    "http://purl.oclc.org/NET/ssnx/ssn#Observation": [
+      "http://www.w3.org/ns/sosa/Observation"
+    ],
+    "http://purl.oclc.org/NET/ssnx/ssn#isPropertyOf": [
+      "https://w3id.org/seas/isPropertyOf"
+    ],
+    "http://purl.oclc.org/NET/ssnx/ssn#observedProperty": [
+      "http://www.w3.org/ns/sosa/observedProperty"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      "https://smartdatamodels.org/dataModel.Energy/id",
+      "https://w3id.org/sbeo#id"
+    ],
+    "http://purl.org/iot/vocab/m3-lite#Power": [
+      "https://w3id.org/saref#Power"
+    ],
+    "http://schema.org/Event": [
+      "https://w3id.org/sbeo#Event"
+    ],
+    "http://schema.org/address": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/address"
+    ],
+    "http://schema.org/duration": [
+      "https://w3id.org/sbeo#timeDuration"
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject": [
+      "https://saref.etsi.org/saref4bldg/PhysicalObject"
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation": [
+      "http://www.w3.org/2003/01/geo/wgs84_pos#location"
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasValue": [
+      "https://saref.etsi.org/core/hasValue",
+      "https://w3id.org/saref#hasValue",
+      "https://w3id.org/sbeo#hasValue"
+    ],
+    "http://www.w3.org/ns/sosa/Sensor": [
+      "https://saref.etsi.org/saref4bldg/Sensor"
+    ],
+    "http://www.wurvoc.org/vocabularies/om-1.8/Unit_of_measure": [
+      "https://saref.etsi.org/core/UnitOfMeasure"
+    ],
+    "https://saref.etsi.org/core/Actuator": [
+      "https://saref.etsi.org/saref4bldg/Actuator",
+      "https://w3id.org/saref#Actuator"
+    ],
+    "https://saref.etsi.org/core/Device": [
+      "https://w3id.org/saref#Device",
+      "https://w3id.org/sbeo#Device"
+    ],
+    "https://saref.etsi.org/core/Measurement": [
+      "https://w3id.org/saref#Measurement"
+    ],
+    "https://saref.etsi.org/core/Property": [
+      "https://w3id.org/saref#Property",
+      "https://w3id.org/seas/Property"
+    ],
+    "https://saref.etsi.org/core/hasTimestamp": [
+      "https://w3id.org/saref#hasTimestamp"
+    ],
+    "https://saref.etsi.org/core/isMeasuredIn": [
+      "https://w3id.org/saref#isMeasuredIn"
+    ],
+    "https://saref.etsi.org/core/relatesToProperty": [
+      "https://w3id.org/saref#relatesToProperty"
+    ],
+    "https://saref.etsi.org/saref4bldg/AirToAirHeatRecovery": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Air_to_air_heat_recovery"
+    ],
+    "https://saref.etsi.org/saref4bldg/Boiler": [
+      "https://w3id.org/respond#Boiler"
+    ],
+    "https://saref.etsi.org/saref4bldg/Building": [
+      "https://w3id.org/seas/Building",
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/gbBuildingOntology.owl#Building"
+    ],
+    "https://saref.etsi.org/saref4bldg/BuildingSpace": [
+      "https://w3id.org/seas/BuildingSpace"
+    ],
+    "https://saref.etsi.org/saref4bldg/EnergyConversionDevice": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Energy_conversion_device"
+    ],
+    "https://saref.etsi.org/saref4bldg/Lamp": [
+      "https://w3id.org/respond#Lamp"
+    ],
+    "https://saref.etsi.org/saref4bldg/contains": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#contains"
+    ],
+    "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Floor": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Floor"
+    ],
+    "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Volume": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/gbBuildingOntology.owl#Volume"
+    ],
+    "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Zone": [
+      "https://w3id.org/bot#Zone",
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/gbBuildingOntology.owl#Zone"
+    ],
+    "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/data_provider": [
+      "https://smartdatamodels.org/dataProvider"
+    ],
+    "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/owner": [
+      "https://smartdatamodels.org/owner"
+    ],
+    "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/located_in": [
+      "https://w3id.org/sbeo#locatedIn"
+    ],
+    "https://w3id.org/bot#Space": [
+      "https://w3id.org/sbeo#Space"
+    ],
+    "https://w3id.org/respond#WashingMachine": [
+      "https://w3id.org/saref#WashingMachine"
+    ],
+    "https://w3id.org/saref#Appliance": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Appliance"
+    ],
+    "https://w3id.org/seas/BuildingStorey": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/gbBuildingOntology.owl#BuildingStorey"
+    ],
+    "https://w3id.org/seas/Room": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Room"
+    ]
+  }
+}

@@ -1,0 +1,1031 @@
+{
+  "version": 1,
+  "classes": [
+    {
+      "name": "Alarm1",
+      "label": "Alarm",
+      "uri": "https://saref.etsi.org/saref4bldg/Alarm",
+      "comment": "An alarm is a device that signals the existence of a condition or situation that is outside the boundaries of normal expectation or that activates such a device.\n\nAlarms include the provision of break glass buttons and manual pull boxes that are used to activate alarms.",
+      "parents": [
+        "DistributionControlDevice"
+      ]
+    },
+    {
+      "name": "Alarm2",
+      "label": "Alarm",
+      "uri": "https://w3id.org/respond#AlarmProperty",
+      "comment": "A warning of danger or potential undesired situation.",
+      "parents": [
+        "Property"
+      ]
+    },
+    {
+      "name": "Audio visual appliance1",
+      "label": "Audio visual appliance",
+      "uri": "https://saref.etsi.org/saref4bldg/AudioVisualAppliance",
+      "comment": "An audio-visual appliance is a device that displays, captures, transmits, or receives audio or video.\n\nAudio-visual appliances may be fixed in place or may be able to be moved from one space to another. They may require an electrical supply that may be supplied either by an electrical circuit or provided from a local battery source. Audio-visual appliances may be connected to data circuits including specialist circuits for audio visual purposes only.",
+      "parents": [
+        "FlowTerminal"
+      ]
+    },
+    {
+      "name": "Audio visual appliance2",
+      "label": "Audio visual appliance",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Audio_visual_appliance",
+      "comment": "",
+      "parents": [
+        "Flow_terminal"
+      ]
+    },
+    {
+      "name": "Boiler1",
+      "label": "Boiler",
+      "uri": "https://saref.etsi.org/saref4bldg/Boiler",
+      "comment": "A boiler is a closed, pressure-rated vessel in which water or other fluid is heated using an energy source such as natural gas, heating oil, or electricity. The fluid in the vessel is then circulated out of the boiler for use in various processes or heating applications.",
+      "parents": [
+        "EnergyConversionDevice"
+      ]
+    },
+    {
+      "name": "Boiler2",
+      "label": "Boiler",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Boiler",
+      "comment": "",
+      "parents": [
+        "Energy_conversion_device"
+      ]
+    },
+    {
+      "name": "Building1",
+      "label": "Building",
+      "uri": "https://saref.etsi.org/saref4bldg/Building",
+      "comment": "A building represents a structure that provides shelter for its occupants or contents and stands in one place. The building is also used to provide a basic element within the spatial structure hierarchy for the components of a building project (together with site, storey, and space).",
+      "parents": [
+        "Thing"
+      ]
+    },
+    {
+      "name": "Building2",
+      "label": "Building",
+      "uri": "https://w3id.org/saref#BuildingRelated",
+      "comment": "A category that includes devices as described by building related data models, such as IFC and FIEMSER",
+      "parents": [
+        "Thing"
+      ]
+    },
+    {
+      "name": "Burner1",
+      "label": "Burner",
+      "uri": "https://saref.etsi.org/saref4bldg/Burner",
+      "comment": "A burner is a device that converts fuel into heat through combustion. It includes gas, oil, and wood burners.",
+      "parents": [
+        "EnergyConversionDevice"
+      ]
+    },
+    {
+      "name": "Burner2",
+      "label": "Burner",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Burner",
+      "comment": "",
+      "parents": [
+        "Energy_conversion_device"
+      ]
+    },
+    {
+      "name": "Chiller1",
+      "label": "Chiller",
+      "uri": "https://saref.etsi.org/saref4bldg/Chiller",
+      "comment": "A chiller is a device used to remove heat from a liquid via a vapor-compression or absorption refrigeration cycle to cool a fluid, typically water or a mixture of water and glycol. The chilled fluid is then used to cool and dehumidify air in a building.",
+      "parents": [
+        "EnergyConversionDevice"
+      ]
+    },
+    {
+      "name": "Chiller2",
+      "label": "Chiller",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Chiller",
+      "comment": "",
+      "parents": [
+        "Energy_conversion_device"
+      ]
+    },
+    {
+      "name": "Coil1",
+      "label": "Coil",
+      "uri": "https://saref.etsi.org/saref4bldg/Coil",
+      "comment": "A coil is a device used to provide heat transfer between non-mixing media. A common example is a cooling coil, which utilizes a finned coil in which circulates chilled water, antifreeze, or refrigerant that is used to remove heat from air moving across the surface of the coil. A coil may be used either for heating or cooling purposes by placing a series of tubes (the coil) carrying a heating or cooling fluid into an airstream. The coil may be constructed from tubes bundled in a serpentine form or from finned tubes that give a extended heat transfer surface.\n\nCoils may also be used for non-airflow cases such as embedded in a floor slab.",
+      "parents": [
+        "EnergyConversionDevice"
+      ]
+    },
+    {
+      "name": "Coil2",
+      "label": "Coil",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Coil",
+      "comment": "",
+      "parents": [
+        "Energy_conversion_device"
+      ]
+    },
+    {
+      "name": "Compressor1",
+      "label": "Compressor",
+      "uri": "https://saref.etsi.org/saref4bldg/Compressor",
+      "comment": "A compressor is a device that compresses a fluid typically used in a refrigeration circuit.",
+      "parents": [
+        "FlowMovingDevice"
+      ]
+    },
+    {
+      "name": "Compressor2",
+      "label": "Compressor",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Compressor",
+      "comment": "",
+      "parents": [
+        "Flow_moving_device"
+      ]
+    },
+    {
+      "name": "Controller1",
+      "label": "Controller",
+      "uri": "https://saref.etsi.org/saref4bldg/Controller",
+      "comment": "A controller is a device that monitors inputs and controls outputs within a building automation system.\n\nA controller may be physical (having placement within a spatial structure) or logical (a software interface or aggregated within a programmable physical controller).",
+      "parents": [
+        "DistributionControlDevice"
+      ]
+    },
+    {
+      "name": "Controller2",
+      "label": "Controller",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Controller",
+      "comment": "",
+      "parents": [
+        "ControlDevice"
+      ]
+    },
+    {
+      "name": "Current1",
+      "label": "Current",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Current",
+      "comment": "A property related to measurements measured in Ampere (A).",
+      "parents": [
+        "Property"
+      ]
+    },
+    {
+      "name": "Current2",
+      "label": "Current",
+      "uri": "https://w3id.org/respond#Current",
+      "comment": "The movement of electricity in a particular direction.",
+      "parents": [
+        "Property"
+      ]
+    },
+    {
+      "name": "Damper1",
+      "label": "Damper",
+      "uri": "https://saref.etsi.org/saref4bldg/Damper",
+      "comment": "A damper typically participates in an HVAC duct distribution system and is used to control or modulate the flow of air.",
+      "parents": [
+        "FlowController"
+      ]
+    },
+    {
+      "name": "Damper2",
+      "label": "Damper",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Damper",
+      "comment": "",
+      "parents": [
+        "Flow_controller"
+      ]
+    },
+    {
+      "name": "Filter1",
+      "label": "Filter",
+      "uri": "https://saref.etsi.org/saref4bldg/Filter",
+      "comment": "A filter is an apparatus used to remove particulate or gaseous matter from fluids and gases.",
+      "parents": [
+        "FlowTreatmentDevice"
+      ]
+    },
+    {
+      "name": "Filter2",
+      "label": "Filter",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Filter",
+      "comment": "",
+      "parents": [
+        "Flow_terminal_device"
+      ]
+    },
+    {
+      "name": "Flow controller1",
+      "label": "Flow controller",
+      "uri": "https://saref.etsi.org/saref4bldg/FlowController",
+      "comment": "The distribution flow element FlowController defines the occurrence of elements of a distribution system that are used to regulate flow through a distribution system. Examples include dampers, valves, switches, and relays.",
+      "parents": [
+        "DistributionFlowDevice"
+      ]
+    },
+    {
+      "name": "Flow controller2",
+      "label": "Flow controller",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_controller",
+      "comment": "",
+      "parents": [
+        "Flow_device"
+      ]
+    },
+    {
+      "name": "Flow meter1",
+      "label": "Flow meter",
+      "uri": "https://saref.etsi.org/saref4bldg/FlowMeter",
+      "comment": "A flow meter is a device that is used to measure the flow rate in a system.",
+      "parents": [
+        "FlowController"
+      ]
+    },
+    {
+      "name": "Flow meter2",
+      "label": "Flow meter",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_meter",
+      "comment": "",
+      "parents": [
+        "Flow_controller"
+      ]
+    },
+    {
+      "name": "Flow moving device1",
+      "label": "Flow moving device",
+      "uri": "https://saref.etsi.org/saref4bldg/FlowMovingDevice",
+      "comment": "The distribution flow element FlowMovingDevice defines the occurrence of an apparatus used to distribute, circulate or perform conveyance of fluids, including liquids and gases (such as a pump or fan), and typically participates in a flow distribution system.",
+      "parents": [
+        "DistributionFlowDevice"
+      ]
+    },
+    {
+      "name": "Flow moving device2",
+      "label": "Flow moving device",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_moving_device",
+      "comment": "",
+      "parents": [
+        "Flow_device"
+      ]
+    },
+    {
+      "name": "Flow storage device1",
+      "label": "Flow storage device",
+      "uri": "https://saref.etsi.org/saref4bldg/FlowStorageDevice",
+      "comment": "The distribution flow element FlowStorageDevice defines the occurrence of a device that participates in a distribution system and is used for temporary storage (such as a tank).",
+      "parents": [
+        "DistributionFlowDevice"
+      ]
+    },
+    {
+      "name": "Flow storage device2",
+      "label": "Flow storage device",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_storage_device",
+      "comment": "",
+      "parents": [
+        "Flow_device"
+      ]
+    },
+    {
+      "name": "Flow terminal1",
+      "label": "Flow terminal",
+      "uri": "https://saref.etsi.org/saref4bldg/FlowTerminal",
+      "comment": "The distribution flow element FlowTerminal defines the occurrence of a permanently attached element that acts as a terminus or beginning of a distribution system (such as an air outlet, drain, water closet, or sink). A terminal is typically a point at which a system interfaces with an external environment.",
+      "parents": [
+        "DistributionFlowDevice"
+      ]
+    },
+    {
+      "name": "Flow terminal2",
+      "label": "Flow terminal",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_terminal",
+      "comment": "",
+      "parents": [
+        "Flow_device"
+      ]
+    },
+    {
+      "name": "Humidifier1",
+      "label": "Humidifier",
+      "uri": "https://saref.etsi.org/saref4bldg/Humidifier",
+      "comment": "A humidifier is a device that adds moisture into the air.",
+      "parents": [
+        "EnergyConversionDevice"
+      ]
+    },
+    {
+      "name": "Humidifier2",
+      "label": "Humidifier",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Humidifier",
+      "comment": "",
+      "parents": [
+        "Energy_conversion_device"
+      ]
+    },
+    {
+      "name": "Humidity1",
+      "label": "Humidity",
+      "uri": "https://w3id.org/saref#Humidity",
+      "comment": "A saref:Property related to some measurements that are characterized by a certain value that is measured in a humidity unit",
+      "parents": [
+        "Property"
+      ]
+    },
+    {
+      "name": "Humidity2",
+      "label": "Humidity",
+      "uri": "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/WeatherOntology.owl#Humidity",
+      "comment": "Outdoor humidity",
+      "parents": [
+        "WeatherPhenomenon"
+      ]
+    },
+    {
+      "name": "Interceptor1",
+      "label": "Interceptor",
+      "uri": "https://saref.etsi.org/saref4bldg/Interceptor",
+      "comment": "An interceptor is a device designed and installed in order to separate and retain deleterious, hazardous or undesirable matter while permitting normal sewage or liquids to discharge into a collection system by gravity.",
+      "parents": [
+        "FlowTreatmentDevice"
+      ]
+    },
+    {
+      "name": "Interceptor2",
+      "label": "Interceptor",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Interceptor",
+      "comment": "",
+      "parents": [
+        "Flow_terminal_device"
+      ]
+    },
+    {
+      "name": "Lamp1",
+      "label": "Lamp",
+      "uri": "https://saref.etsi.org/saref4bldg/Lamp",
+      "comment": "A lamp is an artificial light source such as a light bulb or tube.",
+      "parents": [
+        "FlowTerminal"
+      ]
+    },
+    {
+      "name": "Lamp2",
+      "label": "Lamp",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Lamp",
+      "comment": "",
+      "parents": [
+        "Flow_terminal"
+      ]
+    },
+    {
+      "name": "Occupancy1",
+      "label": "Occupancy",
+      "uri": "https://w3id.org/respond#Occupancy",
+      "comment": "Usage of a space.",
+      "parents": [
+        "Property"
+      ]
+    },
+    {
+      "name": "Occupancy2",
+      "label": "Occupancy",
+      "uri": "https://w3id.org/saref#Occupancy",
+      "comment": "A saref:Property related to some measurements that are characterized by a certain value (saref:hasValue property) that is measured in a unit of measure for occupancy",
+      "parents": [
+        "Property"
+      ]
+    },
+    {
+      "name": "Power Consumption1",
+      "label": "Power Consumption",
+      "uri": "https://w3id.org/respond#ElectricConsumption",
+      "comment": "The rate, per unit time, at which energy is consumed.",
+      "parents": [
+        "Power"
+      ]
+    },
+    {
+      "name": "Power Consumption2",
+      "label": "Power Consumption",
+      "uri": "https://w3id.org/respond#PowerConsumption",
+      "comment": "The amount of power consumed.",
+      "parents": [
+        "Property"
+      ]
+    },
+    {
+      "name": "Room1",
+      "label": "Room",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Room",
+      "comment": "A room in a building. This class may be used to group devices.",
+      "parents": [
+        "BuildingRelated"
+      ]
+    },
+    {
+      "name": "Room2",
+      "label": "Room",
+      "uri": "https://w3id.org/seas/Room",
+      "comment": "A room in a building space enclosed by surfaces, this could also be modelled as role of space, not subclass of the space itself.",
+      "parents": [
+        "BuildingSpace"
+      ]
+    },
+    {
+      "name": "Sensor1",
+      "label": "Sensor",
+      "uri": "http://www.w3.org/ns/sosa/Sensor",
+      "comment": "Device, agent (including humans), or software (simulation) involved in, or implementing, a Procedure. Sensors respond to a stimulus, e.g., a change in the environment, or input data composed from the results of prior Observations, and generate a Result. Sensors can be hosted by Platforms.",
+      "parents": [
+        "Device"
+      ]
+    },
+    {
+      "name": "Sensor2",
+      "label": "Sensor",
+      "uri": "https://saref.etsi.org/core/Sensor",
+      "comment": "A device that detects and responds to events or changes in the physical environment such as light, motion, or temperature changes.\nA device that has category saref:Sensor and performs a saref:SensingFunction.",
+      "parents": [
+        "Thing"
+      ]
+    },
+    {
+      "name": "Sensor3",
+      "label": "Sensor",
+      "uri": "https://w3id.org/saref#Sensor",
+      "comment": "A device that detects and responds to events or changes in the physical environment such as light, motion, or temperature changes. Further, a device of category saref:Sensor that performs a saref:SensingFunction.",
+      "parents": [
+        "ControlDevice"
+      ]
+    },
+    {
+      "name": "Space heater1",
+      "label": "Space heater",
+      "uri": "https://saref.etsi.org/saref4bldg/SpaceHeater",
+      "comment": "Space heaters utilize a combination of radiation and/or natural convection using a heating source such as electricity, steam or hot water to heat a limited space or area. Examples of space heaters include radiators, convectors, baseboard and finned-tube heaters.\n\nUnitaryEquipment should be used for packaged units supporting a combination of heating, cooling, and/or dehumidification; Coil should be used for coil-based floor heating.",
+      "parents": [
+        "FlowTerminal"
+      ]
+    },
+    {
+      "name": "Space heater2",
+      "label": "Space heater",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Space_heater",
+      "comment": "",
+      "parents": [
+        "Flow_terminal"
+      ]
+    },
+    {
+      "name": "Switching device1",
+      "label": "Switching device",
+      "uri": "https://saref.etsi.org/saref4bldg/SwitchingDevice",
+      "comment": "A switch is used in a cable distribution system (electrical circuit) to control or modulate the flow of electricity.\n\nSwitches include those used for electrical power, communications, audio-visual, or other distribution system types as determined by the available ports.",
+      "parents": [
+        "FlowController"
+      ]
+    },
+    {
+      "name": "Switching device2",
+      "label": "Switching device",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Switching_device",
+      "comment": "",
+      "parents": [
+        "Flow_controller"
+      ]
+    },
+    {
+      "name": "Tank1",
+      "label": "Tank",
+      "uri": "https://saref.etsi.org/saref4bldg/Tank",
+      "comment": "A tank is a vessel or container in which a fluid or gas is stored for later use.",
+      "parents": [
+        "FlowStorageDevice"
+      ]
+    },
+    {
+      "name": "Tank2",
+      "label": "Tank",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Tank",
+      "comment": "",
+      "parents": [
+        "Flow_storage_device"
+      ]
+    },
+    {
+      "name": "Temperature1",
+      "label": "Temperature",
+      "uri": "https://w3id.org/saref#Temperature",
+      "comment": "A saref:Property related to some measurements that are characterized by a certain value that is measured in a temperature unit (degree_Celsius, degree_Fahrenheit, or degree_kelvin)",
+      "parents": [
+        "Property"
+      ]
+    },
+    {
+      "name": "Temperature2",
+      "label": "Temperature",
+      "uri": "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/WeatherOntology.owl#Temperature",
+      "comment": "Outdoor temperature",
+      "parents": [
+        "WeatherPhenomenon"
+      ]
+    },
+    {
+      "name": "Transformer1",
+      "label": "Transformer",
+      "uri": "https://saref.etsi.org/saref4bldg/Transformer",
+      "comment": "A transformer is an inductive stationary device that transfers electrical energy from one circuit to another.\n\nTransformer is used to transform electric power; conversion of electric signals for other purposes is handled at other entities: Controller converts arbitrary signals, AudioVisualAppliance converts signals for audio or video streams, and CommunicationsAppliance converts signals for data or other communications usage.",
+      "parents": [
+        "EnergyConversionDevice"
+      ]
+    },
+    {
+      "name": "Transformer2",
+      "label": "Transformer",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Transformer",
+      "comment": "",
+      "parents": [
+        "EnergyRelated"
+      ]
+    },
+    {
+      "name": "Tube bundle1",
+      "label": "Tube bundle",
+      "uri": "https://saref.etsi.org/saref4bldg/TubeBundle",
+      "comment": "A tube bundle is a device consisting of tubes and bundles of tubes used for heat transfer and contained typically within other energy conversion devices, such as a chiller or coil.",
+      "parents": [
+        "EnergyConversionDevice"
+      ]
+    },
+    {
+      "name": "Tube bundle2",
+      "label": "Tube bundle",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Tube_bundle",
+      "comment": "",
+      "parents": [
+        "Energy_conversion_device"
+      ]
+    },
+    {
+      "name": "Voltage1",
+      "label": "Voltage",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Voltage",
+      "comment": "Voltage in Volts",
+      "parents": [
+        "Property"
+      ]
+    },
+    {
+      "name": "Voltage2",
+      "label": "Voltage",
+      "uri": "https://w3id.org/respond#Voltage",
+      "comment": "The force of an electric current, measured in volts.",
+      "parents": [
+        "Property"
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "name": "active power1",
+      "label": "active power",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/active_power",
+      "comment": "",
+      "parents": [
+        "DatatypeProperty",
+        "topDataProperty"
+      ]
+    },
+    {
+      "name": "active power2",
+      "label": "active power",
+      "uri": "https://smartdatamodels.org/dataModel.Energy/activePower",
+      "comment": "Active power consumed per phase. The unit code (text) is given using the UN/CEFACT Common Codes .",
+      "parents": [
+        "ObjectProperty"
+      ]
+    },
+    {
+      "name": "address1",
+      "label": "address",
+      "uri": "http://schema.org/address",
+      "comment": "To describe the address of a Location",
+      "parents": [
+        "DatatypeProperty",
+        "FunctionalProperty"
+      ]
+    },
+    {
+      "name": "address2",
+      "label": "address",
+      "uri": "https://smartdatamodels.org/address",
+      "comment": "The mailing address .",
+      "parents": [
+        "ObjectProperty"
+      ]
+    },
+    {
+      "name": "description1",
+      "label": "description",
+      "uri": "http://purl.org/dc/terms/description",
+      "comment": "A description of this item",
+      "parents": [
+        "DatatypeProperty"
+      ]
+    },
+    {
+      "name": "description2",
+      "label": "description",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/description",
+      "comment": "",
+      "parents": [
+        "DatatypeProperty"
+      ]
+    },
+    {
+      "name": "flow resistance range1",
+      "label": "flow resistance range",
+      "uri": "https://saref.etsi.org/saref4bldg/flowResistanceMax",
+      "comment": "Allowable range of frictional resistance against which the fluid is being pumped. Usually measured in Pascals (Pa, N/m2).",
+      "parents": [
+        "ObjectProperty"
+      ]
+    },
+    {
+      "name": "flow resistance range2",
+      "label": "flow resistance range",
+      "uri": "https://saref.etsi.org/saref4bldg/flowResistanceMin",
+      "comment": "Allowable range of frictional resistance against which the fluid is being pumped. Usually measured in Pascals (Pa, N/m2).",
+      "parents": [
+        "ObjectProperty"
+      ]
+    },
+    {
+      "name": "fluid flow rate range1",
+      "label": "fluid flow rate range",
+      "uri": "https://saref.etsi.org/saref4bldg/fluidFlowRateMax",
+      "comment": "Possible range of fluid flowrate that can be delivered. Usually measured in m3/s.",
+      "parents": [
+        "ObjectProperty"
+      ]
+    },
+    {
+      "name": "fluid flow rate range2",
+      "label": "fluid flow rate range",
+      "uri": "https://saref.etsi.org/saref4bldg/fluidFlowRateMin",
+      "comment": "Possible range of fluid flowrate that can be delivered. Usually measured in m3/s.",
+      "parents": [
+        "ObjectProperty"
+      ]
+    },
+    {
+      "name": "heating degree days1",
+      "label": "heating degree days",
+      "uri": "http://www.owl-ontologies.com/EPC4EU#heatingDegreeDays",
+      "comment": "",
+      "parents": [
+        "DatatypeProperty"
+      ]
+    },
+    {
+      "name": "heating degree days2",
+      "label": "heating degree days",
+      "uri": "http://www.owl-ontologies.com/EPC4EU#heatingDegreeDays",
+      "comment": "",
+      "parents": [
+        "DatatypeProperty"
+      ]
+    },
+    {
+      "name": "location1",
+      "label": "location",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/location",
+      "comment": "",
+      "parents": [
+        "DatatypeProperty"
+      ]
+    },
+    {
+      "name": "location2",
+      "label": "location",
+      "uri": "https://smartdatamodels.org/dataModel.Energy/location",
+      "comment": "Geojson reference to the item. It can be Point, LineString, Polygon, MultiPoint, MultiLineString or MultiPolygon",
+      "parents": [
+        "DatatypeProperty"
+      ]
+    },
+    {
+      "name": "name1",
+      "label": "name",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/name",
+      "comment": "",
+      "parents": [
+        "ObjectProperty",
+        "topObjectProperty"
+      ]
+    },
+    {
+      "name": "name2",
+      "label": "name",
+      "uri": "https://smartdatamodels.org/name",
+      "comment": "The name of this item",
+      "parents": [
+        "DatatypeProperty"
+      ]
+    },
+    {
+      "name": "nominal efficiency1",
+      "label": "nominal efficiency",
+      "uri": "http://www.owl-ontologies.com/EPC4EU#nominalEfficiency",
+      "comment": "",
+      "parents": [
+        "DatatypeProperty"
+      ]
+    },
+    {
+      "name": "nominal efficiency2",
+      "label": "nominal efficiency",
+      "uri": "https://saref.etsi.org/saref4bldg/nominalEfficiency",
+      "comment": "Nominal chiller efficiency under nominal conditions.",
+      "parents": [
+        "ObjectProperty"
+      ]
+    },
+    {
+      "name": "nominal supply voltage offset1",
+      "label": "nominal supply voltage offset",
+      "uri": "https://saref.etsi.org/saref4bldg/nominalSupplyVoltageMax",
+      "comment": "The maximum and minimum allowed voltage of the supply e.g. boundaries of 380V/440V may be applied for a nominal voltage of 400V.",
+      "parents": [
+        "ObjectProperty"
+      ]
+    },
+    {
+      "name": "nominal supply voltage offset2",
+      "label": "nominal supply voltage offset",
+      "uri": "https://saref.etsi.org/saref4bldg/nominalSupplyVoltageMin",
+      "comment": "The maximum and minimum allowed voltage of the supply e.g. boundaries of 380V/440V may be applied for a nominal voltage of 400V.",
+      "parents": [
+        "ObjectProperty"
+      ]
+    },
+    {
+      "name": "operation temperature range1",
+      "label": "operation temperature range",
+      "uri": "https://saref.etsi.org/saref4bldg/operationTemperatureMax",
+      "comment": "Allowable operation ambient (air, fluid) temperature range. Usually measured in degrees Kelvin (K).",
+      "parents": [
+        "ObjectProperty"
+      ]
+    },
+    {
+      "name": "operation temperature range2",
+      "label": "operation temperature range",
+      "uri": "https://saref.etsi.org/saref4bldg/operationTemperatureMin",
+      "comment": "Allowable operation ambient (air, fluid) temperature range. Usually measured in degrees Kelvin (K).",
+      "parents": [
+        "ObjectProperty"
+      ]
+    },
+    {
+      "name": "outlet temperature range1",
+      "label": "outlet temperature range",
+      "uri": "https://saref.etsi.org/saref4bldg/outletTemperatureMax",
+      "comment": "Allowable outlet temperature of either the water or the steam. Usually measured in degrees Kelvin (K).",
+      "parents": [
+        "ObjectProperty"
+      ]
+    },
+    {
+      "name": "outlet temperature range2",
+      "label": "outlet temperature range",
+      "uri": "https://saref.etsi.org/saref4bldg/outletTemperatureMin",
+      "comment": "Allowable outlet temperature of either the water or the steam. Usually measured in degrees Kelvin (K).",
+      "parents": [
+        "ObjectProperty"
+      ]
+    },
+    {
+      "name": "owner1",
+      "label": "owner",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/owner",
+      "comment": "",
+      "parents": [
+        "DatatypeProperty",
+        "topDataProperty"
+      ]
+    },
+    {
+      "name": "owner2",
+      "label": "owner",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/owner",
+      "comment": "",
+      "parents": [
+        "DatatypeProperty",
+        "topDataProperty"
+      ]
+    },
+    {
+      "name": "primary air flow rate range1",
+      "label": "primary air flow rate range",
+      "uri": "https://saref.etsi.org/saref4bldg/primaryAirFlowRateMax",
+      "comment": "Maximum primary airflow that can be delivered. Usually measured in m3/s.",
+      "parents": [
+        "ObjectProperty"
+      ]
+    },
+    {
+      "name": "primary air flow rate range2",
+      "label": "primary air flow rate range",
+      "uri": "https://saref.etsi.org/saref4bldg/primaryAirFlowRateMin",
+      "comment": "Minimum primary airflow that can be delivered. Usually measured in m3/s.",
+      "parents": [
+        "ObjectProperty"
+      ]
+    },
+    {
+      "name": "primary current1",
+      "label": "primary current",
+      "uri": "https://saref.etsi.org/saref4bldg/primaryCurrent",
+      "comment": "The current that is going to be transformed and that runs into the transformer on the primary side. Usually measured in Ampere (A).",
+      "parents": [
+        "ObjectProperty"
+      ]
+    },
+    {
+      "name": "primary current2",
+      "label": "primary current",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/primary_current",
+      "comment": "",
+      "parents": [
+        "DatatypeProperty"
+      ]
+    },
+    {
+      "name": "primary voltage1",
+      "label": "primary voltage",
+      "uri": "https://saref.etsi.org/saref4bldg/primaryVoltage",
+      "comment": "The voltage that is going to be transformed and that runs into the transformer on the primary side. Usually measured in Volts (V, W/A).",
+      "parents": [
+        "ObjectProperty"
+      ]
+    },
+    {
+      "name": "primary voltage2",
+      "label": "primary voltage",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/primary_voltage",
+      "comment": "",
+      "parents": [
+        "DatatypeProperty"
+      ]
+    },
+    {
+      "name": "pump flow rate range1",
+      "label": "pump flow rate range",
+      "uri": "https://saref.etsi.org/saref4bldg/pumpFlowRateMax",
+      "comment": "Allowable range of volume of fluid being pumped against the resistance specified. Usually measured in kg/s.",
+      "parents": [
+        "ObjectProperty"
+      ]
+    },
+    {
+      "name": "pump flow rate range2",
+      "label": "pump flow rate range",
+      "uri": "https://saref.etsi.org/saref4bldg/pumpFlowRateMin",
+      "comment": "Allowable range of volume of fluid being pumped against the resistance specified. Usually measured in kg/s.",
+      "parents": [
+        "ObjectProperty"
+      ]
+    },
+    {
+      "name": "reactive power1",
+      "label": "reactive power",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/reactive_power",
+      "comment": "",
+      "parents": [
+        "DatatypeProperty",
+        "topDataProperty"
+      ]
+    },
+    {
+      "name": "reactive power2",
+      "label": "reactive power",
+      "uri": "https://smartdatamodels.org/dataModel.Energy/reactivePower",
+      "comment": "Fundamental frequency reactive power. The unit code (text) is given using the UN/CEFACT Common Codes",
+      "parents": [
+        "ObjectProperty"
+      ]
+    },
+    {
+      "name": "secondary air flow rate range1",
+      "label": "secondary air flow rate range",
+      "uri": "https://saref.etsi.org/saref4bldg/secondaryAirFlowRateMax",
+      "comment": "Maximum secondary airflow that can be delivered. Usually measured in Pascals (Pa, N/m2).",
+      "parents": [
+        "ObjectProperty"
+      ]
+    },
+    {
+      "name": "secondary air flow rate range2",
+      "label": "secondary air flow rate range",
+      "uri": "https://saref.etsi.org/saref4bldg/secondaryAirFlowRateMin",
+      "comment": "Maximum secondary airflow that can be delivered. Usually measured in Pascals (Pa, N/m2).",
+      "parents": [
+        "ObjectProperty"
+      ]
+    },
+    {
+      "name": "secondary current1",
+      "label": "secondary current",
+      "uri": "https://saref.etsi.org/saref4bldg/secondaryCurrent",
+      "comment": "The current that has been transformed and is running out of the transformer on the secondary side. Usually measured in Ampere (A).",
+      "parents": [
+        "ObjectProperty"
+      ]
+    },
+    {
+      "name": "secondary current2",
+      "label": "secondary current",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/secondary_current",
+      "comment": "",
+      "parents": [
+        "DatatypeProperty"
+      ]
+    },
+    {
+      "name": "secondary voltage1",
+      "label": "secondary voltage",
+      "uri": "https://saref.etsi.org/saref4bldg/secondaryVoltage",
+      "comment": "The voltage that has been transformed and is running out of the transformer on the secondary side. Usually measured in Volts (V, W/A).",
+      "parents": [
+        "ObjectProperty"
+      ]
+    },
+    {
+      "name": "secondary voltage2",
+      "label": "secondary voltage",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/secondary_voltage",
+      "comment": "",
+      "parents": [
+        "DatatypeProperty"
+      ]
+    },
+    {
+      "name": "source1",
+      "label": "source",
+      "uri": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/source",
+      "comment": "",
+      "parents": [
+        "DatatypeProperty"
+      ]
+    },
+    {
+      "name": "source2",
+      "label": "source",
+      "uri": "https://smartdatamodels.org/source",
+      "comment": "A sequence of characters giving the original source of the entity data as a URL. Recommended to be the fully qualified domain name of the source provider, or the URL to the source object",
+      "parents": [
+        "DatatypeProperty"
+      ]
+    },
+    {
+      "name": "water inlet temperature range1",
+      "label": "water inlet temperature range",
+      "uri": "https://saref.etsi.org/saref4bldg/waterInletTemperatureMax",
+      "comment": "Allowable water inlet temperature range. Usually measured in degrees Kelvin (K).",
+      "parents": [
+        "ObjectProperty"
+      ]
+    },
+    {
+      "name": "water inlet temperature range2",
+      "label": "water inlet temperature range",
+      "uri": "https://saref.etsi.org/saref4bldg/waterInletTemperatureMin",
+      "comment": "Allowable water inlet temperature range. Usually measured in degrees Kelvin (K).",
+      "parents": [
+        "ObjectProperty"
+      ]
+    },
+    {
+      "name": "water pressure range1",
+      "label": "water pressure range",
+      "uri": "https://saref.etsi.org/saref4bldg/waterPressureMax",
+      "comment": "Allowable water circuit working pressure range. Usually measured in Pascals (Pa, N/m2).",
+      "parents": [
+        "ObjectProperty"
+      ]
+    },
+    {
+      "name": "water pressure range2",
+      "label": "water pressure range",
+      "uri": "https://saref.etsi.org/saref4bldg/waterPressureMin",
+      "comment": "Allowable water circuit working pressure range. Usually measured in Pascals (Pa, N/m2).",
+      "parents": [
+        "ObjectProperty"
+      ]
+    }
+  ],
+  "_path_hint": "D:\\RWTH\\Github\\sta-multi-llm-framework\\data\\ontology\\ambiguous_mapping.json"
+}

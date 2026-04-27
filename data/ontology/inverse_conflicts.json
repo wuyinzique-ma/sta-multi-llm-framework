@@ -1,0 +1,425 @@
+{
+  "pairs": [
+    [
+      "Lower",
+      "Upper"
+    ],
+    [
+      "Relation linking Equipment and its Equipment Parameter",
+      "isEquipmentParameterOf"
+    ],
+    [
+      "Relation linking Weather or Energy to its forecast",
+      "isForecastOf"
+    ],
+    [
+      "The result of an observation",
+      "isObservationResultOf"
+    ],
+    [
+      "accomplishes",
+      "is accomplished by"
+    ],
+    [
+      "actsTo",
+      "isActedBy"
+    ],
+    [
+      "attendee",
+      "attendeeOf"
+    ],
+    [
+      "composes",
+      "isComposedBy"
+    ],
+    [
+      "consumesEnergy",
+      "energyConsumedBy"
+    ],
+    [
+      "consumesEnergyType",
+      "energyTypeConsumedBy"
+    ],
+    [
+      "contains",
+      "is contained in"
+    ],
+    [
+      "contains",
+      "isIn"
+    ],
+    [
+      "containsAssumption",
+      "isAssumptionOf"
+    ],
+    [
+      "containsConstant",
+      "isConstantOf"
+    ],
+    [
+      "containsEquation",
+      "isEquationOf"
+    ],
+    [
+      "containsU-value",
+      "isU-valueOf"
+    ],
+    [
+      "containsVariable",
+      "isVariableOf"
+    ],
+    [
+      "deliversEnergy",
+      "energyDeliveredBy"
+    ],
+    [
+      "deliversEnergyType",
+      "energyTypeDeliveredBy"
+    ],
+    [
+      "energyProducedBy",
+      "producesEnergy"
+    ],
+    [
+      "energyStoredBy",
+      "storesEnergy"
+    ],
+    [
+      "energyTypeProducedBy",
+      "producesEnergyType"
+    ],
+    [
+      "energyTypeStoredBy",
+      "storesEnergyType"
+    ],
+    [
+      "event",
+      "eventOf"
+    ],
+    [
+      "experiences",
+      "isExperiencedBy"
+    ],
+    [
+      "featureOfInterest",
+      "isFeatureOfInterestOf"
+    ],
+    [
+      "geo",
+      "geoPointOf"
+    ],
+    [
+      "has command",
+      "is command of"
+    ],
+    [
+      "has next",
+      "has previous"
+    ],
+    [
+      "has ordered list",
+      "has slot"
+    ],
+    [
+      "has space",
+      "isSpaceOf"
+    ],
+    [
+      "hasAirConditionedVolume",
+      "isAirConditionedVolumeOf"
+    ],
+    [
+      "hasArea",
+      "isAreaOf"
+    ],
+    [
+      "hasAssociatedKPI",
+      "isAssociatedKPIOf"
+    ],
+    [
+      "hasAssociatedObject",
+      "isAssociatedObjectOf"
+    ],
+    [
+      "hasAssociatedZone",
+      "isAssociatedZoneOf"
+    ],
+    [
+      "hasBeginning",
+      "isBeginningOf"
+    ],
+    [
+      "hasBehavior",
+      "isBehaviorOf"
+    ],
+    [
+      "hasBuildingType",
+      "isBuildingTypeOf"
+    ],
+    [
+      "hasCalculation",
+      "isCalculationOf"
+    ],
+    [
+      "hasCalculationComponent",
+      "isCalculationComponentOf"
+    ],
+    [
+      "hasCalculationModel",
+      "isCalculationModelOf"
+    ],
+    [
+      "hasDeterminant",
+      "isDeterminantOf"
+    ],
+    [
+      "hasDirection",
+      "isDirectionOf"
+    ],
+    [
+      "hasDisaggregation",
+      "isDisaggregationOf"
+    ],
+    [
+      "hasEnd",
+      "isEndOf"
+    ],
+    [
+      "hasEquipmentType",
+      "isEquipmentTypeOf"
+    ],
+    [
+      "hasEvaluationTimeStep",
+      "isEvaluationTimeStepOf"
+    ],
+    [
+      "hasExteriorWall",
+      "isExteriorWallOf"
+    ],
+    [
+      "hasExteriorWindow",
+      "isExteriorWindowOf"
+    ],
+    [
+      "hasFloor",
+      "isFloorOf"
+    ],
+    [
+      "hasInfluenceOn",
+      "isInfluencedBy"
+    ],
+    [
+      "hasInput",
+      "isInputOf"
+    ],
+    [
+      "hasLocation",
+      "isLocationOf"
+    ],
+    [
+      "hasMathematicalModel",
+      "isMathematicalModelOf"
+    ],
+    [
+      "hasOccupant",
+      "isOccupantOf"
+    ],
+    [
+      "hasOccupantParameter",
+      "isOccupancyParameterOf"
+    ],
+    [
+      "hasOutput",
+      "isOutputOf"
+    ],
+    [
+      "hasPerformanceGoal",
+      "isPerformanceGoalOf"
+    ],
+    [
+      "hasPhotovoltaicType",
+      "isPhotovoltaicTypeOf"
+    ],
+    [
+      "hasProperty",
+      "isPropertyOf"
+    ],
+    [
+      "hasRoof",
+      "isRoofOf"
+    ],
+    [
+      "hasSchedule",
+      "isScheduleOf"
+    ],
+    [
+      "hasSpeed",
+      "isSpeedOf"
+    ],
+    [
+      "hasUnit",
+      "isUnitOf"
+    ],
+    [
+      "is offered by",
+      "offers"
+    ],
+    [
+      "isObservationSamplingTimeOf",
+      "observationSamplingTime"
+    ],
+    [
+      "isObservedPropertyOf",
+      "observedProperty"
+    ],
+    [
+      "isProvidedBy",
+      "providesTo"
+    ],
+    [
+      "isSuppliedBy",
+      "suppliesTo"
+    ]
+  ],
+  "inverse_map": {
+    "accomplishes": "is accomplished by",
+    "actsTo": "isActedBy",
+    "attendee": "attendeeOf",
+    "attendeeOf": "attendee",
+    "composes": "isComposedBy",
+    "consumesEnergy": "energyConsumedBy",
+    "consumesEnergyType": "energyTypeConsumedBy",
+    "contains": "isIn",
+    "containsAssumption": "isAssumptionOf",
+    "containsConstant": "isConstantOf",
+    "containsEquation": "isEquationOf",
+    "containsU-value": "isU-valueOf",
+    "containsVariable": "isVariableOf",
+    "deliversEnergy": "energyDeliveredBy",
+    "deliversEnergyType": "energyTypeDeliveredBy",
+    "energyConsumedBy": "consumesEnergy",
+    "energyDeliveredBy": "deliversEnergy",
+    "energyProducedBy": "producesEnergy",
+    "energyStoredBy": "storesEnergy",
+    "energyTypeConsumedBy": "consumesEnergyType",
+    "energyTypeDeliveredBy": "deliversEnergyType",
+    "energyTypeProducedBy": "producesEnergyType",
+    "energyTypeStoredBy": "storesEnergyType",
+    "event": "eventOf",
+    "eventOf": "event",
+    "experiences": "isExperiencedBy",
+    "featureOfInterest": "isFeatureOfInterestOf",
+    "geo": "geoPointOf",
+    "geoPointOf": "geo",
+    "has command": "is command of",
+    "has next": "has previous",
+    "has ordered list": "has slot",
+    "has previous": "has next",
+    "has slot": "has ordered list",
+    "has space": "isSpaceOf",
+    "hasAirConditionedVolume": "isAirConditionedVolumeOf",
+    "hasArea": "isAreaOf",
+    "hasAssociatedKPI": "isAssociatedKPIOf",
+    "hasAssociatedObject": "isAssociatedObjectOf",
+    "hasAssociatedZone": "isAssociatedZoneOf",
+    "hasBeginning": "isBeginningOf",
+    "hasBehavior": "isBehaviorOf",
+    "hasBuildingType": "isBuildingTypeOf",
+    "hasCalculation": "isCalculationOf",
+    "hasCalculationComponent": "isCalculationComponentOf",
+    "hasCalculationModel": "isCalculationModelOf",
+    "hasDeterminant": "isDeterminantOf",
+    "hasDirection": "isDirectionOf",
+    "hasDisaggregation": "isDisaggregationOf",
+    "hasEnd": "isEndOf",
+    "hasEquipmentType": "isEquipmentTypeOf",
+    "hasEvaluationTimeStep": "isEvaluationTimeStepOf",
+    "hasExteriorWall": "isExteriorWallOf",
+    "hasExteriorWindow": "isExteriorWindowOf",
+    "hasFloor": "isFloorOf",
+    "hasInfluenceOn": "isInfluencedBy",
+    "hasInput": "isInputOf",
+    "hasLocation": "isLocationOf",
+    "hasMathematicalModel": "isMathematicalModelOf",
+    "hasOccupant": "isOccupantOf",
+    "hasOccupantParameter": "isOccupancyParameterOf",
+    "hasOutput": "isOutputOf",
+    "hasPerformanceGoal": "isPerformanceGoalOf",
+    "hasPhotovoltaicType": "isPhotovoltaicTypeOf",
+    "hasProperty": "isPropertyOf",
+    "hasRoof": "isRoofOf",
+    "hasSchedule": "isScheduleOf",
+    "hasSpeed": "isSpeedOf",
+    "hasUnit": "isUnitOf",
+    "is accomplished by": "accomplishes",
+    "is command of": "has command",
+    "is contained in": "contains",
+    "is offered by": "offers",
+    "isActedBy": "actsTo",
+    "isAirConditionedVolumeOf": "hasAirConditionedVolume",
+    "isAreaOf": "hasArea",
+    "isAssociatedKPIOf": "hasAssociatedKPI",
+    "isAssociatedObjectOf": "hasAssociatedObject",
+    "isAssociatedZoneOf": "hasAssociatedZone",
+    "isAssumptionOf": "containsAssumption",
+    "isBeginningOf": "hasBeginning",
+    "isBehaviorOf": "hasBehavior",
+    "isBuildingTypeOf": "hasBuildingType",
+    "isCalculationComponentOf": "hasCalculationComponent",
+    "isCalculationModelOf": "hasCalculationModel",
+    "isCalculationOf": "hasCalculation",
+    "isComposedBy": "composes",
+    "isConstantOf": "containsConstant",
+    "isDeterminantOf": "hasDeterminant",
+    "isDirectionOf": "hasDirection",
+    "isDisaggregationOf": "hasDisaggregation",
+    "isEndOf": "hasEnd",
+    "isEquationOf": "containsEquation",
+    "isEquipmentParameterOf": "Relation linking Equipment and its Equipment Parameter",
+    "isEquipmentTypeOf": "hasEquipmentType",
+    "isEvaluationTimeStepOf": "hasEvaluationTimeStep",
+    "isExperiencedBy": "experiences",
+    "isExteriorWallOf": "hasExteriorWall",
+    "isExteriorWindowOf": "hasExteriorWindow",
+    "isFeatureOfInterestOf": "featureOfInterest",
+    "isFloorOf": "hasFloor",
+    "isForecastOf": "Relation linking Weather or Energy to its forecast",
+    "isIn": "contains",
+    "isInfluencedBy": "hasInfluenceOn",
+    "isInputOf": "hasInput",
+    "isLocationOf": "hasLocation",
+    "isMathematicalModelOf": "hasMathematicalModel",
+    "isObservationResultOf": "The result of an observation",
+    "isObservationSamplingTimeOf": "observationSamplingTime",
+    "isObservedPropertyOf": "observedProperty",
+    "isOccupancyParameterOf": "hasOccupantParameter",
+    "isOccupantOf": "hasOccupant",
+    "isOutputOf": "hasOutput",
+    "isPerformanceGoalOf": "hasPerformanceGoal",
+    "isPhotovoltaicTypeOf": "hasPhotovoltaicType",
+    "isPropertyOf": "hasProperty",
+    "isProvidedBy": "providesTo",
+    "isRoofOf": "hasRoof",
+    "isScheduleOf": "hasSchedule",
+    "isSpaceOf": "has space",
+    "isSpeedOf": "hasSpeed",
+    "isSuppliedBy": "suppliesTo",
+    "isU-valueOf": "containsU-value",
+    "isUnitOf": "hasUnit",
+    "isVariableOf": "containsVariable",
+    "Lower": "Upper",
+    "observationSamplingTime": "isObservationSamplingTimeOf",
+    "observedProperty": "isObservedPropertyOf",
+    "offers": "is offered by",
+    "producesEnergy": "energyProducedBy",
+    "producesEnergyType": "energyTypeProducedBy",
+    "providesTo": "isProvidedBy",
+    "Relation linking Equipment and its Equipment Parameter": "isEquipmentParameterOf",
+    "Relation linking Weather or Energy to its forecast": "isForecastOf",
+    "storesEnergy": "energyStoredBy",
+    "storesEnergyType": "energyTypeStoredBy",
+    "suppliesTo": "isSuppliedBy",
+    "The result of an observation": "isObservationResultOf",
+    "Upper": "Lower"
+  }
+}

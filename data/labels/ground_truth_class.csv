@@ -1,0 +1,5 @@
+﻿table_id,table_name,column_id,column_name,correct_classification1,correct_classification2,correct_classification3,class1_level1,class1_level2,class2_level1,class2_level2,class3_level1,class3_level2
+1.csv,School_building_data,0,Month,Property/Time,TemporalEntity/Interval,-,Property,Time,TemporalEntity,Interval,-,-
+1.csv,School_building_data,1,Usage [kWh],Property/Energy/Energy Consumption,-,-,Property,Energy,-,-,-,-
+1.csv,School_building_data,2,Cost (net in PLN),ObservationProperty/EnergyParameter/EnergyCost,-,-,ObservationProperty,EnergyParameter,-,-,-,-
+1.csv,School_building_data,3,Cost (gross in PLN),ObservationProperty/EnergyParameter/EnergyCost,-,-,ObservationProperty,EnergyParameter,-,-,-,-

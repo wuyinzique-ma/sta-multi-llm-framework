@@ -1,0 +1,3918 @@
+{
+  "classes": {
+    "Assumption": [
+      "http://energy.linkeddata.es/em-kpi/ontology#Assumption"
+    ],
+    "Battery": [
+      "http://energy.linkeddata.es/em-kpi/ontology#Battery"
+    ],
+    "BuildingEquipment": [
+      "http://energy.linkeddata.es/em-kpi/ontology#BuildingEquipment"
+    ],
+    "BuildingType": [
+      "http://energy.linkeddata.es/em-kpi/ontology#BuildingType"
+    ],
+    "CO2Concentration": [
+      "http://energy.linkeddata.es/em-kpi/ontology#CO2Concentration"
+    ],
+    "DHWSystem": [
+      "http://energy.linkeddata.es/em-kpi/ontology#DHWSystem"
+    ],
+    "DatumSource": [
+      "http://energy.linkeddata.es/em-kpi/ontology#DatumSource"
+    ],
+    "DistributedEnergyResources": [
+      "http://energy.linkeddata.es/em-kpi/ontology#DistributedEnergyResource"
+    ],
+    "District": [
+      "http://energy.linkeddata.es/em-kpi/ontology#District"
+    ],
+    "Duct": [
+      "http://energy.linkeddata.es/em-kpi/ontology#Duct"
+    ],
+    "ElectricVehicle": [
+      "http://energy.linkeddata.es/em-kpi/ontology#ElectricVehicle"
+    ],
+    "EnergyConsumer": [
+      "http://energy.linkeddata.es/em-kpi/ontology#EnergyConsumer"
+    ],
+    "EnergyDemandForecast": [
+      "http://energy.linkeddata.es/em-kpi/ontology#EnergyDemandForecast"
+    ],
+    "EnergyForecast": [
+      "http://energy.linkeddata.es/em-kpi/ontology#EnergyForecast"
+    ],
+    "EnergyProduction": [
+      "http://energy.linkeddata.es/em-kpi/ontology#EnergyProduction"
+    ],
+    "EnergyProductionForecast": [
+      "http://energy.linkeddata.es/em-kpi/ontology#EnergyProductionForecast"
+    ],
+    "EnergyStorage": [
+      "http://energy.linkeddata.es/em-kpi/ontology#EnergyStorage"
+    ],
+    "EnergySupplyFromEnergyProvider": [
+      "http://energy.linkeddata.es/em-kpi/ontology#EnergySupplyFromExternalGrid"
+    ],
+    "EnergySupplyFromSiteProduction": [
+      "http://energy.linkeddata.es/em-kpi/ontology#EnergySupplyFromSiteProduction"
+    ],
+    "EnergySupplyFromStorage": [
+      "http://energy.linkeddata.es/em-kpi/ontology#EnergySupplyFromStorage"
+    ],
+    "EntityType": [
+      "http://energy.linkeddata.es/em-kpi/ontology#EntityType"
+    ],
+    "Equation": [
+      "http://energy.linkeddata.es/em-kpi/ontology#Equation"
+    ],
+    "EquipmentContainer": [
+      "http://energy.linkeddata.es/em-kpi/ontology#EquipmentContainer"
+    ],
+    "EquipmentType": [
+      "http://energy.linkeddata.es/em-kpi/ontology#EquipmentType"
+    ],
+    "ExteriorWall": [
+      "http://energy.linkeddata.es/em-kpi/ontology#ExtWall"
+    ],
+    "ExteriorWindow": [
+      "http://energy.linkeddata.es/em-kpi/ontology#ExtWindow"
+    ],
+    "Fan": [
+      "http://energy.linkeddata.es/em-kpi/ontology#Fan",
+      "https://saref.etsi.org/saref4bldg/Fan",
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Fan"
+    ],
+    "FeedInTariff": [
+      "http://energy.linkeddata.es/em-kpi/ontology#FeedInTariff"
+    ],
+    "GeneratingUnit": [
+      "http://energy.linkeddata.es/em-kpi/ontology#GeneratingUnit"
+    ],
+    "GlobalHorizontalSolar": [
+      "http://energy.linkeddata.es/em-kpi/ontology#GlobalHorizontalSolarIrradiance"
+    ],
+    "GlobalInclined41Solar": [
+      "http://energy.linkeddata.es/em-kpi/ontology#GlobalInclined41SolarIrradiance"
+    ],
+    "HVACSystem": [
+      "http://energy.linkeddata.es/em-kpi/ontology#HVACSystem"
+    ],
+    "IndoorComfort": [
+      "http://energy.linkeddata.es/em-kpi/ontology#IndoorComfort"
+    ],
+    "IndoorHumidity": [
+      "http://energy.linkeddata.es/em-kpi/ontology#IndoorHumidity"
+    ],
+    "IndoorTemperature": [
+      "http://energy.linkeddata.es/em-kpi/ontology#IndoorTemperature"
+    ],
+    "KeyPerformanceIndicator": [
+      "http://energy.linkeddata.es/em-kpi/ontology#KPI"
+    ],
+    "KPICalculation": [
+      "http://energy.linkeddata.es/em-kpi/ontology#KPICalculation"
+    ],
+    "KPICalculationComponent": [
+      "http://energy.linkeddata.es/em-kpi/ontology#KPICalculationComponent"
+    ],
+    "KPIEvaluatedObject": [
+      "http://energy.linkeddata.es/em-kpi/ontology#KPIEvaluatedObject"
+    ],
+    "KPIValue": [
+      "http://energy.linkeddata.es/em-kpi/ontology#KPIValue"
+    ],
+    "Non-renewableGeneratingUnit": [
+      "http://energy.linkeddata.es/em-kpi/ontology#Non-renewableGeneratingUnit"
+    ],
+    "Occupant": [
+      "http://energy.linkeddata.es/em-kpi/ontology#Occupant"
+    ],
+    "OccupantBehavior": [
+      "http://energy.linkeddata.es/em-kpi/ontology#OccupantBehavior"
+    ],
+    "OccupantNumber": [
+      "http://energy.linkeddata.es/em-kpi/ontology#OccupantNumber"
+    ],
+    "OperationalKPI": [
+      "http://energy.linkeddata.es/em-kpi/ontology#OperationalKPI"
+    ],
+    "PVSystem": [
+      "http://energy.linkeddata.es/em-kpi/ontology#PVSystem"
+    ],
+    "PerformanceGoal": [
+      "http://energy.linkeddata.es/em-kpi/ontology#PerformanceGoal"
+    ],
+    "PhotovoltaicGeneratingUnit": [
+      "http://energy.linkeddata.es/em-kpi/ontology#PhotovoltaicGeneratingUnit"
+    ],
+    "PhotovoltaicType": [
+      "http://energy.linkeddata.es/em-kpi/ontology#PhotovoltaicType"
+    ],
+    "Pipe": [
+      "http://energy.linkeddata.es/em-kpi/ontology#Pipe"
+    ],
+    "PowerDeliveryUnit": [
+      "http://energy.linkeddata.es/em-kpi/ontology#PowerDeliveryUnit"
+    ],
+    "PowerEquipment": [
+      "http://energy.linkeddata.es/em-kpi/ontology#PowerEquipment"
+    ],
+    "PowerSystemResource": [
+      "http://energy.linkeddata.es/em-kpi/ontology#PowerSystemResource"
+    ],
+    "Pump": [
+      "http://energy.linkeddata.es/em-kpi/ontology#Pump",
+      "https://saref.etsi.org/saref4bldg/Pump",
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Pump"
+    ],
+    "RenewableGeneratingUnit": [
+      "http://energy.linkeddata.es/em-kpi/ontology#RenewableGeneratingUnit"
+    ],
+    "Roof": [
+      "http://energy.linkeddata.es/em-kpi/ontology#Roof"
+    ],
+    "Stakeholder": [
+      "http://energy.linkeddata.es/em-kpi/ontology#Stakeholder"
+    ],
+    "StoringUnit": [
+      "http://energy.linkeddata.es/em-kpi/ontology#StoringUnit"
+    ],
+    "StrategicKPI": [
+      "http://energy.linkeddata.es/em-kpi/ontology#StrategicKPI"
+    ],
+    "Substation": [
+      "http://energy.linkeddata.es/em-kpi/ontology#Substation"
+    ],
+    "TacticalKPI": [
+      "http://energy.linkeddata.es/em-kpi/ontology#TacticalKPI"
+    ],
+    "ThermalComfort": [
+      "http://energy.linkeddata.es/em-kpi/ontology#ThermalComfort"
+    ],
+    "UniversalConstant": [
+      "http://energy.linkeddata.es/em-kpi/ontology#UniversalConstant"
+    ],
+    "VisualComfort": [
+      "http://energy.linkeddata.es/em-kpi/ontology#VisualComfort"
+    ],
+    "WeatherForecast": [
+      "http://energy.linkeddata.es/em-kpi/ontology#WeatherForecast"
+    ],
+    "WindDirection": [
+      "http://energy.linkeddata.es/em-kpi/ontology#WindDirection"
+    ],
+    "WindGeneratingUnit": [
+      "http://energy.linkeddata.es/em-kpi/ontology#WindGeneratingUnit"
+    ],
+    "WindPowerSystem": [
+      "http://energy.linkeddata.es/em-kpi/ontology#WindPowerSystem"
+    ],
+    "WindSpeed": [
+      "http://energy.linkeddata.es/em-kpi/ontology#WindSpeed"
+    ],
+    "WorkstationLighting": [
+      "http://energy.linkeddata.es/em-kpi/ontology#WorkstationLighting"
+    ],
+    "Dependent_variable": [
+      "http://identifiers.org/mamo/Dependent_variable"
+    ],
+    "Independent_variable": [
+      "http://identifiers.org/mamo/Independent_variable"
+    ],
+    "Mathematical_model": [
+      "http://identifiers.org/mamo/Mathematical_model"
+    ],
+    "Variable": [
+      "http://identifiers.org/mamo/Variable"
+    ],
+    "FeatureOfInterest": [
+      "http://purl.oclc.org/NET/ssnx/ssn#FeatureOfInterest",
+      "https://w3id.org/seas/FeatureOfInterest"
+    ],
+    "Observation": [
+      "http://purl.oclc.org/NET/ssnx/ssn#Observation",
+      "http://www.w3.org/ns/sosa/Observation"
+    ],
+    "ObservationValue": [
+      "http://purl.oclc.org/NET/ssnx/ssn#ObservationValue"
+    ],
+    "ObservationProperty": [
+      "http://purl.oclc.org/NET/ssnx/ssn#Property"
+    ],
+    "Location": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "Energy": [
+      "http://purl.org/iot/vocab/m3-lite#Energy"
+    ],
+    "Power": [
+      "http://purl.org/iot/vocab/m3-lite#Power",
+      "https://w3id.org/saref#Power"
+    ],
+    "Ordered List": [
+      "http://purl.org/ontology/olo/core#OrderedList"
+    ],
+    "Slot": [
+      "http://purl.org/ontology/olo/core#Slot"
+    ],
+    "Vocabulary": [
+      "http://purl.org/vocommons/voaf#Vocabulary"
+    ],
+    "Unit": [
+      "http://qudt.org/schema/qudt/Unit"
+    ],
+    "Event": [
+      "http://schema.org/Event",
+      "https://w3id.org/sbeo#Event"
+    ],
+    "PhysicalObject": [
+      "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject",
+      "https://saref.etsi.org/saref4bldg/PhysicalObject"
+    ],
+    "Certificate": [
+      "http://www.owl-ontologies.com/EPC4EU#Certificate"
+    ],
+    "Certifier": [
+      "http://www.owl-ontologies.com/EPC4EU#Certifier"
+    ],
+    "Energy Conversion System": [
+      "http://www.owl-ontologies.com/EPC4EU#EnergyConversionSystem"
+    ],
+    "Energy System": [
+      "http://www.owl-ontologies.com/EPC4EU#EnergySystem"
+    ],
+    "Thing": [
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "GeographicalCoordinatesPoint": [
+      "http://www.w3.org/2003/01/geo/wgs84_pos#Point"
+    ],
+    "Instant": [
+      "http://www.w3.org/2006/time#Instant"
+    ],
+    "Interval": [
+      "http://www.w3.org/2006/time#Interval"
+    ],
+    "TemporalEntity": [
+      "http://www.w3.org/2006/time#TemporalEntity"
+    ],
+    "Observable Property": [
+      "http://www.w3.org/ns/sosa/ObservableProperty"
+    ],
+    "Compound_unit": [
+      "http://www.wurvoc.org/vocabularies/om-1.8/Compound_unit"
+    ],
+    "Singular_unit": [
+      "http://www.wurvoc.org/vocabularies/om-1.8/Singular_unit"
+    ],
+    "Unit_division": [
+      "http://www.wurvoc.org/vocabularies/om-1.8/Unit_division"
+    ],
+    "Unit_exponentiation": [
+      "http://www.wurvoc.org/vocabularies/om-1.8/Unit_exponentiation"
+    ],
+    "Unit_multiplication": [
+      "http://www.wurvoc.org/vocabularies/om-1.8/Unit_multiplication"
+    ],
+    "Unit_of_measure": [
+      "http://www.wurvoc.org/vocabularies/om-1.8/Unit_of_measure",
+      "https://saref.etsi.org/core/UnitOfMeasure"
+    ],
+    "Person": [
+      "http://xmlns.com/foaf/0.1/Person"
+    ],
+    "Actuator": [
+      "https://saref.etsi.org/core/Actuator",
+      "https://saref.etsi.org/saref4bldg/Actuator",
+      "https://w3id.org/saref#Actuator"
+    ],
+    "Device": [
+      "https://saref.etsi.org/core/Device",
+      "https://w3id.org/saref#Device",
+      "https://w3id.org/sbeo#Device"
+    ],
+    "Measurement": [
+      "https://saref.etsi.org/core/Measurement",
+      "https://w3id.org/saref#Measurement"
+    ],
+    "Property": [
+      "https://saref.etsi.org/core/Property",
+      "https://w3id.org/saref#Property",
+      "https://w3id.org/seas/Property"
+    ],
+    "Air to air heat recovery": [
+      "https://saref.etsi.org/saref4bldg/AirToAirHeatRecovery",
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Air_to_air_heat_recovery"
+    ],
+    "Building device": [
+      "https://saref.etsi.org/saref4bldg/BuildingDevice"
+    ],
+    "Building object": [
+      "https://saref.etsi.org/saref4bldg/BuildingObject"
+    ],
+    "Building space": [
+      "https://saref.etsi.org/saref4bldg/BuildingSpace",
+      "https://w3id.org/seas/BuildingSpace"
+    ],
+    "Communication appliance": [
+      "https://saref.etsi.org/saref4bldg/CommunicationAppliance"
+    ],
+    "Condenser": [
+      "https://saref.etsi.org/saref4bldg/Condenser"
+    ],
+    "Cooled beam": [
+      "https://saref.etsi.org/saref4bldg/CooledBeam"
+    ],
+    "Cooling tower": [
+      "https://saref.etsi.org/saref4bldg/CoolingTower"
+    ],
+    "Distribution control device": [
+      "https://saref.etsi.org/saref4bldg/DistributionControlDevice"
+    ],
+    "Distribution device": [
+      "https://saref.etsi.org/saref4bldg/DistributionDevice"
+    ],
+    "DistributionFlowDevice": [
+      "https://saref.etsi.org/saref4bldg/DistributionFlowDevice"
+    ],
+    "Duct silencer": [
+      "https://saref.etsi.org/saref4bldg/DuctSilencer"
+    ],
+    "Electric appliance": [
+      "https://saref.etsi.org/saref4bldg/ElectricAppliance"
+    ],
+    "Electric flow storage device": [
+      "https://saref.etsi.org/saref4bldg/ElectricFlowStorageDevice"
+    ],
+    "Electric generator": [
+      "https://saref.etsi.org/saref4bldg/ElectricGenerator"
+    ],
+    "Electric motor": [
+      "https://saref.etsi.org/saref4bldg/ElectricMotor"
+    ],
+    "Electric time control": [
+      "https://saref.etsi.org/saref4bldg/ElectricTimeControl"
+    ],
+    "Energy conversion device": [
+      "https://saref.etsi.org/saref4bldg/EnergyConversionDevice",
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Energy_conversion_device"
+    ],
+    "Engine": [
+      "https://saref.etsi.org/saref4bldg/Engine"
+    ],
+    "Evaporative cooler": [
+      "https://saref.etsi.org/saref4bldg/EvaporativeCooler"
+    ],
+    "Evaporator": [
+      "https://saref.etsi.org/saref4bldg/Evaporator"
+    ],
+    "Fire suppression terminal": [
+      "https://saref.etsi.org/saref4bldg/FireSuppressionTerminal"
+    ],
+    "Flow instrument": [
+      "https://saref.etsi.org/saref4bldg/FlowInstrument"
+    ],
+    "Flow treatment device": [
+      "https://saref.etsi.org/saref4bldg/FlowTreatmentDevice"
+    ],
+    "Heat exchanger": [
+      "https://saref.etsi.org/saref4bldg/HeatExchanger"
+    ],
+    "Medical device": [
+      "https://saref.etsi.org/saref4bldg/MedicalDevice"
+    ],
+    "Outlet": [
+      "https://saref.etsi.org/saref4bldg/Outlet"
+    ],
+    "Protective device": [
+      "https://saref.etsi.org/saref4bldg/ProtectiveDevice"
+    ],
+    "Protective device tripping unit": [
+      "https://saref.etsi.org/saref4bldg/ProtectiveDeviceTrippingUnit"
+    ],
+    "Sanitary terminal": [
+      "https://saref.etsi.org/saref4bldg/SanitaryTerminal"
+    ],
+    "Shading device": [
+      "https://saref.etsi.org/saref4bldg/ShadingDevice"
+    ],
+    "Solar device": [
+      "https://saref.etsi.org/saref4bldg/SolarDevice"
+    ],
+    "Transport element": [
+      "https://saref.etsi.org/saref4bldg/TransportElement"
+    ],
+    "Unitary control element": [
+      "https://saref.etsi.org/saref4bldg/UnitaryControlElement"
+    ],
+    "Valve": [
+      "https://saref.etsi.org/saref4bldg/Valve"
+    ],
+    "Vibration isolator": [
+      "https://saref.etsi.org/saref4bldg/VibrationIsolator"
+    ],
+    "AC-DC": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/AC-DC"
+    ],
+    "Air flow sensor": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Air_flow_sensor"
+    ],
+    "Angle": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Angle"
+    ],
+    "Battery storage": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Battery_storage"
+    ],
+    "Building related": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/BuildingRelated"
+    ],
+    "CO2 level": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/CO2_level"
+    ],
+    "CT-VT": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/CT-VT"
+    ],
+    "Channel": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Channel"
+    ],
+    "Communiction appliance": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Communication_appliance"
+    ],
+    "Control device": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/ControlDevice"
+    ],
+    "Convertor": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Convertor"
+    ],
+    "DC-DC": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/DC-DC"
+    ],
+    "Electricity sensor": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Electricity_sensor"
+    ],
+    "Electronic flow storage device": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Electronic_flow_storage_device"
+    ],
+    "Electronic time control": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Electronic_time_control"
+    ],
+    "Floor": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Floor",
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Floor"
+    ],
+    "Flow": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow"
+    ],
+    "Flow device": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_device"
+    ],
+    "Flow Terminal Device": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_terminal_device"
+    ],
+    "Frequency": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Frequency"
+    ],
+    "HP": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/HP"
+    ],
+    "HV-DC": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/HV-DC"
+    ],
+    "Maqnititute": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Maqnitute"
+    ],
+    "PID": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/PID"
+    ],
+    "PMU": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/PMU"
+    ],
+    "PV": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/PV"
+    ],
+    "Power meter": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Power_meter"
+    ],
+    "RVK": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/RVK"
+    ],
+    "Rocf": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Rocf"
+    ],
+    "State of charge": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/State_of_charge"
+    ],
+    "Tap position": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Tap_position"
+    ],
+    "Tenant": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Tenant"
+    ],
+    "Timestamp": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Timestamp"
+    ],
+    "Volume": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Volume",
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/gbBuildingOntology.owl#Volume"
+    ],
+    "WPP": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/WPP"
+    ],
+    "Water flow sensor": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Water_flow_sensor"
+    ],
+    "Zone": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Zone",
+      "https://w3id.org/bot#Zone",
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/gbBuildingOntology.owl#Zone"
+    ],
+    "AC Meausrement": [
+      "https://smartdatamodels.org/dataModel.Energy/ACMeausrement"
+    ],
+    "EV Charging Station": [
+      "https://smartdatamodels.org/dataModel.Transportation/EVChargingStation"
+    ],
+    "Element": [
+      "https://w3id.org/bot#Element"
+    ],
+    "Space": [
+      "https://w3id.org/bot#Space",
+      "https://w3id.org/sbeo#Space"
+    ],
+    "AC Frequency": [
+      "https://w3id.org/respond#ACFrequency"
+    ],
+    "Air Conditioner": [
+      "https://w3id.org/respond#AirConditioner"
+    ],
+    "Common Area": [
+      "https://w3id.org/respond#CommonArea"
+    ],
+    "Day Type": [
+      "https://w3id.org/respond#DayType"
+    ],
+    "Dishwasher": [
+      "https://w3id.org/respond#Dishwasher"
+    ],
+    "Domestic Cold Water Consumption": [
+      "https://w3id.org/respond#DomesticColdWaterConsumption"
+    ],
+    "Domestic Hot Water Consumption": [
+      "https://w3id.org/respond#DomesticHotWaterConsumption"
+    ],
+    "Dwelling": [
+      "https://w3id.org/respond#Dwelling"
+    ],
+    "Energy Consumption": [
+      "https://w3id.org/respond#EnergyConsumption"
+    ],
+    "Energy Production": [
+      "https://w3id.org/respond#EnergyProduction"
+    ],
+    "Gas Consumption": [
+      "https://w3id.org/respond#GasConsumption"
+    ],
+    "Gateway": [
+      "https://w3id.org/respond#Gateway"
+    ],
+    "Heat Consumption": [
+      "https://w3id.org/respond#HeatConsumption"
+    ],
+    "Heat Pump": [
+      "https://w3id.org/respond#HeatPump"
+    ],
+    "Heating Device": [
+      "https://w3id.org/respond#HeatingDevice"
+    ],
+    "IT": [
+      "https://w3id.org/respond#IT"
+    ],
+    "Icon": [
+      "https://w3id.org/respond#Icon"
+    ],
+    "Laptop": [
+      "https://w3id.org/respond#Laptop"
+    ],
+    "Network Link Strength": [
+      "https://w3id.org/respond#NetworkLinkStrength"
+    ],
+    "On Off": [
+      "https://w3id.org/respond#OnOffProperty"
+    ],
+    "Photovoltaic System": [
+      "https://w3id.org/respond#PhotovoltaicSystem"
+    ],
+    "Power Supply": [
+      "https://w3id.org/respond#PowerSupply"
+    ],
+    "Printer": [
+      "https://w3id.org/respond#Printer"
+    ],
+    "RSSI": [
+      "https://w3id.org/respond#RSSI"
+    ],
+    "Stove Oven": [
+      "https://w3id.org/respond#StoveOven"
+    ],
+    "TV": [
+      "https://w3id.org/respond#TV"
+    ],
+    "Temperature Setpoint": [
+      "https://w3id.org/respond#TemperatureSetpoint"
+    ],
+    "Thermo Solar System": [
+      "https://w3id.org/respond#ThermoSolarSystem"
+    ],
+    "Tumble Dryer": [
+      "https://w3id.org/respond#TumbleDryer"
+    ],
+    "VOC": [
+      "https://w3id.org/respond#VOC"
+    ],
+    "Washing Machine": [
+      "https://w3id.org/respond#WashingMachine",
+      "https://w3id.org/saref#WashingMachine"
+    ],
+    "Water Consumption": [
+      "https://w3id.org/respond#WaterConsumption"
+    ],
+    "Weather Forecasting Service": [
+      "https://w3id.org/respond#WeatherForecastingService"
+    ],
+    "Actuating function": [
+      "https://w3id.org/saref#ActuatingFunction"
+    ],
+    "Appliance": [
+      "https://w3id.org/saref#Appliance",
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Appliance"
+    ],
+    "Close command": [
+      "https://w3id.org/saref#CloseCommand"
+    ],
+    "Close state": [
+      "https://w3id.org/saref#CloseState"
+    ],
+    "Coal": [
+      "https://w3id.org/saref#Coal"
+    ],
+    "Command": [
+      "https://w3id.org/saref#Command"
+    ],
+    "Commodity": [
+      "https://w3id.org/saref#Commodity"
+    ],
+    "Currency unit": [
+      "https://w3id.org/saref#Currency"
+    ],
+    "Door switch": [
+      "https://w3id.org/saref#DoorSwitch"
+    ],
+    "Electricity": [
+      "https://w3id.org/saref#Electricity"
+    ],
+    "Energy meter": [
+      "https://w3id.org/saref#EnergyMeter"
+    ],
+    "Grid related": [
+      "https://w3id.org/saref#EnergyRelated"
+    ],
+    "Energy unit": [
+      "https://w3id.org/saref#EnergyUnit"
+    ],
+    "Event function": [
+      "https://w3id.org/saref#EventFunction"
+    ],
+    "Function": [
+      "https://w3id.org/saref#Function"
+    ],
+    "Gas": [
+      "https://w3id.org/saref#Gas"
+    ],
+    "Generator": [
+      "https://w3id.org/saref#Generator"
+    ],
+    "Get command": [
+      "https://w3id.org/saref#GetCommand"
+    ],
+    "Get current meter value command": [
+      "https://w3id.org/saref#GetCurrentMeterValueCommand"
+    ],
+    "Get meter data command": [
+      "https://w3id.org/saref#GetMeterDataCommand"
+    ],
+    "Get meter history command": [
+      "https://w3id.org/saref#GetMeterHistoryCommand"
+    ],
+    "Get sensing data command": [
+      "https://w3id.org/saref#GetSensingDataCommand"
+    ],
+    "Level control function": [
+      "https://w3id.org/saref#LevelControlFunction"
+    ],
+    "Light": [
+      "https://w3id.org/saref#Light"
+    ],
+    "Light switch": [
+      "https://w3id.org/saref#LightSwitch"
+    ],
+    "Lighting device": [
+      "https://w3id.org/saref#LightingDevice"
+    ],
+    "Load": [
+      "https://w3id.org/saref#Load"
+    ],
+    "Meter": [
+      "https://w3id.org/saref#Meter"
+    ],
+    "Metering function": [
+      "https://w3id.org/saref#MeteringFunction"
+    ],
+    "Micro renewable": [
+      "https://w3id.org/saref#MicroRenewable"
+    ],
+    "Motion": [
+      "https://w3id.org/saref#Motion"
+    ],
+    "Multi level state": [
+      "https://w3id.org/saref#MultiLevelState"
+    ],
+    "Notify command": [
+      "https://w3id.org/saref#NotifyCommand"
+    ],
+    "Off command": [
+      "https://w3id.org/saref#OffCommand"
+    ],
+    "Off state": [
+      "https://w3id.org/saref#OffState"
+    ],
+    "On command": [
+      "https://w3id.org/saref#OnCommand"
+    ],
+    "On off function": [
+      "https://w3id.org/saref#OnOffFunction"
+    ],
+    "On off state": [
+      "https://w3id.org/saref#OnOffState"
+    ],
+    "On state": [
+      "https://w3id.org/saref#OnState"
+    ],
+    "Open close function": [
+      "https://w3id.org/saref#OpenCloseFunction"
+    ],
+    "Open close state": [
+      "https://w3id.org/saref#OpenCloseState"
+    ],
+    "Open command": [
+      "https://w3id.org/saref#OpenCommand"
+    ],
+    "Open state": [
+      "https://w3id.org/saref#OpenState"
+    ],
+    "Pause command": [
+      "https://w3id.org/saref#PauseCommand"
+    ],
+    "Power unit": [
+      "https://w3id.org/saref#PowerUnit"
+    ],
+    "Pressure": [
+      "https://w3id.org/saref#Pressure"
+    ],
+    "Pressure unit": [
+      "https://w3id.org/saref#PressureUnit"
+    ],
+    "Price": [
+      "https://w3id.org/saref#Price"
+    ],
+    "Profile": [
+      "https://w3id.org/saref#Profile"
+    ],
+    "Sensing function": [
+      "https://w3id.org/saref#SensingFunction"
+    ],
+    "Service": [
+      "https://w3id.org/saref#Service"
+    ],
+    "Set absolute level command": [
+      "https://w3id.org/saref#SetAbsoluteLevelCommand"
+    ],
+    "Set level command": [
+      "https://w3id.org/saref#SetLevelCommand"
+    ],
+    "Set relative level command": [
+      "https://w3id.org/saref#SetRelativeLevelCommand"
+    ],
+    "Smoke": [
+      "https://w3id.org/saref#Smoke"
+    ],
+    "Smoke sensor": [
+      "https://w3id.org/saref#SmokeSensor"
+    ],
+    "Start command": [
+      "https://w3id.org/saref#StartCommand"
+    ],
+    "Start state": [
+      "https://w3id.org/saref#StartState"
+    ],
+    "Start stop function": [
+      "https://w3id.org/saref#StartStopFunction"
+    ],
+    "Start stop state": [
+      "https://w3id.org/saref#StartStopState"
+    ],
+    "State": [
+      "https://w3id.org/saref#State"
+    ],
+    "Step down command": [
+      "https://w3id.org/saref#StepDownCommand"
+    ],
+    "Step up command": [
+      "https://w3id.org/saref#StepUpCommand"
+    ],
+    "Stop command": [
+      "https://w3id.org/saref#StopCommand"
+    ],
+    "Stop state": [
+      "https://w3id.org/saref#StopState"
+    ],
+    "Storage": [
+      "https://w3id.org/saref#Storage"
+    ],
+    "Switch": [
+      "https://w3id.org/saref#Switch"
+    ],
+    "Switch on service": [
+      "https://w3id.org/saref#SwitchOnService"
+    ],
+    "Task": [
+      "https://w3id.org/saref#Task"
+    ],
+    "Temperature sensor": [
+      "https://w3id.org/saref#TemperatureSensor"
+    ],
+    "Temperature unit": [
+      "https://w3id.org/saref#TemperatureUnit"
+    ],
+    "Time": [
+      "https://w3id.org/saref#Time"
+    ],
+    "Toggle command": [
+      "https://w3id.org/saref#ToggleCommand"
+    ],
+    "Water": [
+      "https://w3id.org/saref#Water"
+    ],
+    "Ability": [
+      "https://w3id.org/sbeo#Ability"
+    ],
+    "Active Fire Protection Device": [
+      "https://w3id.org/sbeo#ActiveFireProtectionDevice"
+    ],
+    "Activity": [
+      "https://w3id.org/sbeo#Activity"
+    ],
+    "Activity Impact": [
+      "https://w3id.org/sbeo#ActivityImpact"
+    ],
+    "Activity Severity": [
+      "https://w3id.org/sbeo#ActivitySeverity"
+    ],
+    "Activity Status": [
+      "https://w3id.org/sbeo#ActivityStatus"
+    ],
+    "Alerting Device": [
+      "https://w3id.org/sbeo#AlertingDevice"
+    ],
+    "Alerting Device For Impaired Person": [
+      "https://w3id.org/sbeo#AlertingDeviceForImpairedPerson"
+    ],
+    "Alzheimer's Diseased Person": [
+      "https://w3id.org/sbeo#AlzheimersDiseasedPerson"
+    ],
+    "Apartment": [
+      "https://w3id.org/sbeo#Apartment"
+    ],
+    "Appartment Building": [
+      "https://w3id.org/sbeo#AppartmentBuilding"
+    ],
+    "Assembly Point": [
+      "https://w3id.org/sbeo#AssemblyPoint"
+    ],
+    "Audio Description": [
+      "https://w3id.org/sbeo#AudioDescription"
+    ],
+    "Autonomous Mobility Person": [
+      "https://w3id.org/sbeo#AutonomousMobilityPerson"
+    ],
+    "Availability Status": [
+      "https://w3id.org/sbeo#AvailabilityStatus"
+    ],
+    "Blind Person": [
+      "https://w3id.org/sbeo#BlindPerson"
+    ],
+    "Building Entrance": [
+      "https://w3id.org/sbeo#BuildingEntrance"
+    ],
+    "Building Exit": [
+      "https://w3id.org/sbeo#BuildingExit"
+    ],
+    "Chemical Spill": [
+      "https://w3id.org/sbeo#ChemicalSpill"
+    ],
+    "Cinema Building": [
+      "https://w3id.org/sbeo#CinemaBuilding"
+    ],
+    "Classroom": [
+      "https://w3id.org/sbeo#Classroom"
+    ],
+    "Colour Blind Person": [
+      "https://w3id.org/sbeo#ColourBlindPerson"
+    ],
+    "Congestion": [
+      "https://w3id.org/sbeo#Congestion"
+    ],
+    "Corridor Entrance": [
+      "https://w3id.org/sbeo#CorridorEntrance"
+    ],
+    "Corridor Exit": [
+      "https://w3id.org/sbeo#CorridorExit"
+    ],
+    "Corridor Segment": [
+      "https://w3id.org/sbeo#CorridorSegment"
+    ],
+    "Day Care": [
+      "https://w3id.org/sbeo#DayCare"
+    ],
+    "Description": [
+      "https://w3id.org/sbeo#Description"
+    ],
+    "Deviation State": [
+      "https://w3id.org/sbeo#DeviationState"
+    ],
+    "Display Screen": [
+      "https://w3id.org/sbeo#DisplayScreen"
+    ],
+    "Distance": [
+      "https://w3id.org/sbeo#Distance"
+    ],
+    "Down Syndrome Person": [
+      "https://w3id.org/sbeo#DownSyndromePerson"
+    ],
+    "Earthquake": [
+      "https://w3id.org/sbeo#Earthquake"
+    ],
+    "Emergency Activity": [
+      "https://w3id.org/sbeo#EmergencyActivity"
+    ],
+    "Emergency Evacuation": [
+      "https://w3id.org/sbeo#EmergencyEvacuation"
+    ],
+    "Emergency Evacuation Group": [
+      "https://w3id.org/sbeo#EmergencyEvacuationGroup"
+    ],
+    "Emergency Evacuation Route": [
+      "https://w3id.org/sbeo#EmergencyEvacuationRoute"
+    ],
+    "Emergency Exit": [
+      "https://w3id.org/sbeo#EmergencyExit"
+    ],
+    "End Point": [
+      "https://w3id.org/sbeo#EndPoint"
+    ],
+    "Entrance": [
+      "https://w3id.org/sbeo#Entrance"
+    ],
+    "Escalator": [
+      "https://w3id.org/sbeo#Escalator"
+    ],
+    "Escort Supported Wheelchair Person": [
+      "https://w3id.org/sbeo#EscortSupportedWheelchairPerson"
+    ],
+    "Event Impact": [
+      "https://w3id.org/sbeo#EventImpact"
+    ],
+    "Event Severity": [
+      "https://w3id.org/sbeo#EventSeverity"
+    ],
+    "Exit": [
+      "https://w3id.org/sbeo#Exit"
+    ],
+    "Exit Route": [
+      "https://w3id.org/sbeo#ExitRoute"
+    ],
+    "Family": [
+      "https://w3id.org/sbeo#Family"
+    ],
+    "Fire": [
+      "https://w3id.org/sbeo#Fire"
+    ],
+    "Fire Door": [
+      "https://w3id.org/sbeo#FireDoor"
+    ],
+    "Fire Escape Ladder": [
+      "https://w3id.org/sbeo#FireEscapeLadder"
+    ],
+    "Fire Extinguisher": [
+      "https://w3id.org/sbeo#FireExtinguisher"
+    ],
+    "Fire Protection Device": [
+      "https://w3id.org/sbeo#FireProtectionDevice"
+    ],
+    "Fitness Status": [
+      "https://w3id.org/sbeo#FitnessStatus"
+    ],
+    "Floor Entrance": [
+      "https://w3id.org/sbeo#FloorEntrance"
+    ],
+    "Floor Exit": [
+      "https://w3id.org/sbeo#FloorExit"
+    ],
+    "Footpath": [
+      "https://w3id.org/sbeo#Footpath"
+    ],
+    "Graph-Based Route": [
+      "https://w3id.org/sbeo#GraphBasedRoute"
+    ],
+    "Group": [
+      "https://w3id.org/sbeo#Group"
+    ],
+    "Hall Entrance": [
+      "https://w3id.org/sbeo#HallEntrance"
+    ],
+    "Hall Exit": [
+      "https://w3id.org/sbeo#HallExit"
+    ],
+    "Hall Segment": [
+      "https://w3id.org/sbeo#HallSegment"
+    ],
+    "Handheld Device": [
+      "https://w3id.org/sbeo#HandheldDevice"
+    ],
+    "Hearing Impaired Person": [
+      "https://w3id.org/sbeo#HearingImpairedPerson"
+    ],
+    "Horizontal Moving Pavement": [
+      "https://w3id.org/sbeo#HorizontalMovingPavement"
+    ],
+    "Horizontal Passage": [
+      "https://w3id.org/sbeo#HorizontalPassage"
+    ],
+    "Hotel Building": [
+      "https://w3id.org/sbeo#HotelBuilding"
+    ],
+    "Image Description": [
+      "https://w3id.org/sbeo#ImageDescription"
+    ],
+    "Impact": [
+      "https://w3id.org/sbeo#Impact"
+    ],
+    "Impaired Person": [
+      "https://w3id.org/sbeo#ImpairedPerson"
+    ],
+    "Incident": [
+      "https://w3id.org/sbeo#Incident"
+    ],
+    "Incident Protection Device": [
+      "https://w3id.org/sbeo#IncidentProtectionDevice"
+    ],
+    "Intensity": [
+      "https://w3id.org/sbeo#Intensity"
+    ],
+    "Junction": [
+      "https://w3id.org/sbeo#Junction"
+    ],
+    "Kids Area": [
+      "https://w3id.org/sbeo#KidsArea"
+    ],
+    "Low Stamina Person": [
+      "https://w3id.org/sbeo#LowStaminaPerson"
+    ],
+    "Low Vision Person": [
+      "https://w3id.org/sbeo#LowVisionPerson"
+    ],
+    "Meeting Room": [
+      "https://w3id.org/sbeo#MeetingRoom"
+    ],
+    "Mental Ability": [
+      "https://w3id.org/sbeo#MentalAbility"
+    ],
+    "Mental Impaired Person": [
+      "https://w3id.org/sbeo#MentalImpairedPerson"
+    ],
+    "Mild Hearing Impaired Person": [
+      "https://w3id.org/sbeo#MildHearingImpairedPerson"
+    ],
+    "Mobile Phone": [
+      "https://w3id.org/sbeo#MobilePhone"
+    ],
+    "Mobility Ability": [
+      "https://w3id.org/sbeo#MobilityAbility"
+    ],
+    "Mobility With Assisted Device Person": [
+      "https://w3id.org/sbeo#MobilityWithAssistedDevicePerson"
+    ],
+    "Mobility With Wheelchair Person": [
+      "https://w3id.org/sbeo#MobilityWithWheelchairPerson"
+    ],
+    "Moderate Hearing Impaired Person": [
+      "https://w3id.org/sbeo#ModerateHearingImpairedPerson"
+    ],
+    "Motion State": [
+      "https://w3id.org/sbeo#MotionState"
+    ],
+    "Motor Impaired Person": [
+      "https://w3id.org/sbeo#MotorImpairedPerson"
+    ],
+    "Motorised Wheelchair Person": [
+      "https://w3id.org/sbeo#MotorisedWheelchairPerson"
+    ],
+    "Movable Device": [
+      "https://w3id.org/sbeo#MovableDevice"
+    ],
+    "Moving Pavement": [
+      "https://w3id.org/sbeo#MovingPavement"
+    ],
+    "Navigation": [
+      "https://w3id.org/sbeo#Navigation"
+    ],
+    "Navigational Point": [
+      "https://w3id.org/sbeo#NavigationalPoint"
+    ],
+    "Navigational State": [
+      "https://w3id.org/sbeo#NavigationalState"
+    ],
+    "Non-Motorised Wheelchair Person": [
+      "https://w3id.org/sbeo#NonMotorisedWheelchairPerson"
+    ],
+    "Open Area Entrance": [
+      "https://w3id.org/sbeo#OpenAreaEntrance"
+    ],
+    "Open Area Exit": [
+      "https://w3id.org/sbeo#OpenAreaExit"
+    ],
+    "Panic": [
+      "https://w3id.org/sbeo#Panic"
+    ],
+    "Parameter": [
+      "https://w3id.org/sbeo#Parameter"
+    ],
+    "Passage": [
+      "https://w3id.org/sbeo#Passage"
+    ],
+    "Passive Fire Protection": [
+      "https://w3id.org/sbeo#PassiveFireProtectionDevice"
+    ],
+    "Person Ability": [
+      "https://w3id.org/sbeo#PersonAbility"
+    ],
+    "Person Accessibility": [
+      "https://w3id.org/sbeo#PersonAccessibility"
+    ],
+    "Physically Impaired Person": [
+      "https://w3id.org/sbeo#PhysicallyImpairedPerson"
+    ],
+    "Point Of Interest": [
+      "https://w3id.org/sbeo#PointOfInterest"
+    ],
+    "Point Of Interest Segement": [
+      "https://w3id.org/sbeo#PointOfInterestSegment"
+    ],
+    "Profound Hearing Impaired Person": [
+      "https://w3id.org/sbeo#ProfoundHearingImpairedPerson"
+    ],
+    "Quality": [
+      "https://w3id.org/sbeo#Quality"
+    ],
+    "Ramp": [
+      "https://w3id.org/sbeo#Ramp"
+    ],
+    "Road": [
+      "https://w3id.org/sbeo#Road"
+    ],
+    "Role": [
+      "https://w3id.org/sbeo#Role"
+    ],
+    "Role In Context": [
+      "https://w3id.org/sbeo#RoleInContext"
+    ],
+    "Room Entrance": [
+      "https://w3id.org/sbeo#RoomEntrance"
+    ],
+    "Room Exit": [
+      "https://w3id.org/sbeo#RoomExit"
+    ],
+    "Room Segment": [
+      "https://w3id.org/sbeo#RoomSegment"
+    ],
+    "Route": [
+      "https://w3id.org/sbeo#Route"
+    ],
+    "Route Element": [
+      "https://w3id.org/sbeo#RouteElement"
+    ],
+    "Route Point": [
+      "https://w3id.org/sbeo#RoutePoint"
+    ],
+    "Seating Arrangement Route": [
+      "https://w3id.org/sbeo#SeatingArrangementRoute"
+    ],
+    "Sensor Event": [
+      "https://w3id.org/sbeo#SensorEvent"
+    ],
+    "Sensor Ability": [
+      "https://w3id.org/sbeo#SensoryAbility"
+    ],
+    "Sensory Impairmed Person": [
+      "https://w3id.org/sbeo#SensoryImpairedPerson"
+    ],
+    "Severe Hearing Impaired Person": [
+      "https://w3id.org/sbeo#SevereHearingImpairedPerson"
+    ],
+    "Severity": [
+      "https://w3id.org/sbeo#Severity"
+    ],
+    "Shopping Mall Building": [
+      "https://w3id.org/sbeo#ShoppingMallBuilding"
+    ],
+    "Shopping Route": [
+      "https://w3id.org/sbeo#ShoppingRoute"
+    ],
+    "Smartphone": [
+      "https://w3id.org/sbeo#SmartPhone"
+    ],
+    "Social Unit": [
+      "https://w3id.org/sbeo#SocialUnit"
+    ],
+    "Space Saftey": [
+      "https://w3id.org/sbeo#SpaceSafety"
+    ],
+    "Spatial Ability": [
+      "https://w3id.org/sbeo#SpatialAbility"
+    ],
+    "Stadium Building": [
+      "https://w3id.org/sbeo#StadiumBuilding"
+    ],
+    "Stampeding": [
+      "https://w3id.org/sbeo#Stampeding"
+    ],
+    "Suite": [
+      "https://w3id.org/sbeo#Suite"
+    ],
+    "Telephone": [
+      "https://w3id.org/sbeo#Telephone"
+    ],
+    "Terrorist Attack": [
+      "https://w3id.org/sbeo#TerroristAttack"
+    ],
+    "Textual Description": [
+      "https://w3id.org/sbeo#TextualDescription"
+    ],
+    "Thoroughfare": [
+      "https://w3id.org/sbeo#Thoroughfare"
+    ],
+    "Transition Point": [
+      "https://w3id.org/sbeo#TransitionPoint"
+    ],
+    "Travel Time": [
+      "https://w3id.org/sbeo#TravelTime"
+    ],
+    "Turn Point": [
+      "https://w3id.org/sbeo#TurnPoint"
+    ],
+    "Vertical Moving Pavement": [
+      "https://w3id.org/sbeo#VerticalMovingPavement"
+    ],
+    "Vertical Passage": [
+      "https://w3id.org/sbeo#VerticalPassage"
+    ],
+    "Visit": [
+      "https://w3id.org/sbeo#Visit"
+    ],
+    "Visit Route": [
+      "https://w3id.org/sbeo#VisitRoute"
+    ],
+    "Visiting Group": [
+      "https://w3id.org/sbeo#VisitingGroup"
+    ],
+    "Visually Impaired Person": [
+      "https://w3id.org/sbeo#VisuallyImpairedPerson"
+    ],
+    "Waiting Zone": [
+      "https://w3id.org/sbeo#WaitingZone"
+    ],
+    "Assembly Building": [
+      "https://w3id.org/seas/AssemblyBuilding"
+    ],
+    "Attic": [
+      "https://w3id.org/seas/Attic"
+    ],
+    "Balcony": [
+      "https://w3id.org/seas/Balcony"
+    ],
+    "Basement": [
+      "https://w3id.org/seas/Basement"
+    ],
+    "Bathroom": [
+      "https://w3id.org/seas/Bathroom"
+    ],
+    "Bedroom": [
+      "https://w3id.org/seas/Bedroom"
+    ],
+    "Building Spatial Structure": [
+      "https://w3id.org/seas/BuildingSpatialStructure"
+    ],
+    "Building Storey": [
+      "https://w3id.org/seas/BuildingStorey",
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/gbBuildingOntology.owl#BuildingStorey"
+    ],
+    "Corridor": [
+      "https://w3id.org/seas/Corridor"
+    ],
+    "Dining Room": [
+      "https://w3id.org/seas/DiningRoom"
+    ],
+    "Door": [
+      "https://w3id.org/seas/Door"
+    ],
+    "Educational Building": [
+      "https://w3id.org/seas/EducationalBuilding"
+    ],
+    "Elevator": [
+      "https://w3id.org/seas/Elevator"
+    ],
+    "Greenhouse": [
+      "https://w3id.org/seas/Greenhouse"
+    ],
+    "Hall": [
+      "https://w3id.org/seas/Hall"
+    ],
+    "Tree house": [
+      "https://w3id.org/seas/HomeOffice"
+    ],
+    "Industrial Building": [
+      "https://w3id.org/seas/IndustrialBuilding"
+    ],
+    "Institutional Building": [
+      "https://w3id.org/seas/InstitutionalBuilding"
+    ],
+    "Kitchen": [
+      "https://w3id.org/seas/Kitchen"
+    ],
+    "Laundry": [
+      "https://w3id.org/seas/Laundry"
+    ],
+    "Living Room": [
+      "https://w3id.org/seas/LivingRoom"
+    ],
+    "Lobby": [
+      "https://w3id.org/seas/Lobby"
+    ],
+    "Mercantile Building": [
+      "https://w3id.org/seas/MercantileBuilding"
+    ],
+    "Non-Residential Building": [
+      "https://w3id.org/seas/NonResidentialBuilding"
+    ],
+    "Office": [
+      "https://w3id.org/seas/Office"
+    ],
+    "Business Building": [
+      "https://w3id.org/seas/OfficeBuilding"
+    ],
+    "Residential Building": [
+      "https://w3id.org/seas/ResidentialBuilding"
+    ],
+    "Site Of Building": [
+      "https://w3id.org/seas/SiteOfBuilding"
+    ],
+    "Stairs": [
+      "https://w3id.org/seas/Stairs"
+    ],
+    "Storage Room": [
+      "https://w3id.org/seas/StorageRoom"
+    ],
+    "Swimming Pool": [
+      "https://w3id.org/seas/SwimmingPool"
+    ],
+    "Utility Room": [
+      "https://w3id.org/seas/UtilityRoom"
+    ],
+    "BuildingThing": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#BuildingThing"
+    ],
+    "EnergyConsumerFacility": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#EnergyConsumerFacility"
+    ],
+    "EnergyCost": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#EnergyCost"
+    ],
+    "EnergyCostTariff": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#EnergyCostTariff"
+    ],
+    "EnergyDemand": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#EnergyDemand"
+    ],
+    "EnergyFacility": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#EnergyFacility"
+    ],
+    "EnergyGain": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#EnergyGain"
+    ],
+    "EnergyParameter": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#EnergyParameter"
+    ],
+    "EnergyProducerFacility": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#EnergyProducerFacility"
+    ],
+    "EnergySupply": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#EnergySupply"
+    ],
+    "EnergyTariff": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#EnergyTariff"
+    ],
+    "EnergyType": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#EnergyType"
+    ],
+    "Equipment": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Equipment"
+    ],
+    "Shade": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Shade"
+    ],
+    "OccupancyParameter": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/ProcessOntology.owl#OccupancyParameter"
+    ],
+    "SolarIrradiance": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/WeatherOntology.owl#SolarIrradiance"
+    ],
+    "WeatherCondition": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/WeatherOntology.owl#WeatherCondition"
+    ],
+    "WeatherPhenomenon": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/WeatherOntology.owl#WeatherPhenomenon"
+    ],
+    "Wind": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/WeatherOntology.owl#Wind"
+    ],
+    "Area": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/gbBuildingOntology.owl#Area"
+    ],
+    "BuildingElement": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/gbBuildingOntology.owl#BuildingElement"
+    ],
+    "BuildingParameter": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/gbBuildingOntology.owl#BuildingParameter"
+    ],
+    "Capacity": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/gbBuildingOntology.owl#Capacity"
+    ],
+    "Efficiency": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/gbBuildingOntology.owl#Efficiency"
+    ],
+    "EnvironmentalParameter": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/gbBuildingOntology.owl#EnvironmentalParameter"
+    ],
+    "EquipmentParameter": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/gbBuildingOntology.owl#EquipmentParameter"
+    ],
+    "IndoorAirQuality": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/gbBuildingOntology.owl#IndoorAirQuality"
+    ],
+    "InputtWatts": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/gbBuildingOntology.owl#InputWatts"
+    ],
+    "LightingSystem": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/gbBuildingOntology.owl#LightingSystem"
+    ],
+    "power": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/gbBuildingOntology.owl#Power"
+    ],
+    "Schedule": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/gbBuildingOntology.owl#Schedule"
+    ],
+    "U-value": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/gbBuildingOntology.owl#U-value"
+    ],
+    "Weather": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/gbBuildingOntology.owl#Weather"
+    ],
+    "Alarm1": [
+      "https://saref.etsi.org/saref4bldg/Alarm"
+    ],
+    "Alarm2": [
+      "https://w3id.org/respond#AlarmProperty"
+    ],
+    "Audio visual appliance1": [
+      "https://saref.etsi.org/saref4bldg/AudioVisualAppliance"
+    ],
+    "Audio visual appliance2": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Audio_visual_appliance"
+    ],
+    "Boiler1": [
+      "https://saref.etsi.org/saref4bldg/Boiler",
+      "https://w3id.org/respond#Boiler"
+    ],
+    "Boiler2": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Boiler"
+    ],
+    "Building1": [
+      "https://saref.etsi.org/saref4bldg/Building",
+      "https://w3id.org/seas/Building",
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/gbBuildingOntology.owl#Building"
+    ],
+    "Building2": [
+      "https://w3id.org/saref#BuildingRelated"
+    ],
+    "Burner1": [
+      "https://saref.etsi.org/saref4bldg/Burner"
+    ],
+    "Burner2": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Burner"
+    ],
+    "Chiller1": [
+      "https://saref.etsi.org/saref4bldg/Chiller"
+    ],
+    "Chiller2": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Chiller"
+    ],
+    "Coil1": [
+      "https://saref.etsi.org/saref4bldg/Coil"
+    ],
+    "Coil2": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Coil"
+    ],
+    "Compressor1": [
+      "https://saref.etsi.org/saref4bldg/Compressor"
+    ],
+    "Compressor2": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Compressor"
+    ],
+    "Controller1": [
+      "https://saref.etsi.org/saref4bldg/Controller"
+    ],
+    "Controller2": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Controller"
+    ],
+    "Current1": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Current"
+    ],
+    "Current2": [
+      "https://w3id.org/respond#Current"
+    ],
+    "Damper1": [
+      "https://saref.etsi.org/saref4bldg/Damper"
+    ],
+    "Damper2": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Damper"
+    ],
+    "Filter1": [
+      "https://saref.etsi.org/saref4bldg/Filter"
+    ],
+    "Filter2": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Filter"
+    ],
+    "Flow controller1": [
+      "https://saref.etsi.org/saref4bldg/FlowController"
+    ],
+    "Flow controller2": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_controller"
+    ],
+    "Flow meter1": [
+      "https://saref.etsi.org/saref4bldg/FlowMeter"
+    ],
+    "Flow meter2": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_meter"
+    ],
+    "Flow moving device1": [
+      "https://saref.etsi.org/saref4bldg/FlowMovingDevice"
+    ],
+    "Flow moving device2": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_moving_device"
+    ],
+    "Flow storage device1": [
+      "https://saref.etsi.org/saref4bldg/FlowStorageDevice"
+    ],
+    "Flow storage device2": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_storage_device"
+    ],
+    "Flow terminal1": [
+      "https://saref.etsi.org/saref4bldg/FlowTerminal"
+    ],
+    "Flow terminal2": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_terminal"
+    ],
+    "Humidifier1": [
+      "https://saref.etsi.org/saref4bldg/Humidifier"
+    ],
+    "Humidifier2": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Humidifier"
+    ],
+    "Humidity1": [
+      "https://w3id.org/saref#Humidity"
+    ],
+    "Humidity2": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/WeatherOntology.owl#Humidity"
+    ],
+    "Interceptor1": [
+      "https://saref.etsi.org/saref4bldg/Interceptor"
+    ],
+    "Interceptor2": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Interceptor"
+    ],
+    "Lamp1": [
+      "https://saref.etsi.org/saref4bldg/Lamp",
+      "https://w3id.org/respond#Lamp"
+    ],
+    "Lamp2": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Lamp"
+    ],
+    "Occupancy1": [
+      "https://w3id.org/respond#Occupancy"
+    ],
+    "Occupancy2": [
+      "https://w3id.org/saref#Occupancy"
+    ],
+    "Power Consumption1": [
+      "https://w3id.org/respond#ElectricConsumption"
+    ],
+    "Power Consumption2": [
+      "https://w3id.org/respond#PowerConsumption"
+    ],
+    "Room1": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Room"
+    ],
+    "Room2": [
+      "https://w3id.org/seas/Room",
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Room"
+    ],
+    "Sensor1": [
+      "http://www.w3.org/ns/sosa/Sensor",
+      "https://saref.etsi.org/saref4bldg/Sensor"
+    ],
+    "Sensor2": [
+      "https://saref.etsi.org/core/Sensor"
+    ],
+    "Sensor3": [
+      "https://w3id.org/saref#Sensor"
+    ],
+    "Space heater1": [
+      "https://saref.etsi.org/saref4bldg/SpaceHeater"
+    ],
+    "Space heater2": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Space_heater"
+    ],
+    "Switching device1": [
+      "https://saref.etsi.org/saref4bldg/SwitchingDevice"
+    ],
+    "Switching device2": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Switching_device"
+    ],
+    "Tank1": [
+      "https://saref.etsi.org/saref4bldg/Tank"
+    ],
+    "Tank2": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Tank"
+    ],
+    "Temperature1": [
+      "https://w3id.org/saref#Temperature"
+    ],
+    "Temperature2": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/WeatherOntology.owl#Temperature"
+    ],
+    "Transformer1": [
+      "https://saref.etsi.org/saref4bldg/Transformer"
+    ],
+    "Transformer2": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Transformer"
+    ],
+    "Tube bundle1": [
+      "https://saref.etsi.org/saref4bldg/TubeBundle"
+    ],
+    "Tube bundle2": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Tube_bundle"
+    ],
+    "Voltage1": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Voltage"
+    ],
+    "Voltage2": [
+      "https://w3id.org/respond#Voltage"
+    ]
+  },
+  "properties": {
+    "actsTo": [
+      "http://energy.linkeddata.es/em-kpi/ontology#actsTo"
+    ],
+    "attendeeOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#attendeeOf"
+    ],
+    "composes": [
+      "http://energy.linkeddata.es/em-kpi/ontology#composes"
+    ],
+    "containsAssumption": [
+      "http://energy.linkeddata.es/em-kpi/ontology#containsAssumption"
+    ],
+    "containsConstant": [
+      "http://energy.linkeddata.es/em-kpi/ontology#containsConstant"
+    ],
+    "containsVariable": [
+      "http://energy.linkeddata.es/em-kpi/ontology#containsVariable"
+    ],
+    "deliversEnergy": [
+      "http://energy.linkeddata.es/em-kpi/ontology#deliversEnergy"
+    ],
+    "deliversEnergyType": [
+      "http://energy.linkeddata.es/em-kpi/ontology#deliversEnergyType"
+    ],
+    "energyDeliveredBy": [
+      "http://energy.linkeddata.es/em-kpi/ontology#energyDeliveredBy"
+    ],
+    "energyStoredBy": [
+      "http://energy.linkeddata.es/em-kpi/ontology#energyStoredBy"
+    ],
+    "energyTypeDeliveredBy": [
+      "http://energy.linkeddata.es/em-kpi/ontology#energyTypeDeliveredBy"
+    ],
+    "energyTypeStoredBy": [
+      "http://energy.linkeddata.es/em-kpi/ontology#energyTypeStoredBy"
+    ],
+    "eventOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#eventOf"
+    ],
+    "experiences": [
+      "http://energy.linkeddata.es/em-kpi/ontology#experiences"
+    ],
+    "geoPointOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#geoPointOf"
+    ],
+    "hasAirConditionedVolume": [
+      "http://energy.linkeddata.es/em-kpi/ontology#hasAirConditionedVolume"
+    ],
+    "hasArea": [
+      "http://energy.linkeddata.es/em-kpi/ontology#hasArea"
+    ],
+    "hasAssociatedKPI": [
+      "http://energy.linkeddata.es/em-kpi/ontology#hasAssociatedKPI"
+    ],
+    "hasAssociatedObject": [
+      "http://energy.linkeddata.es/em-kpi/ontology#hasAssociatedObject"
+    ],
+    "hasBehavior": [
+      "http://energy.linkeddata.es/em-kpi/ontology#hasBehavior"
+    ],
+    "hasBuildingType": [
+      "http://energy.linkeddata.es/em-kpi/ontology#hasBuildingType"
+    ],
+    "hasCalculation": [
+      "http://energy.linkeddata.es/em-kpi/ontology#hasCalculation"
+    ],
+    "hasCalculationComponent": [
+      "http://energy.linkeddata.es/em-kpi/ontology#hasCalculationComponent"
+    ],
+    "hasCalculationModel": [
+      "http://energy.linkeddata.es/em-kpi/ontology#hasCalculationModel"
+    ],
+    "hasDeterminant": [
+      "http://energy.linkeddata.es/em-kpi/ontology#hasDeterminant"
+    ],
+    "hasDisaggregation": [
+      "http://energy.linkeddata.es/em-kpi/ontology#hasDisaggregation"
+    ],
+    "Relation linking Equipment and its Equipment Parameter": [
+      "http://energy.linkeddata.es/em-kpi/ontology#hasEquipmentParameter"
+    ],
+    "hasEquipmentType": [
+      "http://energy.linkeddata.es/em-kpi/ontology#hasEquipmentType"
+    ],
+    "hasEvaluationTimeStep": [
+      "http://energy.linkeddata.es/em-kpi/ontology#hasEvaluationTimeStep"
+    ],
+    "hasExteriorWall": [
+      "http://energy.linkeddata.es/em-kpi/ontology#hasExtWall"
+    ],
+    "hasExteriorWindow": [
+      "http://energy.linkeddata.es/em-kpi/ontology#hasExtWindow"
+    ],
+    "Relation linking Weather or Energy to its forecast": [
+      "http://energy.linkeddata.es/em-kpi/ontology#hasForecast"
+    ],
+    "hasMathematicalModel": [
+      "http://energy.linkeddata.es/em-kpi/ontology#hasMathematicalModel"
+    ],
+    "hasOccupantParameter": [
+      "http://energy.linkeddata.es/em-kpi/ontology#hasOccupancyParameter"
+    ],
+    "hasOccupant": [
+      "http://energy.linkeddata.es/em-kpi/ontology#hasOccupant"
+    ],
+    "hasPerformanceGoal": [
+      "http://energy.linkeddata.es/em-kpi/ontology#hasPerformanceGoal"
+    ],
+    "hasPhotovoltaicType": [
+      "http://energy.linkeddata.es/em-kpi/ontology#hasPhotovoltaicType"
+    ],
+    "hasRoof": [
+      "http://energy.linkeddata.es/em-kpi/ontology#hasRoof"
+    ],
+    "hasUnit": [
+      "http://energy.linkeddata.es/em-kpi/ontology#hasUnit"
+    ],
+    "isActedBy": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isActedBy"
+    ],
+    "isAirConditionedVolumeOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isAirConditionedVolumeOf"
+    ],
+    "isAreaOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isAreaOf"
+    ],
+    "isAssociatedKPIOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isAssociatedKPIOf"
+    ],
+    "isAssociatedObjectOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isAssociatedObjectOf"
+    ],
+    "isAssociatedZoneOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isAssociatedZoneOf"
+    ],
+    "isAssumptionOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isAssumptionOf"
+    ],
+    "isBeginningOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isBeginningOf"
+    ],
+    "isBehaviorOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isBehaviorOf"
+    ],
+    "isBuildingTypeOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isBuildingTypeOf"
+    ],
+    "isCalculationComponentOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isCalculationComponentOf"
+    ],
+    "isCalculationModelOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isCalculationModelOf"
+    ],
+    "isCalculationOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isCalculationOf"
+    ],
+    "isComposedBy": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isComposedBy"
+    ],
+    "isConstantOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isConstantOf"
+    ],
+    "isDeterminantOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isDeterminantOf"
+    ],
+    "isDirectionOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isDirectionOf"
+    ],
+    "isDisaggregationOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isDisaggregationOf"
+    ],
+    "isEndOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isEndOf"
+    ],
+    "isEquationOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isEquationOf"
+    ],
+    "isEquipmentTypeOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isEquipmentTypeOf"
+    ],
+    "isEvaluationTimeStepOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isEvaluationTimeStepOf"
+    ],
+    "isExperiencedBy": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isExperiencedBy"
+    ],
+    "isExteriorWallOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isExtWallOf"
+    ],
+    "isExteriorWindowOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isExtWindowOf"
+    ],
+    "isFeatureOfInterestOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isFeatureOfInterestOf"
+    ],
+    "isForecastOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isForecastOf"
+    ],
+    "isInputOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isInputOf"
+    ],
+    "isMathematicalModelOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isMathematicalModelOf"
+    ],
+    "isObservationResultOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isObservationResultOf"
+    ],
+    "isObservationSamplingTimeOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isObservationSamplingTimeOf"
+    ],
+    "isObservedPropertyOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isObservedPropertyOf"
+    ],
+    "isOccupancyParameterOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isOccupancyParameterOf"
+    ],
+    "isOccupantOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isOccupantOf"
+    ],
+    "isOutputOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isOutputOf"
+    ],
+    "isPerformanceGoalOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isPerformanceGoalOf"
+    ],
+    "isPhotovoltaicTypeOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isPhotovoltaicTypeOf"
+    ],
+    "isProvidedBy": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isProvidedBy"
+    ],
+    "isRoofOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isRoofOf"
+    ],
+    "isScheduleOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isScheduleOf"
+    ],
+    "isSpeedOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isSpeedOf"
+    ],
+    "isSuppliedBy": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isSuppliedBy"
+    ],
+    "isU-valueOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isU-valueOf"
+    ],
+    "isUnitOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isUnitOf"
+    ],
+    "isVariableOf": [
+      "http://energy.linkeddata.es/em-kpi/ontology#isVariableOf"
+    ],
+    "providesTo": [
+      "http://energy.linkeddata.es/em-kpi/ontology#providesTo"
+    ],
+    "storesEnergy": [
+      "http://energy.linkeddata.es/em-kpi/ontology#storesEnergy"
+    ],
+    "storesEnergyType": [
+      "http://energy.linkeddata.es/em-kpi/ontology#storesEnergyType"
+    ],
+    "suppliesTo": [
+      "http://energy.linkeddata.es/em-kpi/ontology#suppliesTo"
+    ],
+    "featureOfInterest": [
+      "http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest"
+    ],
+    "hasInput": [
+      "http://purl.oclc.org/NET/ssnx/ssn#hasInput"
+    ],
+    "hasOutput": [
+      "http://purl.oclc.org/NET/ssnx/ssn#hasOutput"
+    ],
+    "hasProperty": [
+      "http://purl.oclc.org/NET/ssnx/ssn#hasProperty"
+    ],
+    "isPropertyOf": [
+      "http://purl.oclc.org/NET/ssnx/ssn#isPropertyOf",
+      "https://w3id.org/seas/isPropertyOf"
+    ],
+    "The result of an observation": [
+      "http://purl.oclc.org/NET/ssnx/ssn#observationResult"
+    ],
+    "observationSamplingTime": [
+      "http://purl.oclc.org/NET/ssnx/ssn#observationSamplingTime"
+    ],
+    "observedProperty": [
+      "http://purl.oclc.org/NET/ssnx/ssn#observedProperty",
+      "http://www.w3.org/ns/sosa/observedProperty"
+    ],
+    "has item": [
+      "http://purl.org/ontology/olo/core#item"
+    ],
+    "has next": [
+      "http://purl.org/ontology/olo/core#next"
+    ],
+    "has ordered list": [
+      "http://purl.org/ontology/olo/core#ordered_list"
+    ],
+    "has previous": [
+      "http://purl.org/ontology/olo/core#previous"
+    ],
+    "has slot": [
+      "http://purl.org/ontology/olo/core#slot"
+    ],
+    "attendee": [
+      "http://schema.org/attendee"
+    ],
+    "event": [
+      "http://schema.org/event"
+    ],
+    "geo": [
+      "http://schema.org/geo"
+    ],
+    "hasLocation": [
+      "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation",
+      "http://www.w3.org/2003/01/geo/wgs84_pos#location"
+    ],
+    "isLocationOf": [
+      "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isLocationOf"
+    ],
+    "has energy conversion system": [
+      "http://www.owl-ontologies.com/EPC4EU#hasEnergyConversionSystem"
+    ],
+    "issued by": [
+      "http://www.owl-ontologies.com/EPC4EU#issuedBy"
+    ],
+    "topObjectProperty": [
+      "http://www.w3.org/2002/07/owl#topObjectProperty"
+    ],
+    "hasBeginning": [
+      "http://www.w3.org/2006/time#hasBeginning"
+    ],
+    "hasEnd": [
+      "http://www.w3.org/2006/time#hasEnd"
+    ],
+    "made by sensor": [
+      "http://www.w3.org/ns/sosa/madeBySensor"
+    ],
+    "observes": [
+      "http://www.w3.org/ns/sosa/observes"
+    ],
+    "is measured in": [
+      "https://saref.etsi.org/core/isMeasuredIn",
+      "https://w3id.org/saref#isMeasuredIn"
+    ],
+    "relates to property": [
+      "https://saref.etsi.org/core/relatesToProperty",
+      "https://w3id.org/saref#relatesToProperty"
+    ],
+    "air flow rate range max": [
+      "https://saref.etsi.org/saref4bldg/airFlowRateMax"
+    ],
+    "air flow rate range min": [
+      "https://saref.etsi.org/saref4bldg/airFlowRateMin"
+    ],
+    "ambient design dry bulb temperature": [
+      "https://saref.etsi.org/saref4bldg/ambientDesignDryBulbTemperature"
+    ],
+    "ambient design wet bulb temperature": [
+      "https://saref.etsi.org/saref4bldg/ambientDesignWetBulbTemperature"
+    ],
+    "maximum apparent power": [
+      "https://saref.etsi.org/saref4bldg/apparentPowerMax"
+    ],
+    "audio volume": [
+      "https://saref.etsi.org/saref4bldg/audioVolume"
+    ],
+    "basin reserve volume": [
+      "https://saref.etsi.org/saref4bldg/basinReserveVolume"
+    ],
+    "blade thickness": [
+      "https://saref.etsi.org/saref4bldg/bladeThickness"
+    ],
+    "body mass": [
+      "https://saref.etsi.org/saref4bldg/bodyMass"
+    ],
+    "capacity weight": [
+      "https://saref.etsi.org/saref4bldg/capacityWeight"
+    ],
+    "close off rating": [
+      "https://saref.etsi.org/saref4bldg/closeOffRating"
+    ],
+    "coil length": [
+      "https://saref.etsi.org/saref4bldg/coilLength"
+    ],
+    "coil width": [
+      "https://saref.etsi.org/saref4bldg/coilWidth"
+    ],
+    "color temperature": [
+      "https://saref.etsi.org/saref4bldg/colorTemperature"
+    ],
+    "compressor speed": [
+      "https://saref.etsi.org/saref4bldg/compressorSpeed"
+    ],
+    "connection size": [
+      "https://saref.etsi.org/saref4bldg/connectionSize"
+    ],
+    "contains": [
+      "https://saref.etsi.org/saref4bldg/contains",
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#contains"
+    ],
+    "contributed luminous flux": [
+      "https://saref.etsi.org/saref4bldg/contributedLuminousFlux"
+    ],
+    "cover length": [
+      "https://saref.etsi.org/saref4bldg/coverLength"
+    ],
+    "cover width": [
+      "https://saref.etsi.org/saref4bldg/coverWidth"
+    ],
+    "effective capacity": [
+      "https://saref.etsi.org/saref4bldg/effectiveCapacity"
+    ],
+    "electric generator efficiency": [
+      "https://saref.etsi.org/saref4bldg/electricGeneratorEfficiency"
+    ],
+    "electric motor efficiency": [
+      "https://saref.etsi.org/saref4bldg/electricMotorEfficiency"
+    ],
+    "external surface area": [
+      "https://saref.etsi.org/saref4bldg/externalSurfaceArea"
+    ],
+    "face area": [
+      "https://saref.etsi.org/saref4bldg/faceArea"
+    ],
+    "final resistance": [
+      "https://saref.etsi.org/saref4bldg/finalResistance"
+    ],
+    "first curvature radius": [
+      "https://saref.etsi.org/saref4bldg/firstCurvatureRadius"
+    ],
+    "flow coefficient": [
+      "https://saref.etsi.org/saref4bldg/flowCoefficient"
+    ],
+    "fouling factor": [
+      "https://saref.etsi.org/saref4bldg/foulingFactor"
+    ],
+    "frame depth": [
+      "https://saref.etsi.org/saref4bldg/frameDepth"
+    ],
+    "frame thickness": [
+      "https://saref.etsi.org/saref4bldg/frameThickness"
+    ],
+    "has space": [
+      "https://saref.etsi.org/saref4bldg/hasSpace"
+    ],
+    "heat exchange area": [
+      "https://saref.etsi.org/saref4bldg/heatExchangeArea"
+    ],
+    "heat transfer surface area": [
+      "https://saref.etsi.org/saref4bldg/heatTransferSurfaceArea"
+    ],
+    "height": [
+      "https://saref.etsi.org/saref4bldg/height"
+    ],
+    "horizontal spacing": [
+      "https://saref.etsi.org/saref4bldg/horizontalSpacing"
+    ],
+    "hydraulic diameter": [
+      "https://saref.etsi.org/saref4bldg/hydraulicDiameter"
+    ],
+    "ideal capacity": [
+      "https://saref.etsi.org/saref4bldg/idealCapacity"
+    ],
+    "ideal shaft power": [
+      "https://saref.etsi.org/saref4bldg/idealShaftPower"
+    ],
+    "imaginary impedance ratio": [
+      "https://saref.etsi.org/saref4bldg/imaginaryImpedanceRatio"
+    ],
+    "impeller diameter": [
+      "https://saref.etsi.org/saref4bldg/impellerDiameter"
+    ],
+    "in line row spacing": [
+      "https://saref.etsi.org/saref4bldg/inLineRowSpacing"
+    ],
+    "initial resistance": [
+      "https://saref.etsi.org/saref4bldg/initialResistance"
+    ],
+    "inlet connection size": [
+      "https://saref.etsi.org/saref4bldg/inletConnectionSize"
+    ],
+    "inside diameter": [
+      "https://saref.etsi.org/saref4bldg/insideDiameter"
+    ],
+    "internal refrigerant volume": [
+      "https://saref.etsi.org/saref4bldg/internalRefrigerantVolume"
+    ],
+    "internal surface area": [
+      "https://saref.etsi.org/saref4bldg/internalSurfaceArea"
+    ],
+    "internal water volume": [
+      "https://saref.etsi.org/saref4bldg/internalWaterVolume"
+    ],
+    "is contained in": [
+      "https://saref.etsi.org/saref4bldg/isContainedIn"
+    ],
+    "isSpaceOf": [
+      "https://saref.etsi.org/saref4bldg/isSpaceOf"
+    ],
+    "isolator compressibility": [
+      "https://saref.etsi.org/saref4bldg/isolatorCompressibility"
+    ],
+    "isolator static deflection": [
+      "https://saref.etsi.org/saref4bldg/isolatorStaticDeflection"
+    ],
+    "lamp maintenance factor": [
+      "https://saref.etsi.org/saref4bldg/lampMaintenanceFactor"
+    ],
+    "leakage fully closed": [
+      "https://saref.etsi.org/saref4bldg/leakageFullyClosed"
+    ],
+    "length": [
+      "https://saref.etsi.org/saref4bldg/length"
+    ],
+    "lift elevation difference": [
+      "https://saref.etsi.org/saref4bldg/liftElevationDifference"
+    ],
+    "light emitter nominal power": [
+      "https://saref.etsi.org/saref4bldg/lightEmitterNominalPower"
+    ],
+    "limiting terminal size": [
+      "https://saref.etsi.org/saref4bldg/limitingTerminalSize"
+    ],
+    "locked rotor current": [
+      "https://saref.etsi.org/saref4bldg/lockedRotorCurrent"
+    ],
+    "net positive suction head": [
+      "https://saref.etsi.org/saref4bldg/netPositiveSuctionHead"
+    ],
+    "nominal air flow rate": [
+      "https://saref.etsi.org/saref4bldg/nominalAirFlowRate"
+    ],
+    "nominal body depth": [
+      "https://saref.etsi.org/saref4bldg/nominalBodyDepth"
+    ],
+    "nominal body length": [
+      "https://saref.etsi.org/saref4bldg/nominalBodyLength"
+    ],
+    "nominal body width": [
+      "https://saref.etsi.org/saref4bldg/nominalBodyWidth"
+    ],
+    "nominal capacity": [
+      "https://saref.etsi.org/saref4bldg/nominalCapacity"
+    ],
+    "nominal condensing temperature": [
+      "https://saref.etsi.org/saref4bldg/nominalCondensingTemperature"
+    ],
+    "nominal cooling capacity": [
+      "https://saref.etsi.org/saref4bldg/nominalCoolingCapacity"
+    ],
+    "nominal depth": [
+      "https://saref.etsi.org/saref4bldg/nominalDepth"
+    ],
+    "nominal diameter": [
+      "https://saref.etsi.org/saref4bldg/nominalDiameter"
+    ],
+    "nominal energy consumption": [
+      "https://saref.etsi.org/saref4bldg/nominalEnergyConsumption"
+    ],
+    "nominal evaporating temmperature": [
+      "https://saref.etsi.org/saref4bldg/nominalEvaporatingTemmperature"
+    ],
+    "nominal filter face velocity": [
+      "https://saref.etsi.org/saref4bldg/nominalFilterFaceVelocity"
+    ],
+    "nominal flow rate": [
+      "https://saref.etsi.org/saref4bldg/nominalFlowRate"
+    ],
+    "nominal frequency": [
+      "https://saref.etsi.org/saref4bldg/nominalFrequency"
+    ],
+    "nominal heat rejection rate": [
+      "https://saref.etsi.org/saref4bldg/nominalHeatRejectionRate"
+    ],
+    "nominal heat transfer area": [
+      "https://saref.etsi.org/saref4bldg/nominalHeatTransferArea"
+    ],
+    "nominal heat transfer coefficient": [
+      "https://saref.etsi.org/saref4bldg/nominalHeatTransferCoefficient"
+    ],
+    "nominal heating capacity": [
+      "https://saref.etsi.org/saref4bldg/nominalHeatingCapacity"
+    ],
+    "nominal latent capacity": [
+      "https://saref.etsi.org/saref4bldg/nominalLatentCapacity"
+    ],
+    "nominal length or diameter": [
+      "https://saref.etsi.org/saref4bldg/nominalLengthOrDiameter"
+    ],
+    "nominal media surface velocity": [
+      "https://saref.etsi.org/saref4bldg/nominalMediaSurfaceVelocity"
+    ],
+    "nominal moisture gain": [
+      "https://saref.etsi.org/saref4bldg/nominalMoistureGain"
+    ],
+    "nominal part load ratio": [
+      "https://saref.etsi.org/saref4bldg/nominalPartLoadRatio"
+    ],
+    "nominal particle geometric mean diameter": [
+      "https://saref.etsi.org/saref4bldg/nominalParticleGeometricMeanDiameter"
+    ],
+    "nominal particle geometric standard deviation": [
+      "https://saref.etsi.org/saref4bldg/nominalParticleGeometricStandardDeviation"
+    ],
+    "nominal power consumption": [
+      "https://saref.etsi.org/saref4bldg/nominalPowerConsumption"
+    ],
+    "nominal power rate": [
+      "https://saref.etsi.org/saref4bldg/nominalPowerRate"
+    ],
+    "nominal pressure drop": [
+      "https://saref.etsi.org/saref4bldg/nominalPressureDrop"
+    ],
+    "nominal return water temperature cooling": [
+      "https://saref.etsi.org/saref4bldg/nominalReturnWaterTemperatureCooling"
+    ],
+    "nominal return water temperature heating": [
+      "https://saref.etsi.org/saref4bldg/nominalReturnWaterTemperatureHeating"
+    ],
+    "nominal rotation speed": [
+      "https://saref.etsi.org/saref4bldg/nominalRotationSpeed"
+    ],
+    "nominal sensible capacity": [
+      "https://saref.etsi.org/saref4bldg/nominalSensibleCapacity"
+    ],
+    "nominal sorrounding humidity cooling": [
+      "https://saref.etsi.org/saref4bldg/nominalSorroundingHumidityCooling"
+    ],
+    "nominal sorrounding temperature cooling": [
+      "https://saref.etsi.org/saref4bldg/nominalSorroundingTemperatureCooling"
+    ],
+    "nominal sorrounding temperature heating": [
+      "https://saref.etsi.org/saref4bldg/nominalSorroundingTemperatureHeating"
+    ],
+    "nominal static pressure": [
+      "https://saref.etsi.org/saref4bldg/nominalStaticPressure"
+    ],
+    "nominal supply voltage": [
+      "https://saref.etsi.org/saref4bldg/nominalSupplyVoltage"
+    ],
+    "nominal supply water temperature cooling": [
+      "https://saref.etsi.org/saref4bldg/nominalSupplyWaterTemperatureCooling"
+    ],
+    "nominal supply water temperature heating": [
+      "https://saref.etsi.org/saref4bldg/nominalSupplyWaterTemperatureHeating"
+    ],
+    "nominal total pressure": [
+      "https://saref.etsi.org/saref4bldg/nominalTotalPressure"
+    ],
+    "nominal ua": [
+      "https://saref.etsi.org/saref4bldg/nominalUa"
+    ],
+    "nominal volumetric capacity": [
+      "https://saref.etsi.org/saref4bldg/nominalVolumetricCapacity"
+    ],
+    "nominal water flow cooling": [
+      "https://saref.etsi.org/saref4bldg/nominalWaterFlowCooling"
+    ],
+    "nominal water flow heating": [
+      "https://saref.etsi.org/saref4bldg/nominalWaterFlowHeating"
+    ],
+    "nominal width or diameter": [
+      "https://saref.etsi.org/saref4bldg/nominalWidthOrDiameter"
+    ],
+    "nomminal rotation speed": [
+      "https://saref.etsi.org/saref4bldg/nomminalRotationSpeed"
+    ],
+    "open pressure drop": [
+      "https://saref.etsi.org/saref4bldg/openPressureDrop"
+    ],
+    "operating weight": [
+      "https://saref.etsi.org/saref4bldg/operatingWeight"
+    ],
+    "operational riterial": [
+      "https://saref.etsi.org/saref4bldg/operationalRiterial"
+    ],
+    "outlet connection size": [
+      "https://saref.etsi.org/saref4bldg/outletConnectionSize"
+    ],
+    "output capacity": [
+      "https://saref.etsi.org/saref4bldg/outputCapacity"
+    ],
+    "outside diameter": [
+      "https://saref.etsi.org/saref4bldg/outsideDiameter"
+    ],
+    "maximum part load ratio": [
+      "https://saref.etsi.org/saref4bldg/partLoadRatioMax"
+    ],
+    "minimum part load ratio": [
+      "https://saref.etsi.org/saref4bldg/partLoadRatioMin"
+    ],
+    "maximum power output": [
+      "https://saref.etsi.org/saref4bldg/powerOutputMax"
+    ],
+    "pressure rating": [
+      "https://saref.etsi.org/saref4bldg/pressureRating"
+    ],
+    "primary apparent power": [
+      "https://saref.etsi.org/saref4bldg/primaryApparentPower"
+    ],
+    "primary frequency": [
+      "https://saref.etsi.org/saref4bldg/primaryFrequency"
+    ],
+    "real impedance ratio": [
+      "https://saref.etsi.org/saref4bldg/realImpedanceRatio"
+    ],
+    "second curvature radius": [
+      "https://saref.etsi.org/saref4bldg/secondCurvatureRadius"
+    ],
+    "secondary apparent power": [
+      "https://saref.etsi.org/saref4bldg/secondaryApparentPower"
+    ],
+    "secondary frequency": [
+      "https://saref.etsi.org/saref4bldg/secondaryFrequency"
+    ],
+    "short circuit voltage": [
+      "https://saref.etsi.org/saref4bldg/shortCircuitVoltage"
+    ],
+    "size": [
+      "https://saref.etsi.org/saref4bldg/size"
+    ],
+    "solar reflectance": [
+      "https://saref.etsi.org/saref4bldg/solarReflectance"
+    ],
+    "solar transmittance": [
+      "https://saref.etsi.org/saref4bldg/solarTransmittance"
+    ],
+    "maximum spectrum": [
+      "https://saref.etsi.org/saref4bldg/spectrumMax"
+    ],
+    "minimum spectrum": [
+      "https://saref.etsi.org/saref4bldg/spectrumMin"
+    ],
+    "staggered row spacing": [
+      "https://saref.etsi.org/saref4bldg/staggeredRowSpacing"
+    ],
+    "start current factor": [
+      "https://saref.etsi.org/saref4bldg/startCurrentFactor"
+    ],
+    "starting time": [
+      "https://saref.etsi.org/saref4bldg/startingTime"
+    ],
+    "maximum supported weight": [
+      "https://saref.etsi.org/saref4bldg/supportedWeightMax"
+    ],
+    "te time": [
+      "https://saref.etsi.org/saref4bldg/teTime"
+    ],
+    "temperature rating": [
+      "https://saref.etsi.org/saref4bldg/temperatureRating"
+    ],
+    "test pressure": [
+      "https://saref.etsi.org/saref4bldg/testPressure"
+    ],
+    "thermal conductivity": [
+      "https://saref.etsi.org/saref4bldg/thermalConductivity"
+    ],
+    "thermal efficiency": [
+      "https://saref.etsi.org/saref4bldg/thermalEfficiency"
+    ],
+    "thermal mass heat capacity": [
+      "https://saref.etsi.org/saref4bldg/thermalMassHeatCapacity"
+    ],
+    "thermal transmittance": [
+      "https://saref.etsi.org/saref4bldg/thermalTransmittance"
+    ],
+    "ventilating pipe size": [
+      "https://saref.etsi.org/saref4bldg/ventilatingPipeSize"
+    ],
+    "vertical spacing": [
+      "https://saref.etsi.org/saref4bldg/verticalSpacing"
+    ],
+    "vibration transmissibility": [
+      "https://saref.etsi.org/saref4bldg/vibrationTransmissibility"
+    ],
+    "visible light reflectance": [
+      "https://saref.etsi.org/saref4bldg/visibleLightReflectance"
+    ],
+    "visible light transmittance": [
+      "https://saref.etsi.org/saref4bldg/visibleLightTransmittance"
+    ],
+    "volumen": [
+      "https://saref.etsi.org/saref4bldg/volumen"
+    ],
+    "water requirement": [
+      "https://saref.etsi.org/saref4bldg/waterRequirement"
+    ],
+    "water storage capacity": [
+      "https://saref.etsi.org/saref4bldg/waterStorageCapacity"
+    ],
+    "weight": [
+      "https://saref.etsi.org/saref4bldg/weight"
+    ],
+    "working pressure": [
+      "https://saref.etsi.org/saref4bldg/workingPressure"
+    ],
+    "maximum working pressure": [
+      "https://saref.etsi.org/saref4bldg/workingPressureMax"
+    ],
+    "minimum working pressure": [
+      "https://saref.etsi.org/saref4bldg/workingPressureMin"
+    ],
+    "connected actuator": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/connected_actuator"
+    ],
+    "connected sensor": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/connected_sensor"
+    ],
+    "contain of": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/contain_of"
+    ],
+    "controlled property": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/controlled_property"
+    ],
+    "has building": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/has_building"
+    ],
+    "has channel": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/has_channel"
+    ],
+    "has room": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/has_room"
+    ],
+    "has sensor": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/has_sensor"
+    ],
+    "has sub zone": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/has_sub_zone"
+    ],
+    "has tenant": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/has_tenant"
+    ],
+    "has zone": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/has_zone"
+    ],
+    "in building": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/in_building"
+    ],
+    "in floor": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/in_floor"
+    ],
+    "in room": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/in_room"
+    ],
+    "is located at": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/is_located_at"
+    ],
+    "live in": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/live_in"
+    ],
+    "located at": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/located_at"
+    ],
+    "located in": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/located_in",
+      "https://w3id.org/sbeo#locatedIn"
+    ],
+    "ref building": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/ref_building"
+    ],
+    "related sensor": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/related_sensor"
+    ],
+    "sub category": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/sub_category"
+    ],
+    "contact point": [
+      "https://smartdatamodels.org/contactPoint"
+    ],
+    "active energy export": [
+      "https://smartdatamodels.org/dataModel.Energy/activeEnergyExport"
+    ],
+    "active energy import": [
+      "https://smartdatamodels.org/dataModel.Energy/activeEnergyImport"
+    ],
+    "apparent energy export": [
+      "https://smartdatamodels.org/dataModel.Energy/apparentEnergyExport"
+    ],
+    "apparent energy import": [
+      "https://smartdatamodels.org/dataModel.Energy/apparentEnergyImport"
+    ],
+    "current": [
+      "https://smartdatamodels.org/dataModel.Energy/current"
+    ],
+    "displacement power factor": [
+      "https://smartdatamodels.org/dataModel.Energy/displacementPowerFactor"
+    ],
+    "phase to phase voltage": [
+      "https://smartdatamodels.org/dataModel.Energy/phaseToPhaseVoltage"
+    ],
+    "phase voltage": [
+      "https://smartdatamodels.org/dataModel.Energy/phaseVoltage"
+    ],
+    "power factor": [
+      "https://smartdatamodels.org/dataModel.Energy/powerFactor"
+    ],
+    "reactive energy export": [
+      "https://smartdatamodels.org/dataModel.Energy/reactiveEnergyExport"
+    ],
+    "reactive energy import": [
+      "https://smartdatamodels.org/dataModel.Energy/reactiveEnergyImport"
+    ],
+    "thd current": [
+      "https://smartdatamodels.org/dataModel.Energy/thdCurrent"
+    ],
+    "thd voltage": [
+      "https://smartdatamodels.org/dataModel.Energy/thdVoltage"
+    ],
+    "connectsToInternetThrough": [
+      "https://w3id.org/respond#connectsToInternetThrough"
+    ],
+    "forecasts Property": [
+      "https://w3id.org/respond#forecastsProperty"
+    ],
+    "has Data Sending Method": [
+      "https://w3id.org/respond#hasDataSendingMethod"
+    ],
+    "has Icon": [
+      "https://w3id.org/respond#hasIcon"
+    ],
+    "provides Service To Location": [
+      "https://w3id.org/respond#providesServiceToLocation"
+    ],
+    "accomplishes": [
+      "https://w3id.org/saref#accomplishes"
+    ],
+    "acts upon": [
+      "https://w3id.org/saref#actsUpon"
+    ],
+    "consists of": [
+      "https://w3id.org/saref#consistsOf"
+    ],
+    "controls property": [
+      "https://w3id.org/saref#controlsProperty"
+    ],
+    "has command": [
+      "https://w3id.org/saref#hasCommand"
+    ],
+    "has function": [
+      "https://w3id.org/saref#hasFunction"
+    ],
+    "has meter reading": [
+      "https://w3id.org/saref#hasMeterReading"
+    ],
+    "has meter reading type": [
+      "https://w3id.org/saref#hasMeterReadingType"
+    ],
+    "has price": [
+      "https://w3id.org/saref#hasPrice"
+    ],
+    "has profile": [
+      "https://w3id.org/saref#hasProfile"
+    ],
+    "has sensing range": [
+      "https://w3id.org/saref#hasSensingRange"
+    ],
+    "has sensor type": [
+      "https://w3id.org/saref#hasSensorType"
+    ],
+    "has state": [
+      "https://w3id.org/saref#hasState"
+    ],
+    "has threshold measurement": [
+      "https://w3id.org/saref#hasThresholdMeasurement"
+    ],
+    "has time": [
+      "https://w3id.org/saref#hasTime"
+    ],
+    "has typical consumption": [
+      "https://w3id.org/saref#hasTypicalConsumption"
+    ],
+    "is about": [
+      "https://w3id.org/saref#isAbout"
+    ],
+    "is accomplished by": [
+      "https://w3id.org/saref#isAccomplishedBy"
+    ],
+    "is command of": [
+      "https://w3id.org/saref#isCommandOf"
+    ],
+    "is controlled by device": [
+      "https://w3id.org/saref#isControlledByDevice"
+    ],
+    "is measured by device": [
+      "https://w3id.org/saref#isMeasuredByDevice"
+    ],
+    "is offered by": [
+      "https://w3id.org/saref#isOfferedBy"
+    ],
+    "is used for": [
+      "https://w3id.org/saref#isUsedFor"
+    ],
+    "makes measurement": [
+      "https://w3id.org/saref#makesMeasurement"
+    ],
+    "measures property": [
+      "https://w3id.org/saref#measuresProperty"
+    ],
+    "offers": [
+      "https://w3id.org/saref#offers"
+    ],
+    "relates to measurement": [
+      "https://w3id.org/saref#relatesToMeasurement"
+    ],
+    "represents": [
+      "https://w3id.org/saref#represents"
+    ],
+    "Accompanying": [
+      "https://w3id.org/sbeo#accompanying"
+    ],
+    "Acquaintance Of": [
+      "https://w3id.org/sbeo#acquaintanceOf"
+    ],
+    "Adjacent To": [
+      "https://w3id.org/sbeo#adjacentTo"
+    ],
+    "Assigned Route": [
+      "https://w3id.org/sbeo#assignedRoute"
+    ],
+    "Connected To": [
+      "https://w3id.org/sbeo#connectedTo"
+    ],
+    "Context": [
+      "https://w3id.org/sbeo#context"
+    ],
+    "Destination": [
+      "https://w3id.org/sbeo#destination"
+    ],
+    "Excluded For": [
+      "https://w3id.org/sbeo#excludedFor"
+    ],
+    "Familiar With": [
+      "https://w3id.org/sbeo#familiarWith"
+    ],
+    "For Person": [
+      "https://w3id.org/sbeo#forPerson"
+    ],
+    "For Space": [
+      "https://w3id.org/sbeo#forSpace"
+    ],
+    "Group Subscription": [
+      "https://w3id.org/sbeo#groupSubscription"
+    ],
+    "Has Ability": [
+      "https://w3id.org/sbeo#hasAbility"
+    ],
+    "Has Activity Status": [
+      "https://w3id.org/sbeo#hasActivityStatus"
+    ],
+    "Has Availability Status": [
+      "https://w3id.org/sbeo#hasAvailabilityStatus"
+    ],
+    "Has Description": [
+      "https://w3id.org/sbeo#hasDescription"
+    ],
+    "Has Deviation State": [
+      "https://w3id.org/sbeo#hasDeviationState"
+    ],
+    "Has Fitness Status": [
+      "https://w3id.org/sbeo#hasFitnessStatus"
+    ],
+    "Has Impact": [
+      "https://w3id.org/sbeo#hasImpact"
+    ],
+    "Has Intensity": [
+      "https://w3id.org/sbeo#hasIntensity"
+    ],
+    "Has Member": [
+      "https://w3id.org/sbeo#hasMember"
+    ],
+    "Has Motion State": [
+      "https://w3id.org/sbeo#hasMotionState"
+    ],
+    "Has Navigational State": [
+      "https://w3id.org/sbeo#hasNavigationalState"
+    ],
+    "Has Navigation Type": [
+      "https://w3id.org/sbeo#hasNavigationalType"
+    ],
+    "Has Quality": [
+      "https://w3id.org/sbeo#hasQuality"
+    ],
+    "Has Severity": [
+      "https://w3id.org/sbeo#hasSeverity"
+    ],
+    "Installed In": [
+      "https://w3id.org/sbeo#installedIn"
+    ],
+    "Lead To": [
+      "https://w3id.org/sbeo#leadsTo"
+    ],
+    "Lower": [
+      "https://w3id.org/sbeo#lower"
+    ],
+    "Means of Notification": [
+      "https://w3id.org/sbeo#meansOfNotification"
+    ],
+    "Notification Preference": [
+      "https://w3id.org/sbeo#notificationPreference"
+    ],
+    "Of Activity": [
+      "https://w3id.org/sbeo#ofActivity"
+    ],
+    "Of Event": [
+      "https://w3id.org/sbeo#ofEvent"
+    ],
+    "Origin": [
+      "https://w3id.org/sbeo#origin"
+    ],
+    "Part Of": [
+      "https://w3id.org/sbeo#partOf"
+    ],
+    "Performed by": [
+      "https://w3id.org/sbeo#performedBy"
+    ],
+    "Player": [
+      "https://w3id.org/sbeo#player"
+    ],
+    "Responsible To": [
+      "https://w3id.org/sbeo#responsibleTo"
+    ],
+    "Role": [
+      "https://w3id.org/sbeo#role"
+    ],
+    "Route Preference": [
+      "https://w3id.org/sbeo#routePreference"
+    ],
+    "Route Type": [
+      "https://w3id.org/sbeo#routeType"
+    ],
+    "Upper": [
+      "https://w3id.org/sbeo#upper"
+    ],
+    "Uses": [
+      "https://w3id.org/sbeo#uses"
+    ],
+    "consumesEnergy": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#consumesEnergy"
+    ],
+    "consumesEnergyType": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#consumesEnergyType"
+    ],
+    "energyConsumedBy": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#energyConsumedBy"
+    ],
+    "energyProducedBy": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#energyProducedBy"
+    ],
+    "energyTypeConsumedBy": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#energyTypeConsumedBy"
+    ],
+    "energyTypeProducedBy": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#energyTypeProducedBy"
+    ],
+    "hasAssociatedZone": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#hasAssociatedZone"
+    ],
+    "hasFloor": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#hasFloor"
+    ],
+    "isFloorOf": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#isFloorOf"
+    ],
+    "isIn": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#isIn"
+    ],
+    "producesEnergy": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#producesEnergy"
+    ],
+    "producesEnergyType": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#producesEnergyType"
+    ],
+    "hasInfluenceOn": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/ProcessOntology.owl#hasInfluenceOn"
+    ],
+    "isInfluencedBy": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/ProcessOntology.owl#isInfluencedBy"
+    ],
+    "hasDirection": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/WeatherOntology.owl#hasDirection"
+    ],
+    "hasSpeed": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/WeatherOntology.owl#hasSpeed"
+    ],
+    "containsEquation": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/gbBuildingOntology.owl#containsEquation"
+    ],
+    "containsU-value": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/gbBuildingOntology.owl#containsU-value"
+    ],
+    "hasSchedule": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/gbBuildingOntology.owl#hasSchedule"
+    ],
+    "isEquipmentParameterOf": [
+      "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/gbBuildingOntology.owl#isEquipmentParameterOf"
+    ],
+    "hasKPIDefinition": [
+      "http://energy.linkeddata.es/em-kpi/ontology#hasKPIDefinition"
+    ],
+    "hasMathML": [
+      "http://energy.linkeddata.es/em-kpi/ontology#hasMathML"
+    ],
+    "hasYearOfConstruction": [
+      "http://energy.linkeddata.es/em-kpi/ontology#hasYearOfConstruction"
+    ],
+    "identifier": [
+      "http://purl.org/dc/terms/identifier",
+      "https://smartdatamodels.org/dataModel.Energy/id",
+      "https://w3id.org/sbeo#id"
+    ],
+    "title": [
+      "http://purl.org/dc/terms/title"
+    ],
+    "has index": [
+      "http://purl.org/ontology/olo/core#index"
+    ],
+    "Length of Ordered List": [
+      "http://purl.org/ontology/olo/core#length"
+    ],
+    "symbol": [
+      "http://qudt.org/schema/qudt#symbol"
+    ],
+    "duration": [
+      "http://schema.org/duration",
+      "https://w3id.org/sbeo#timeDuration"
+    ],
+    "hasValue": [
+      "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasValue",
+      "https://saref.etsi.org/core/hasValue",
+      "https://w3id.org/saref#hasValue",
+      "https://w3id.org/sbeo#hasValue"
+    ],
+    "e pnren": [
+      "http://www.owl-ontologies.com/EPC4EU#EPnren"
+    ],
+    "e pren": [
+      "http://www.owl-ontologies.com/EPC4EU#EPren"
+    ],
+    "energy conversion system type": [
+      "http://www.owl-ontologies.com/EPC4EU#EnergyConversionSystemType"
+    ],
+    "additional information": [
+      "http://www.owl-ontologies.com/EPC4EU#additionalInformation"
+    ],
+    "building info": [
+      "http://www.owl-ontologies.com/EPC4EU#buildingInfo"
+    ],
+    "certificate code": [
+      "http://www.owl-ontologies.com/EPC4EU#certificateCode"
+    ],
+    "certificate object": [
+      "http://www.owl-ontologies.com/EPC4EU#certificateObject"
+    ],
+    "certifier category": [
+      "http://www.owl-ontologies.com/EPC4EU#certifierCategory"
+    ],
+    "certifier code": [
+      "http://www.owl-ontologies.com/EPC4EU#certifierCode"
+    ],
+    "climatic zone": [
+      "http://www.owl-ontologies.com/EPC4EU#climaticZone"
+    ],
+    "contact details": [
+      "http://www.owl-ontologies.com/EPC4EU#contactDetails"
+    ],
+    "current use thermal": [
+      "http://www.owl-ontologies.com/EPC4EU#currentUseThermal"
+    ],
+    "date of expiration": [
+      "http://www.owl-ontologies.com/EPC4EU#dateOfExpiration"
+    ],
+    "date of inspection": [
+      "http://www.owl-ontologies.com/EPC4EU#dateOfInspection"
+    ],
+    "date of issue": [
+      "http://www.owl-ontologies.com/EPC4EU#dateOfIssue"
+    ],
+    "energy carrier type": [
+      "http://www.owl-ontologies.com/EPC4EU#energyCarrierType"
+    ],
+    "energy consumption": [
+      "http://www.owl-ontologies.com/EPC4EU#energyConsumption"
+    ],
+    "energy conversion system code": [
+      "http://www.owl-ontologies.com/EPC4EU#energyConversionSystemCode"
+    ],
+    "energy performance": [
+      "http://www.owl-ontologies.com/EPC4EU#energyPerformance"
+    ],
+    "energy performance reference": [
+      "http://www.owl-ontologies.com/EPC4EU#energyPerformanceReference"
+    ],
+    "energy system category": [
+      "http://www.owl-ontologies.com/EPC4EU#energySystemCategory"
+    ],
+    "inspire id": [
+      "http://www.owl-ontologies.com/EPC4EU#inspireId"
+    ],
+    "nomial efficiency": [
+      "http://www.owl-ontologies.com/EPC4EU#nomialEfficiency"
+    ],
+    "nominal power": [
+      "http://www.owl-ontologies.com/EPC4EU#nominalPower"
+    ],
+    "note": [
+      "http://www.owl-ontologies.com/EPC4EU#note"
+    ],
+    "other conversion system type notes": [
+      "http://www.owl-ontologies.com/EPC4EU#otherConversionSystemTypeNotes"
+    ],
+    "professional registry": [
+      "http://www.owl-ontologies.com/EPC4EU#professionalRegistry"
+    ],
+    "recommendations": [
+      "http://www.owl-ontologies.com/EPC4EU#recommendations"
+    ],
+    "scope": [
+      "http://www.owl-ontologies.com/EPC4EU#scope"
+    ],
+    "software reference": [
+      "http://www.owl-ontologies.com/EPC4EU#softwareReference"
+    ],
+    "year of installation": [
+      "http://www.owl-ontologies.com/EPC4EU#yearOfInstallation"
+    ],
+    "citation": [
+      "http://www.owl-ontologies.com/questionnaire#citation"
+    ],
+    "country": [
+      "http://www.owl-ontologies.com/questionnaire#country"
+    ],
+    "topDataProperty": [
+      "http://www.w3.org/2002/07/owl#topDataProperty"
+    ],
+    "altitude": [
+      "http://www.w3.org/2003/01/geo/wgs84_pos#alt"
+    ],
+    "latitude": [
+      "http://www.w3.org/2003/01/geo/wgs84_pos#lat"
+    ],
+    "longitude": [
+      "http://www.w3.org/2003/01/geo/wgs84_pos#long"
+    ],
+    "inXSDDateTime": [
+      "http://www.w3.org/2006/time#inXSDDateTime"
+    ],
+    "has simple result": [
+      "http://www.w3.org/ns/sosa/hasSimpleResult"
+    ],
+    "Age": [
+      "http://xmlns.com/foaf/0.1/age"
+    ],
+    "First Name": [
+      "http://xmlns.com/foaf/0.1/firstName"
+    ],
+    "Gender": [
+      "http://xmlns.com/foaf/0.1/gender"
+    ],
+    "Last Name": [
+      "http://xmlns.com/foaf/0.1/lastName"
+    ],
+    "has timestamp": [
+      "https://saref.etsi.org/core/hasTimestamp",
+      "https://w3id.org/saref#hasTimestamp"
+    ],
+    "access type": [
+      "https://saref.etsi.org/saref4bldg/accessType"
+    ],
+    "application": [
+      "https://saref.etsi.org/saref4bldg/application"
+    ],
+    "arrangement": [
+      "https://saref.etsi.org/saref4bldg/arrangement"
+    ],
+    "blade action": [
+      "https://saref.etsi.org/saref4bldg/bladeAction"
+    ],
+    "blade edge": [
+      "https://saref.etsi.org/saref4bldg/bladeEdge"
+    ],
+    "blade shape": [
+      "https://saref.etsi.org/saref4bldg/bladeShape"
+    ],
+    "capacity control": [
+      "https://saref.etsi.org/saref4bldg/capacityControl"
+    ],
+    "capacity control type": [
+      "https://saref.etsi.org/saref4bldg/capacityControlType"
+    ],
+    "capacity people": [
+      "https://saref.etsi.org/saref4bldg/capacityPeople"
+    ],
+    "circuit type": [
+      "https://saref.etsi.org/saref4bldg/circuitType"
+    ],
+    "color appearance": [
+      "https://saref.etsi.org/saref4bldg/colorAppearance"
+    ],
+    "color rendering index": [
+      "https://saref.etsi.org/saref4bldg/colorRenderingIndex"
+    ],
+    "control strategy": [
+      "https://saref.etsi.org/saref4bldg/controlStrategy"
+    ],
+    "end shape type": [
+      "https://saref.etsi.org/saref4bldg/endShapeType"
+    ],
+    "energy source": [
+      "https://saref.etsi.org/saref4bldg/energySource"
+    ],
+    "evaporation coolant": [
+      "https://saref.etsi.org/saref4bldg/evaporationCoolant"
+    ],
+    "evaporation medium type": [
+      "https://saref.etsi.org/saref4bldg/evaporationMediumType"
+    ],
+    "fail position": [
+      "https://saref.etsi.org/saref4bldg/failPosition"
+    ],
+    "finish color": [
+      "https://saref.etsi.org/saref4bldg/finishColor"
+    ],
+    "fire exit": [
+      "https://saref.etsi.org/saref4bldg/fireExit"
+    ],
+    "flow arrangement": [
+      "https://saref.etsi.org/saref4bldg/flowArrangement"
+    ],
+    "frame size": [
+      "https://saref.etsi.org/saref4bldg/frameSize"
+    ],
+    "frame type": [
+      "https://saref.etsi.org/saref4bldg/frameType"
+    ],
+    "has defrost": [
+      "https://saref.etsi.org/saref4bldg/hasDefrost"
+    ],
+    "has exterior insulation": [
+      "https://saref.etsi.org/saref4bldg/hasExteriorInsulation"
+    ],
+    "has hot gas bypass": [
+      "https://saref.etsi.org/saref4bldg/hasHotGasBypass"
+    ],
+    "has lock": [
+      "https://saref.etsi.org/saref4bldg/hasLock"
+    ],
+    "has part winding": [
+      "https://saref.etsi.org/saref4bldg/hasPartWinding"
+    ],
+    "has turbulator": [
+      "https://saref.etsi.org/saref4bldg/hasTurbulator"
+    ],
+    "heat transfer dimension": [
+      "https://saref.etsi.org/saref4bldg/heatTransferDimension"
+    ],
+    "heat transfer medium": [
+      "https://saref.etsi.org/saref4bldg/heatTransferMedium"
+    ],
+    "heat transfer type enum": [
+      "https://saref.etsi.org/saref4bldg/heatTransferTypeEnum"
+    ],
+    "integrated lighting type": [
+      "https://saref.etsi.org/saref4bldg/integratedLightingType"
+    ],
+    "internal control": [
+      "https://saref.etsi.org/saref4bldg/internalControl"
+    ],
+    "is external": [
+      "https://saref.etsi.org/saref4bldg/isExternal"
+    ],
+    "is free hanging": [
+      "https://saref.etsi.org/saref4bldg/isFreeHanging"
+    ],
+    "is guarded": [
+      "https://saref.etsi.org/saref4bldg/isGuarded"
+    ],
+    "is illuminated": [
+      "https://saref.etsi.org/saref4bldg/isIlluminated"
+    ],
+    "is neutral primary terminal available": [
+      "https://saref.etsi.org/saref4bldg/isNeutralPrimaryTerminalAvailable"
+    ],
+    "is neutral secondary terminal available": [
+      "https://saref.etsi.org/saref4bldg/isNeutralSecondaryTerminalAvailable"
+    ],
+    "is pluggable outlet": [
+      "https://saref.etsi.org/saref4bldg/isPluggableOutlet"
+    ],
+    "is water storage heater": [
+      "https://saref.etsi.org/saref4bldg/isWaterStorageHeater"
+    ],
+    "lamp ballast type": [
+      "https://saref.etsi.org/saref4bldg/lampBallastType"
+    ],
+    "lamp compensation type": [
+      "https://saref.etsi.org/saref4bldg/lampCompensationType"
+    ],
+    "legend": [
+      "https://saref.etsi.org/saref4bldg/legend"
+    ],
+    "manual override": [
+      "https://saref.etsi.org/saref4bldg/manualOverride"
+    ],
+    "mechanical operated": [
+      "https://saref.etsi.org/saref4bldg/mechanicalOperated"
+    ],
+    "media source": [
+      "https://saref.etsi.org/saref4bldg/mediaSource"
+    ],
+    "motor drive type": [
+      "https://saref.etsi.org/saref4bldg/motorDriveType"
+    ],
+    "motor enclosure type": [
+      "https://saref.etsi.org/saref4bldg/motorEnclosureType"
+    ],
+    "number of blades": [
+      "https://saref.etsi.org/saref4bldg/numberOfBlades"
+    ],
+    "number of cells": [
+      "https://saref.etsi.org/saref4bldg/numberOfCells"
+    ],
+    "number of circuits": [
+      "https://saref.etsi.org/saref4bldg/numberOfCircuits"
+    ],
+    "number of gangs": [
+      "https://saref.etsi.org/saref4bldg/numberOfGangs"
+    ],
+    "number of panels": [
+      "https://saref.etsi.org/saref4bldg/numberOfPanels"
+    ],
+    "number of rows": [
+      "https://saref.etsi.org/saref4bldg/numberOfRows"
+    ],
+    "number of sections": [
+      "https://saref.etsi.org/saref4bldg/numberOfSections"
+    ],
+    "number os sockets": [
+      "https://saref.etsi.org/saref4bldg/numberOsSockets"
+    ],
+    "operating mode": [
+      "https://saref.etsi.org/saref4bldg/operatingMode"
+    ],
+    "operation": [
+      "https://saref.etsi.org/saref4bldg/operation"
+    ],
+    "orientation": [
+      "https://saref.etsi.org/saref4bldg/orientation"
+    ],
+    "pattern type": [
+      "https://saref.etsi.org/saref4bldg/patternType"
+    ],
+    "pipe connection enum": [
+      "https://saref.etsi.org/saref4bldg/pipeConnectionEnum"
+    ],
+    "placement type": [
+      "https://saref.etsi.org/saref4bldg/placementType"
+    ],
+    "power source": [
+      "https://saref.etsi.org/saref4bldg/powerSource"
+    ],
+    "read out type": [
+      "https://saref.etsi.org/saref4bldg/readOutType"
+    ],
+    "refrigerant class": [
+      "https://saref.etsi.org/saref4bldg/refrigerantClass"
+    ],
+    "remote reading": [
+      "https://saref.etsi.org/saref4bldg/remoteReading"
+    ],
+    "roughness": [
+      "https://saref.etsi.org/saref4bldg/roughness"
+    ],
+    "secondary current type": [
+      "https://saref.etsi.org/saref4bldg/secondaryCurrentType"
+    ],
+    "shading device type": [
+      "https://saref.etsi.org/saref4bldg/shadingDeviceType"
+    ],
+    "spray type": [
+      "https://saref.etsi.org/saref4bldg/sprayType"
+    ],
+    "standard": [
+      "https://saref.etsi.org/saref4bldg/standard"
+    ],
+    "storage type": [
+      "https://saref.etsi.org/saref4bldg/storageType"
+    ],
+    "switch function": [
+      "https://saref.etsi.org/saref4bldg/switchFunction"
+    ],
+    "temperature classification": [
+      "https://saref.etsi.org/saref4bldg/temperatureClassification"
+    ],
+    "transformer vector group": [
+      "https://saref.etsi.org/saref4bldg/transformerVectorGroup"
+    ],
+    "valve mechanism": [
+      "https://saref.etsi.org/saref4bldg/valveMechanism"
+    ],
+    "valve operation": [
+      "https://saref.etsi.org/saref4bldg/valveOperation"
+    ],
+    "valve pattern": [
+      "https://saref.etsi.org/saref4bldg/valvePattern"
+    ],
+    "water flow control system type": [
+      "https://saref.etsi.org/saref4bldg/waterFlowControlSystemType"
+    ],
+    "accuracy": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/accuracy"
+    ],
+    "control asset": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/control_asset"
+    ],
+    "controll asset": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/controll_asset"
+    ],
+    "controlled asset": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/controlled_asset"
+    ],
+    "created at": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/created_at"
+    ],
+    "current level": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/current_level"
+    ],
+    "data provider": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/data_provider",
+      "https://smartdatamodels.org/dataProvider"
+    ],
+    "floors above ground": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/floors_above_ground"
+    ],
+    "floors below ground": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/floors_below_ground"
+    ],
+    "has email": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/has_email"
+    ],
+    "has mobile number": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/has_mobile_number"
+    ],
+    "higher limit": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/higher_limit"
+    ],
+    "ip address": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/ip_address"
+    ],
+    "kp": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/kp"
+    ],
+    "listening": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/listening"
+    ],
+    "logging interval": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/logging_interval"
+    ],
+    "logical node": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/logical_node"
+    ],
+    "lower limit": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/lower_limit"
+    ],
+    "max active power": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/max_active_power"
+    ],
+    "max reactive power": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/max_reactive_power"
+    ],
+    "modified at": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/modified_at"
+    ],
+    "operation sequence": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/operation_sequence"
+    ],
+    "readable name": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/readable_name"
+    ],
+    "reverse action": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/reverse_action"
+    ],
+    "sample interval": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/sample_interval"
+    ],
+    "sample rate": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/sample_rate"
+    ],
+    "serial number": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/serial_number"
+    ],
+    "set value": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/set_value"
+    ],
+    "supplier name": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/supplier_name"
+    ],
+    "supported network": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/supported_network"
+    ],
+    "supported protocol": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/supported_protocol"
+    ],
+    "tap position": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/tap_position"
+    ],
+    "td": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/td"
+    ],
+    "ti": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/ti"
+    ],
+    "time stamp": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/time_stamp"
+    ],
+    "voltage level": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/voltage_level"
+    ],
+    "writable": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/writable"
+    ],
+    "has_floor": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/has_floor"
+    ],
+    "address country": [
+      "https://smartdatamodels.org/addressCountry"
+    ],
+    "address locality": [
+      "https://smartdatamodels.org/addressLocality"
+    ],
+    "address region": [
+      "https://smartdatamodels.org/addressRegion"
+    ],
+    "alternate name": [
+      "https://smartdatamodels.org/alternateName"
+    ],
+    "area served": [
+      "https://smartdatamodels.org/areaServed"
+    ],
+    "availability restriction": [
+      "https://smartdatamodels.org/availabilityRestriction"
+    ],
+    "available language": [
+      "https://smartdatamodels.org/availableLanguage"
+    ],
+    "contact option": [
+      "https://smartdatamodels.org/contactOption"
+    ],
+    "contact type": [
+      "https://smartdatamodels.org/contactType"
+    ],
+    "l1": [
+      "https://smartdatamodels.org/dataModel.Energy/L1"
+    ],
+    "l12": [
+      "https://smartdatamodels.org/dataModel.Energy/L12"
+    ],
+    "l2": [
+      "https://smartdatamodels.org/dataModel.Energy/L2"
+    ],
+    "l23": [
+      "https://smartdatamodels.org/dataModel.Energy/L23"
+    ],
+    "l3": [
+      "https://smartdatamodels.org/dataModel.Energy/L3"
+    ],
+    "l31": [
+      "https://smartdatamodels.org/dataModel.Energy/L31"
+    ],
+    "n": [
+      "https://smartdatamodels.org/dataModel.Energy/N"
+    ],
+    "date energy metering started": [
+      "https://smartdatamodels.org/dataModel.Energy/dateEnergyMeteringStarted"
+    ],
+    "date observed from": [
+      "https://smartdatamodels.org/dataModel.Energy/dateObservedFrom"
+    ],
+    "date observed to": [
+      "https://smartdatamodels.org/dataModel.Energy/dateObservedTo"
+    ],
+    "phase type": [
+      "https://smartdatamodels.org/dataModel.Energy/phaseType"
+    ],
+    "ref device": [
+      "https://smartdatamodels.org/dataModel.Energy/refDevice"
+    ],
+    "ref target device": [
+      "https://smartdatamodels.org/dataModel.Energy/refTargetDevice"
+    ],
+    "total active energy export": [
+      "https://smartdatamodels.org/dataModel.Energy/totalActiveEnergyExport"
+    ],
+    "total active energy import": [
+      "https://smartdatamodels.org/dataModel.Energy/totalActiveEnergyImport"
+    ],
+    "total active power": [
+      "https://smartdatamodels.org/dataModel.Energy/totalActivePower"
+    ],
+    "total apparent energy export": [
+      "https://smartdatamodels.org/dataModel.Energy/totalApparentEnergyExport"
+    ],
+    "total apparent energy import": [
+      "https://smartdatamodels.org/dataModel.Energy/totalApparentEnergyImport"
+    ],
+    "total apparent power": [
+      "https://smartdatamodels.org/dataModel.Energy/totalApparentPower"
+    ],
+    "total displacement power factor": [
+      "https://smartdatamodels.org/dataModel.Energy/totalDisplacementPowerFactor"
+    ],
+    "total power factor": [
+      "https://smartdatamodels.org/dataModel.Energy/totalPowerFactor"
+    ],
+    "total reactive energy export": [
+      "https://smartdatamodels.org/dataModel.Energy/totalReactiveEnergyExport"
+    ],
+    "total reactive energy import": [
+      "https://smartdatamodels.org/dataModel.Energy/totalReactiveEnergyImport"
+    ],
+    "total reactive power": [
+      "https://smartdatamodels.org/dataModel.Energy/totalReactivePower"
+    ],
+    "type": [
+      "https://smartdatamodels.org/dataModel.Energy/type"
+    ],
+    "accepted payment method": [
+      "https://smartdatamodels.org/dataModel.Transportation/acceptedPaymentMethod"
+    ],
+    "allowed vehicle type": [
+      "https://smartdatamodels.org/dataModel.Transportation/allowedVehicleType"
+    ],
+    "amount collected": [
+      "https://smartdatamodels.org/dataModel.Transportation/amountCollected"
+    ],
+    "amperage": [
+      "https://smartdatamodels.org/dataModel.Transportation/amperage"
+    ],
+    "available capacity": [
+      "https://smartdatamodels.org/dataModel.Transportation/availableCapacity"
+    ],
+    "capacity": [
+      "https://smartdatamodels.org/dataModel.Transportation/capacity"
+    ],
+    "charge type": [
+      "https://smartdatamodels.org/dataModel.Transportation/chargeType"
+    ],
+    "charging unit id": [
+      "https://smartdatamodels.org/dataModel.Transportation/chargingUnitId"
+    ],
+    "data descriptor": [
+      "https://smartdatamodels.org/dataModel.Transportation/dataDescriptor"
+    ],
+    "end date time": [
+      "https://smartdatamodels.org/dataModel.Transportation/endDateTime"
+    ],
+    "network": [
+      "https://smartdatamodels.org/dataModel.Transportation/network"
+    ],
+    "observation date time": [
+      "https://smartdatamodels.org/dataModel.Transportation/observationDateTime"
+    ],
+    "operator": [
+      "https://smartdatamodels.org/dataModel.Transportation/operator"
+    ],
+    "power consumption": [
+      "https://smartdatamodels.org/dataModel.Transportation/powerConsumption"
+    ],
+    "socket number": [
+      "https://smartdatamodels.org/dataModel.Transportation/socketNumber"
+    ],
+    "socket type": [
+      "https://smartdatamodels.org/dataModel.Transportation/socketType"
+    ],
+    "station name": [
+      "https://smartdatamodels.org/dataModel.Transportation/stationName"
+    ],
+    "status": [
+      "https://smartdatamodels.org/dataModel.Transportation/status"
+    ],
+    "tax amount collected": [
+      "https://smartdatamodels.org/dataModel.Transportation/taxAmountCollected"
+    ],
+    "transaction id": [
+      "https://smartdatamodels.org/dataModel.Transportation/transactionId"
+    ],
+    "transaction type": [
+      "https://smartdatamodels.org/dataModel.Transportation/transactionType"
+    ],
+    "vehicle type": [
+      "https://smartdatamodels.org/dataModel.Transportation/vehicleType"
+    ],
+    "voltage": [
+      "https://smartdatamodels.org/dataModel.Transportation/voltage"
+    ],
+    "date created": [
+      "https://smartdatamodels.org/dateCreated"
+    ],
+    "date modified": [
+      "https://smartdatamodels.org/dateModified"
+    ],
+    "date observed": [
+      "https://smartdatamodels.org/dateObserved"
+    ],
+    "district": [
+      "https://smartdatamodels.org/district"
+    ],
+    "email": [
+      "https://smartdatamodels.org/email"
+    ],
+    "fax number": [
+      "https://smartdatamodels.org/faxNumber"
+    ],
+    "frequency": [
+      "https://smartdatamodels.org/frequency"
+    ],
+    "opening hours": [
+      "https://smartdatamodels.org/openingHours"
+    ],
+    "post office box number": [
+      "https://smartdatamodels.org/postOfficeBoxNumber"
+    ],
+    "postal code": [
+      "https://smartdatamodels.org/postalCode"
+    ],
+    "product supported": [
+      "https://smartdatamodels.org/productSupported"
+    ],
+    "see also": [
+      "https://smartdatamodels.org/seeAlso"
+    ],
+    "start date time": [
+      "https://smartdatamodels.org/startDateTime"
+    ],
+    "street address": [
+      "https://smartdatamodels.org/streetAddress"
+    ],
+    "street nr": [
+      "https://smartdatamodels.org/streetNr"
+    ],
+    "telephone": [
+      "https://smartdatamodels.org/telephone"
+    ],
+    "hasDatabaseQuery": [
+      "https://w3id.org/respond#hasDBQuery"
+    ],
+    "hasHouseholdMembersQuantity": [
+      "https://w3id.org/respond#hasHouseholdMembersQuantity"
+    ],
+    "hasInfluxDBQuery": [
+      "https://w3id.org/respond#hasInfluxDBQuery"
+    ],
+    "hasNetPlannedArea": [
+      "https://w3id.org/respond#hasNetPlannedArea"
+    ],
+    "hasNetVolume": [
+      "https://w3id.org/respond#hasNetVolume"
+    ],
+    "has description": [
+      "https://w3id.org/saref#hasDescription"
+    ],
+    "has manufacturer": [
+      "https://w3id.org/saref#hasManufacturer"
+    ],
+    "has model": [
+      "https://w3id.org/saref#hasModel"
+    ],
+    "has name": [
+      "https://w3id.org/saref#hasName"
+    ],
+    "Accommodation Capacity": [
+      "https://w3id.org/sbeo#accommodationCapacity"
+    ],
+    "Area (in sq. meters)": [
+      "https://w3id.org/sbeo#area"
+    ],
+    "At Time": [
+      "https://w3id.org/sbeo#atTime"
+    ],
+    "Base (in meters)": [
+      "https://w3id.org/sbeo#base"
+    ],
+    "Cost": [
+      "https://w3id.org/sbeo#cost"
+    ],
+    "Dynamic Description": [
+      "https://w3id.org/sbeo#dynamicDescription"
+    ],
+    "Ended At Time": [
+      "https://w3id.org/sbeo#endedAtTime"
+    ],
+    "Has Congestion": [
+      "https://w3id.org/sbeo#hasCongestion"
+    ],
+    "Has Safety Value": [
+      "https://w3id.org/sbeo#hasSafetyValue"
+    ],
+    "Has X Time Deviated": [
+      "https://w3id.org/sbeo#hasXTimesDeviated"
+    ],
+    "Height  (in meters)": [
+      "https://w3id.org/sbeo#height"
+    ],
+    "Length (in meters)": [
+      "https://w3id.org/sbeo#length"
+    ],
+    "Has Number": [
+      "https://w3id.org/sbeo#number"
+    ],
+    "Radius (in meters)": [
+      "https://w3id.org/sbeo#radius"
+    ],
+    "Has Relative Occupancy Ratio": [
+      "https://w3id.org/sbeo#relativeOccupancyRatio"
+    ],
+    "Size": [
+      "https://w3id.org/sbeo#size"
+    ],
+    "Speed": [
+      "https://w3id.org/sbeo#speed"
+    ],
+    "Speed Factor": [
+      "https://w3id.org/sbeo#speedFactor"
+    ],
+    "Started At Time": [
+      "https://w3id.org/sbeo#startedAtTime"
+    ],
+    "Static Description": [
+      "https://w3id.org/sbeo#staticDescription"
+    ],
+    "Width (in meters)": [
+      "https://w3id.org/sbeo#width"
+    ],
+    "active power1": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/active_power"
+    ],
+    "active power2": [
+      "https://smartdatamodels.org/dataModel.Energy/activePower"
+    ],
+    "address1": [
+      "http://schema.org/address",
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/address"
+    ],
+    "address2": [
+      "https://smartdatamodels.org/address"
+    ],
+    "description1": [
+      "http://purl.org/dc/terms/description"
+    ],
+    "description2": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/description"
+    ],
+    "flow resistance range1": [
+      "https://saref.etsi.org/saref4bldg/flowResistanceMax"
+    ],
+    "flow resistance range2": [
+      "https://saref.etsi.org/saref4bldg/flowResistanceMin"
+    ],
+    "fluid flow rate range1": [
+      "https://saref.etsi.org/saref4bldg/fluidFlowRateMax"
+    ],
+    "fluid flow rate range2": [
+      "https://saref.etsi.org/saref4bldg/fluidFlowRateMin"
+    ],
+    "heating degree days2": [
+      "http://www.owl-ontologies.com/EPC4EU#heatingDegreeDays"
+    ],
+    "location1": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/location"
+    ],
+    "location2": [
+      "https://smartdatamodels.org/dataModel.Energy/location"
+    ],
+    "name1": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/name"
+    ],
+    "name2": [
+      "https://smartdatamodels.org/name"
+    ],
+    "nominal efficiency1": [
+      "http://www.owl-ontologies.com/EPC4EU#nominalEfficiency"
+    ],
+    "nominal efficiency2": [
+      "https://saref.etsi.org/saref4bldg/nominalEfficiency"
+    ],
+    "nominal supply voltage offset1": [
+      "https://saref.etsi.org/saref4bldg/nominalSupplyVoltageMax"
+    ],
+    "nominal supply voltage offset2": [
+      "https://saref.etsi.org/saref4bldg/nominalSupplyVoltageMin"
+    ],
+    "operation temperature range1": [
+      "https://saref.etsi.org/saref4bldg/operationTemperatureMax"
+    ],
+    "operation temperature range2": [
+      "https://saref.etsi.org/saref4bldg/operationTemperatureMin"
+    ],
+    "outlet temperature range1": [
+      "https://saref.etsi.org/saref4bldg/outletTemperatureMax"
+    ],
+    "outlet temperature range2": [
+      "https://saref.etsi.org/saref4bldg/outletTemperatureMin"
+    ],
+    "owner2": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/owner",
+      "https://smartdatamodels.org/owner"
+    ],
+    "primary air flow rate range1": [
+      "https://saref.etsi.org/saref4bldg/primaryAirFlowRateMax"
+    ],
+    "primary air flow rate range2": [
+      "https://saref.etsi.org/saref4bldg/primaryAirFlowRateMin"
+    ],
+    "primary current1": [
+      "https://saref.etsi.org/saref4bldg/primaryCurrent"
+    ],
+    "primary current2": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/primary_current"
+    ],
+    "primary voltage1": [
+      "https://saref.etsi.org/saref4bldg/primaryVoltage"
+    ],
+    "primary voltage2": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/primary_voltage"
+    ],
+    "pump flow rate range1": [
+      "https://saref.etsi.org/saref4bldg/pumpFlowRateMax"
+    ],
+    "pump flow rate range2": [
+      "https://saref.etsi.org/saref4bldg/pumpFlowRateMin"
+    ],
+    "reactive power1": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/reactive_power"
+    ],
+    "reactive power2": [
+      "https://smartdatamodels.org/dataModel.Energy/reactivePower"
+    ],
+    "secondary air flow rate range1": [
+      "https://saref.etsi.org/saref4bldg/secondaryAirFlowRateMax"
+    ],
+    "secondary air flow rate range2": [
+      "https://saref.etsi.org/saref4bldg/secondaryAirFlowRateMin"
+    ],
+    "secondary current1": [
+      "https://saref.etsi.org/saref4bldg/secondaryCurrent"
+    ],
+    "secondary current2": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/secondary_current"
+    ],
+    "secondary voltage1": [
+      "https://saref.etsi.org/saref4bldg/secondaryVoltage"
+    ],
+    "secondary voltage2": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/secondary_voltage"
+    ],
+    "source1": [
+      "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/source"
+    ],
+    "source2": [
+      "https://smartdatamodels.org/source"
+    ],
+    "water inlet temperature range1": [
+      "https://saref.etsi.org/saref4bldg/waterInletTemperatureMax"
+    ],
+    "water inlet temperature range2": [
+      "https://saref.etsi.org/saref4bldg/waterInletTemperatureMin"
+    ],
+    "water pressure range1": [
+      "https://saref.etsi.org/saref4bldg/waterPressureMax"
+    ],
+    "water pressure range2": [
+      "https://saref.etsi.org/saref4bldg/waterPressureMin"
+    ]
+  }
+}
