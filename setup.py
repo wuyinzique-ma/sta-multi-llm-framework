@@ -7,7 +7,7 @@ setup(
     author_email="",
     description="Semantic Annotation for Energy Data with Diverse Large Language Models",
     license="MIT",
-    url="https://github.com/your-repo/sta-multi-llm-framework",
+    url="https://github.com/wuyinzique-ma/sta-multi-llm-framework",
     package_dir={"": "src"},
     packages=find_packages("src"),
     classifiers=[
