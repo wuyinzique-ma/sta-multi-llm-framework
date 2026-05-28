@@ -24,10 +24,15 @@ pip install -e .
 
 ## API Keys
 
-Copy `.env.example` to `.env` and fill in your API keys:
+Fill in your API keys directly in the `main` notebook of each experiment.
+For example:
 
-```bash
-cp .env.example .env
+```python
+llm1 = BaseChatOpenAI(
+    model="deepseek-chat",
+    openai_api_key="YOUR_API_KEY",
+    ...
+)
 ```
 
 ## Running Experiments
